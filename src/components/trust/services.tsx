@@ -63,8 +63,8 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
       style={{ ['--accent' as string]: service.accent }}
       className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-border bg-card transition-[box-shadow,translate] duration-500 hover:-translate-y-1 hover:shadow-[0_24px_48px_-24px_rgba(20,20,40,0.25)]"
     >
-      {/* Image Header with Mobile-Optimized Height */}
-      <div className="relative h-40 w-full shrink-0 overflow-hidden sm:h-48">
+      {/* 1. Increased image height for desktop (lg:h-64 xl:h-72) to restore the beautiful proportions when stretched */}
+      <div className="relative h-40 w-full shrink-0 overflow-hidden sm:h-48 lg:h-64 xl:h-72">
         <Image 
           src={service.image}
           alt={service.title}
@@ -78,14 +78,12 @@ function ServiceCard({ service, index }: { service: Service; index: number }) {
         </span>
       </div>
 
-      {/* Content Body */}
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <span
           aria-hidden="true"
           className="absolute inset-x-0 top-0 z-10 h-1 origin-left scale-x-0 bg-[var(--accent)] transition-transform duration-500 group-hover:scale-x-100"
         />
         
-        {/* Floating Icon Layout */}
         <div className="relative z-10 -mt-10 mb-4 sm:-mt-12">
           <span className="flex size-12 items-center justify-center rounded-2xl bg-card shadow-md ring-1 ring-border text-[var(--accent)] transition-transform duration-500 group-hover:rotate-[-6deg] group-hover:scale-110 sm:size-14">
             <Icon className="size-5 sm:size-6" aria-hidden="true" />
@@ -104,7 +102,8 @@ export function Services() {
     <>
       <ul
         aria-label="Our services"
-        className="no-scrollbar -mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto overscroll-x-contain scroll-px-5 px-5 pb-6 pt-4 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 md:pb-0 lg:grid-cols-3 lg:gap-6"
+        // 2. Added lg:-mt-2 to pull the grid up closer to the heading on desktop, reducing top space
+        className="no-scrollbar -mx-5 flex snap-x snap-mandatory gap-4 overflow-x-auto overscroll-x-contain scroll-px-5 px-5 pb-6 pt-4 md:mx-0 md:grid md:grid-cols-2 md:overflow-visible md:px-0 md:pb-0 lg:-mt-2 lg:grid-cols-3 lg:gap-8"
       >
         {services.map((service, index) => (
           <li key={service.title} className="w-[82%] shrink-0 snap-start md:w-auto">

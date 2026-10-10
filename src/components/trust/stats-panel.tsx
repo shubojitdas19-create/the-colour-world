@@ -3,7 +3,6 @@
 import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { ArrowUpRight, Star } from 'lucide-react'
-import { useInView } from '@/hooks/use-in-view'
 
 const stats = [
   { value: 15, suffix: '+', label: 'Years of colour expertise', accent: 'var(--color-terracotta)' },
@@ -17,7 +16,11 @@ function useCountUp(target: number, start: boolean, duration = 1800) {
   const [current, setCurrent] = useState(0)
 
   useEffect(() => {
-    if (!start) return
+    // 1. Reset to 0 immediately when out of view so it can animate again
+    if (!start) {
+      setCurrent(0)
+      return
+    }
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       setCurrent(target)
       return
@@ -99,7 +102,7 @@ function RatingStars({ rating, start }: { rating: number; start: boolean }) {
             {/* DESKTOP: Animated filling stars */}
             <span
               className="absolute inset-0 hidden overflow-hidden transition-[width] duration-700 ease-out md:block"
-              style={{ width: start ? `${fill}%` : '0%', transitionDelay: `${300 + i * 140}ms` }}
+              style={{ width: start ? `${fill}%` : '0%', transitionDelay: start ? `${300 + i * 140}ms` : '0ms' }}
             >
               <Star className="size-5 fill-[#FBBC04] text-transparent sm:size-6" strokeWidth={0} />
             </span>
@@ -166,7 +169,30 @@ function GoogleRatingCard({ start }: { start: boolean }) {
 
 export function StatsPanel() {
   const ref = useRef<HTMLDivElement>(null)
-  const inView = useInView(ref, { threshold: 0 })
+  
+  // 2. Swapped for a continuous dynamic observer
+  const [inView, setInView] = useState(false)
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setInView(entry.isIntersecting)
+      },
+      {
+        threshold: 0.1, 
+        rootMargin: '0px 0px -50px 0px', 
+      }
+    )
+
+    const currentRef = ref.current
+    if (currentRef) {
+      observer.observe(currentRef)
+    }
+
+    return () => {
+      if (currentRef) observer.unobserve(currentRef)
+    }
+  }, [])
 
   return (
     <div

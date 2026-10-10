@@ -10,9 +10,11 @@ export function WhyChooseUs() {
     <section
       id="expertise"
       aria-labelledby="expertise-heading"
-      className="relative overflow-hidden bg-[color-mix(in_oklch,var(--color-saffron)_8%,var(--background))] py-10 lg:py-28"
+      // Kept mobile py-10 exactly as it is, reduced desktop space to lg:py-16
+      className="relative overflow-hidden bg-[color-mix(in_oklch,var(--color-saffron)_8%,var(--background))] py-10 lg:py-16"
     >
-      <div className="mx-auto max-w-7xl px-5 md:px-8">
+      {/* Expanded to max-w-[1700px] and aligned side paddings with your header */}
+      <div className="mx-auto w-full max-w-[1700px] px-5 md:px-10 lg:px-16">
         <Reveal className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">
             <p className="flex items-center gap-3 text-sm sm:text-base font-bold uppercase tracking-[0.2em] text-terracotta">

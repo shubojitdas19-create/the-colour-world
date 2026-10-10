@@ -12,25 +12,24 @@ export function useInView<T extends Element>(
     const element = ref.current
     if (!element) return
 
-    // 1. Primary Method: The original smooth observer
+    // 1. Primary Method: Continuous smooth observer
+    // Removed the observer.disconnect() so it triggers every time you scroll up/down
     const observer = new IntersectionObserver(
       ([entry]) => {
-        if (entry.isIntersecting) {
-          setInView(true)
-          observer.disconnect()
-        }
+        setInView(entry.isIntersecting)
       },
       { threshold, rootMargin },
     )
     observer.observe(element)
 
     // 2. Mobile Failsafe: Native scroll check
-    // If the browser breaks the observer, this manually checks if the element is on screen.
     const checkPosition = () => {
-      if (element.getBoundingClientRect().top < window.innerHeight) {
+      const rect = element.getBoundingClientRect()
+      // Continously check if the element is currently visible on the screen
+      if (rect.top < window.innerHeight && rect.bottom > 0) {
         setInView(true)
-        observer.disconnect()
-        window.removeEventListener('scroll', checkPosition)
+      } else {
+        setInView(false)
       }
     }
     

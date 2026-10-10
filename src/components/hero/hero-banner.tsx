@@ -30,8 +30,10 @@ export function HeroBanner() {
         className="pointer-events-none absolute -right-20 bottom-20 size-[26rem] rounded-full bg-teal/15 blur-3xl"
       />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-14 px-5 pb-16 pt-10 md:px-8 lg:grid-cols-12 lg:gap-10 lg:pb-20 lg:pt-16">
-        <div className="lg:col-span-6">
+      {/* Expanded to max-w-[1700px] with matching header padding and wider responsive gaps */}
+      <div className="relative mx-auto grid w-full max-w-[1700px] items-center gap-14 px-5 pb-16 pt-10 md:px-10 lg:grid-cols-12 lg:gap-16 lg:px-16 lg:pb-20 lg:pt-16 xl:gap-24">
+        
+        <div className="lg:col-span-6 xl:col-span-5 xl:col-start-1">
           <div className="inline-flex items-center gap-3 rounded-full border border-border bg-card/70 py-1.5 pl-1.5 pr-4 shadow-sm">
             <span className="flex -space-x-1.5" aria-hidden="true">
               <span className="size-5 rounded-full border-2 border-card bg-terracotta" />
@@ -82,7 +84,7 @@ export function HeroBanner() {
             </Link>
           </div>
 
-          <dl className="mt-14 grid max-w-lg grid-cols-3 gap-6 border-t border-border pt-8">
+          <dl className="mt-8 grid max-w-lg grid-cols-3 gap-6 border-t border-border pt-6">
             {stats.map((s) => (
               <div key={s.label}>
                 <dt className="sr-only">{s.label}</dt>
@@ -104,7 +106,7 @@ export function HeroBanner() {
           </div>
         </div>
 
-        <div className="lg:col-span-6">
+        <div className="lg:col-span-6 xl:col-span-6 xl:col-start-7">
           <HeroVisual />
         </div>
       </div>

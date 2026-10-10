@@ -58,8 +58,12 @@ const categories: Category[] = [
 
 export function ShopByCategory() {
   return (
-    <section aria-labelledby="categories-heading" className="relative py-10 lg:py-28">
-      <div className="mx-auto max-w-7xl px-5 md:px-8">
+    // Reduced top and bottom padding (pt-8 pb-12 lg:pt-12 lg:pb-16)
+    <section aria-labelledby="categories-heading" className="relative pt-8 pb-12 lg:pt-12 lg:pb-16">
+      
+      {/* Expanded to max-w-[1700px] and matched horizontal padding (px-5 md:px-10 lg:px-16) */}
+      <div className="mx-auto w-full max-w-[1700px] px-5 md:px-10 lg:px-16">
+        
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">
             <p className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
