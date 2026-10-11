@@ -6,7 +6,7 @@ const categories: Category[] = [
   {
     title: 'Interior Emulsions',
     description: 'Silky, washable finishes in 2,000+ shades for living rooms, bedrooms and everything in between.',
-    href: '/shop/interior',
+    href: '/shop/interior-emulsions', // Updated to match DB slug
     image: '/images/category-interior.png',
     alt: 'Modern living room with a terracotta painted accent wall',
     tag: 'Most loved',
@@ -17,7 +17,7 @@ const categories: Category[] = [
   {
     title: 'Exterior Weathercoats',
     description: 'Sun, rain and dust protection that keeps facades vibrant for years.',
-    href: '/shop/exterior',
+    href: '/shop/exterior-weathercoats', // Updated to match DB slug
     image: '/images/category-exterior.png',
     alt: 'Modern villa exterior painted in deep teal and white',
     tag: 'Weatherproof',
@@ -27,7 +27,7 @@ const categories: Category[] = [
   {
     title: 'Designer Textures',
     description: 'Hand-crafted wall textures that add depth and character.',
-    href: '/shop/textures',
+    href: '/shop/designer-textures', // Updated to match DB slug
     image: '/images/category-textures.png',
     alt: 'Close-up of a saffron coloured textured wall finish',
     tag: 'Artisan',
@@ -37,7 +37,7 @@ const categories: Category[] = [
   {
     title: 'Wood & Metal Enamels',
     description: 'High-gloss, durable enamels for doors, grills, furniture and trims.',
-    href: '/shop/wood-metal',
+    href: '/shop/wood-metal-enamels', // Updated to match DB slug
     image: '/images/category-wood.png',
     alt: 'Glossy cobalt blue lacquered wooden door with a brass handle',
     tag: 'High gloss',
@@ -47,7 +47,7 @@ const categories: Category[] = [
   {
     title: 'Waterproofing',
     description: 'Advanced coatings that seal out damp, leaks and seepage for good.',
-    href: '/shop/waterproofing',
+    href: '/shop/waterproofing', // Matches DB slug
     image: '/images/category-waterproofing.png',
     alt: 'Water droplets beading on a freshly coated pink wall',
     tag: 'Protection',
@@ -58,10 +58,8 @@ const categories: Category[] = [
 
 export function ShopByCategory() {
   return (
-    // Reduced top and bottom padding (pt-8 pb-12 lg:pt-12 lg:pb-16)
     <section aria-labelledby="categories-heading" className="relative pt-8 pb-12 lg:pt-12 lg:pb-16">
       
-      {/* Expanded to max-w-[1700px] and matched horizontal padding (px-5 md:px-10 lg:px-16) */}
       <div className="mx-auto w-full max-w-[1700px] px-5 md:px-10 lg:px-16">
         
         <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between">

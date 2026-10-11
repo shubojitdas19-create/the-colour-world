@@ -1,17 +1,45 @@
 const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "http://localhost:3000";
 
-export async function fetchApi<T>(endpoint: string, options?: RequestInit): Promise<T> {
-  const response = await fetch(`${BACKEND_URL}${endpoint}`, {
-    ...options,
-    headers: {
-      "Content-Type": "application/json",
-      // Add custom tenant headers here if required by the API later
-      ...options?.headers,
-    },
-  });
+export async function fetchStorefront(endpoint: string, options?: RequestInit) {
+  const storeId = process.env.STORE_ID;
 
-  if (!response.ok) {
-    throw new Error(`API error: ${response.status}`);
+  if (!storeId) {
+    throw new Error("STORE_ID is missing from .env.local");
   }
-  return response.json();
+
+  // Remove leading slash if accidentally provided in the component
+  const cleanEndpoint = endpoint.startsWith("/") ? endpoint.slice(1) : endpoint;
+  
+  // Check if the endpoint already has query parameters to append correctly
+  const separator = cleanEndpoint.includes("?") ? "&" : "?";
+  
+  // Construct the final URL with the storeId attached automatically
+  const url = `${BACKEND_URL}/api/storefront/${cleanEndpoint}${separator}storeId=${storeId}`;
+
+  try {
+    const response = await fetch(url, {
+      next: { revalidate: 60 }, // Default cache for 60 seconds
+      ...options,
+      headers: {
+        "Content-Type": "application/json",
+        ...options?.headers,
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error(`API error: ${response.status}`);
+    }
+
+    const json = await response.json();
+    
+    if (!json.success) {
+      console.error(`API Error on ${cleanEndpoint}:`, json.error);
+      return null;
+    }
+
+    return json.data;
+  } catch (error) {
+    console.error(`Fetch failed for ${cleanEndpoint}:`, error);
+    return null;
+  }
 }

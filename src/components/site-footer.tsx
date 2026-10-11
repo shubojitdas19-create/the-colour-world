@@ -1,42 +1,12 @@
 import Link from "next/link"
-import { MapPin, Phone, ArrowRight, Paintbrush, ArrowUpRight } from "lucide-react"
+import { MapPin, Phone, Paintbrush, ArrowUpRight } from "lucide-react"
 
 export function SiteFooter() {
   return (
-    <footer className="mt-auto bg-foreground pt-16 text-background sm:pt-24 lg:pt-32">
+    <footer className="mt-auto bg-foreground pt-12 text-background sm:pt-16 lg:pt-20">
       <div className="mx-auto w-full max-w-[1700px] px-5 sm:px-8 md:px-12 lg:px-16">
         
-        {/* Pre-Footer CTA Banner */}
-        <div className="mb-16 flex flex-col items-center justify-between gap-8 rounded-[2rem] bg-card/10 p-8 sm:flex-row sm:p-12 lg:mb-24">
-          <div className="max-w-2xl text-center sm:text-left">
-            <h3 className="font-serif text-3xl font-medium tracking-tight sm:text-4xl">
-              Ready to transform your space?
-            </h3>
-            <p className="mt-3 text-background/70 sm:text-lg">
-              Visit our store in Contai or book a free color consultation with our experts today.
-            </p>
-          </div>
-          <div className="flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
-            <a 
-              href="tel:9930970666" 
-              className="flex items-center justify-center gap-2 rounded-full bg-saffron px-8 py-3.5 text-sm font-semibold text-black transition-transform hover:scale-105 active:scale-95"
-            >
-              <Phone className="size-4" />
-              Call Now
-            </a>
-            <a 
-              href="https://maps.app.goo.gl/kV2tnyQMY1y8HWsB6?g_st=aw" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 rounded-full border border-background/20 bg-transparent px-8 py-3.5 text-sm font-medium text-background transition-colors hover:bg-background/10"
-            >
-              <MapPin className="size-4" />
-              Get Directions
-            </a>
-          </div>
-        </div>
-
-        {/* Main Footer Grid */}
+        {/* Minimal Main Footer Grid */}
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           
           {/* Brand Info */}
@@ -83,11 +53,11 @@ export function SiteFooter() {
           <div>
             <h4 className="mb-6 font-semibold tracking-wide text-background">Shop Categories</h4>
             <ul className="flex flex-col gap-4 text-sm text-background/70">
-              <li><Link href="#" className="transition-colors hover:text-saffron">Interior Emulsions</Link></li>
-              <li><Link href="#" className="transition-colors hover:text-saffron">Weatherproof Exterior</Link></li>
-              <li><Link href="#" className="transition-colors hover:text-saffron">Wood & Metal Finishes</Link></li>
-              <li><Link href="#" className="transition-colors hover:text-saffron">Designer Textures</Link></li>
-              <li><Link href="#" className="transition-colors hover:text-saffron">Brushes & Rollers</Link></li>
+              <li><Link href="/shop" className="transition-colors hover:text-saffron">Interior Emulsions</Link></li>
+              <li><Link href="/shop" className="transition-colors hover:text-saffron">Weatherproof Exterior</Link></li>
+              <li><Link href="/shop" className="transition-colors hover:text-saffron">Wood & Metal Finishes</Link></li>
+              <li><Link href="/shop" className="transition-colors hover:text-saffron">Designer Textures</Link></li>
+              <li><Link href="/shop" className="transition-colors hover:text-saffron">Accessories</Link></li>
             </ul>
           </div>
 
@@ -99,7 +69,7 @@ export function SiteFooter() {
               <li><Link href="#" className="transition-colors hover:text-saffron">Color Catalog</Link></li>
               <li><Link href="#" className="transition-colors hover:text-saffron">Return Policy</Link></li>
               <li><Link href="#" className="transition-colors hover:text-saffron">Contractor Program</Link></li>
-              <li><Link href="#" className="transition-colors hover:text-saffron">Contact Us</Link></li>
+              <li><Link href="#contact" className="transition-colors hover:text-saffron">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -120,7 +90,7 @@ export function SiteFooter() {
                   rel="noopener noreferrer"
                   className="mt-2 inline-flex items-center gap-1 font-medium text-saffron transition-colors hover:text-white"
                 >
-                  View on Google Maps <ArrowUpRight className="size-3" />
+                  View on Maps <ArrowUpRight className="size-3" />
                 </a>
               </div>
             </div>
@@ -137,7 +107,7 @@ export function SiteFooter() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-16 flex flex-col items-center justify-between border-t border-background/10 py-8 sm:mt-24 sm:flex-row">
+        <div className="mt-12 flex flex-col items-center justify-between border-t border-background/10 py-6 sm:mt-16 sm:flex-row">
           <p className="text-center text-sm text-background/50 sm:text-left">
             © {new Date().getFullYear()} The Colour World. All rights reserved.
           </p>

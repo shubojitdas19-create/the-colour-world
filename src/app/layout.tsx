@@ -1,6 +1,8 @@
+import { ConditionalFooter } from "@/components/conditional-footer"
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Geist } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
+import { CartSidebar } from "@/components/cart-sidebar";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -44,7 +46,14 @@ export default function RootLayout({
     <html lang="en" className={`${fraunces.variable} ${geist.variable} bg-background`}>
       <body className="font-sans min-h-screen flex flex-col antialiased">
         <SiteHeader />
+        
         <main className="flex-grow">{children}</main>
+        
+        {/* The conditional footer will render everywhere except the homepage */}
+        <ConditionalFooter />
+
+        {/* The Cart Sidebar is now available on every page! */}
+        <CartSidebar /> 
       </body>
     </html>
   );

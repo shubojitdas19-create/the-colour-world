@@ -2,6 +2,10 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
+  
+  // Allows testing on your mobile device over local Wi-Fi
+  allowedDevOrigins: ['192.168.29.207'],
+  
   experimental: {
     agentFeedback: true,
   },
