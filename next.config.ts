@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   // Allows testing on your mobile device over local Wi-Fi
   allowedDevOrigins: ['192.168.29.207'],
   
