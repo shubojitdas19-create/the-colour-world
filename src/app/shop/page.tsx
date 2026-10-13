@@ -11,8 +11,9 @@ export default async function ShopPage() {
     <div className="min-h-screen bg-background">
       
       {/* Premium Page Header - Perfectly aligned to 1700px */}
+      {/* UPDATE: Removed the bottom border and tightened padding to flow perfectly into the Brand Selector */}
       <div className="mx-auto w-full max-w-[1700px] px-5 pt-8 md:px-10 lg:px-16 lg:pt-12">
-        <div className="flex flex-col gap-6 border-b border-border pb-8 sm:flex-row sm:items-end sm:justify-between lg:pb-12">
+        <div className="flex flex-col gap-6 pb-2 sm:flex-row sm:items-end sm:justify-between">
           
           <div className="max-w-2xl">
             <p className="flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">

@@ -110,14 +110,13 @@ export default function CheckoutPage() {
   // MAIN CHECKOUT UI
   // ==========================================
   return (
-    // UPDATED: pb-28 on mobile (so sticky bar doesn't cover form), but sm:pb-10 and lg:pb-12 on desktop to remove empty space!
-    <div className="min-h-screen bg-background pb-28 pt-6 sm:pb-10 lg:pb-12 lg:pt-10">
+    <div className="min-h-screen bg-background pb-8 pt-6 sm:pb-10 lg:pb-12 lg:pt-10">
       <div className="mx-auto w-full max-w-[1400px] px-5 md:px-10 lg:px-16">
         
         {/* Header */}
         <div className="mb-8 border-b border-border pb-6 lg:mb-10 lg:pb-8">
-          <h1 className="font-serif text-4xl font-medium tracking-tight sm:text-5xl">Secure Checkout</h1>
-          <p className="mt-2 text-muted-foreground">Complete your order details below.</p>
+          <h1 className="font-serif text-3xl font-medium tracking-tight sm:text-4xl lg:text-5xl">Secure Checkout</h1>
+          <p className="mt-2 text-sm text-muted-foreground sm:text-base">Complete your order details below.</p>
         </div>
 
         <div className="grid gap-10 lg:grid-cols-12 lg:gap-16 xl:gap-24">
@@ -128,7 +127,7 @@ export default function CheckoutPage() {
               
               {/* Contact Details */}
               <section>
-                <h2 className="mb-6 flex items-center gap-3 font-serif text-2xl font-medium text-foreground">
+                <h2 className="mb-6 flex items-center gap-3 font-serif text-xl font-medium text-foreground sm:text-2xl">
                   <span className="flex size-7 items-center justify-center rounded-full bg-foreground text-xs font-bold text-background">1</span>
                   Contact Information
                 </h2>
@@ -142,7 +141,7 @@ export default function CheckoutPage() {
 
               {/* Shipping Address */}
               <section>
-                <h2 className="mb-6 flex items-center gap-3 font-serif text-2xl font-medium text-foreground">
+                <h2 className="mb-6 flex items-center gap-3 font-serif text-xl font-medium text-foreground sm:text-2xl">
                   <span className="flex size-7 items-center justify-center rounded-full bg-foreground text-xs font-bold text-background">2</span>
                   Shipping Address
                 </h2>
@@ -156,7 +155,7 @@ export default function CheckoutPage() {
 
               {/* Payment Method */}
               <section>
-                <h2 className="mb-6 flex items-center gap-3 font-serif text-2xl font-medium text-foreground">
+                <h2 className="mb-6 flex items-center gap-3 font-serif text-xl font-medium text-foreground sm:text-2xl">
                   <span className="flex size-7 items-center justify-center rounded-full bg-foreground text-xs font-bold text-background">3</span>
                   Payment
                 </h2>
@@ -178,21 +177,40 @@ export default function CheckoutPage() {
             <div className="sticky top-24 rounded-[2rem] border border-border bg-card p-6 shadow-sm sm:p-8">
               <h2 className="mb-6 font-serif text-2xl font-medium text-foreground">Order Summary</h2>
               
-              {/* Scrollable Item List */}
-              <ul className="mb-6 flex max-h-[35vh] flex-col gap-4 overflow-y-auto border-b border-border pb-6 pr-2 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-border">
-                {items.map((item) => (
-                  <li key={item.id} className="flex items-center gap-4">
-                    <div className="relative size-16 shrink-0 overflow-hidden rounded-[1rem] border border-border bg-muted">
-                      <Image src={item.image} alt={item.name} fill unoptimized className="object-cover" />
-                      <span className="absolute -right-1 -top-1 flex size-5 items-center justify-center rounded-full bg-foreground text-[10px] font-bold text-background">{item.quantity}</span>
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="line-clamp-1 text-sm font-semibold text-foreground">{item.name}</h4>
-                      <p className="text-xs uppercase tracking-wider text-muted-foreground">{item.categoryName}</p>
-                    </div>
-                    <span className="tabular-nums text-sm font-bold text-foreground">₹{(Number(item.price) * item.quantity).toLocaleString('en-IN')}</span>
-                  </li>
-                ))}
+              {/* Scrollable Item List - UPDATED FOR VARIANTS */}
+              <ul className="mb-6 flex max-h-[35vh] flex-col gap-5 overflow-y-auto border-b border-border pb-6 pr-2 [&::-webkit-scrollbar]:w-1.5 [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-border">
+                {items.map((item) => {
+                  // Smart split for variant badge
+                  const nameParts = item.name.split(' - ');
+                  const baseName = nameParts[0];
+                  const variantName = nameParts.length > 1 ? nameParts[1] : null;
+
+                  return (
+                    <li key={item.id} className="flex items-center gap-4">
+                      <div className="relative size-16 shrink-0 overflow-hidden rounded-[1rem] border border-border bg-muted">
+                        <Image src={item.image || '/images/paint-pour.png'} alt={baseName} fill unoptimized className="object-cover" />
+                        <span className="absolute -right-1 -top-1 flex size-5 items-center justify-center rounded-full bg-foreground text-[10px] font-bold text-background">{item.quantity}</span>
+                      </div>
+                      
+                      <div className="flex-1">
+                        <h4 className="line-clamp-1 text-sm font-semibold text-foreground">{baseName}</h4>
+                        <div className="mt-1 flex flex-wrap items-center gap-1.5">
+                          <span className="text-[10px] font-bold uppercase tracking-wider text-terracotta">{item.categoryName}</span>
+                          {variantName && (
+                            <>
+                              <span className="size-1 rounded-full bg-border" aria-hidden="true" />
+                              <span className="rounded-md bg-muted px-1.5 py-0.5 text-[9px] font-semibold text-foreground">
+                                {variantName}
+                              </span>
+                            </>
+                          )}
+                        </div>
+                      </div>
+                      
+                      <span className="tabular-nums text-sm font-bold text-foreground">₹{(Number(item.price) * item.quantity).toLocaleString('en-IN')}</span>
+                    </li>
+                  )
+                })}
               </ul>
 
               <div className="mb-8 flex flex-col gap-3 text-sm">
@@ -227,7 +245,7 @@ export default function CheckoutPage() {
       {/* MOBILE STICKY BOTTOM CHECKOUT BAR */}
       <div className="fixed inset-x-0 bottom-0 z-50 flex items-center justify-between gap-4 border-t border-border bg-background/95 p-4 pb-safe backdrop-blur-xl shadow-[0_-10px_40px_rgba(0,0,0,0.08)] sm:hidden">
         <div className="flex flex-col pl-2">
-          <span className="text-sm font-medium text-muted-foreground">Total to pay</span>
+          <span className="text-[10px] font-medium text-muted-foreground">Total to pay</span>
           <span className="tabular-nums text-xl font-bold leading-none text-foreground">
             ₹{subtotal.toLocaleString('en-IN')}
           </span>

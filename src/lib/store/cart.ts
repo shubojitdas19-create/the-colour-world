@@ -50,9 +50,11 @@ export const useCart = create<CartStore>()(
             return { items: updatedItems, isOpen: true }; // Open cart when adding
           }
 
-          // Add brand new item
+          // Add brand new item with a mathematically secure, HTTP-friendly ID generator
+          const safeId = `${Date.now()}-${Math.random().toString(36).substring(2, 9)}`;
+
           return { 
-            items: [...state.items, { ...newItem, id: crypto.randomUUID() }],
+            items: [...state.items, { ...newItem, id: safeId }],
             isOpen: true // Open cart when adding
           };
         });
