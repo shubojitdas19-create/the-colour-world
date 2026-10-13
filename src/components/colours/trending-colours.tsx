@@ -7,46 +7,76 @@ import { cn } from '@/lib/utils'
 const TRENDING_COLOURS = [
   {
     id: 'season-1',
-    name: 'Saffron Dawn',
-    hex: '#E37D5B',
+    name: 'Teal Magic',
+    code: '7470',
+    brand: 'Asian Paints',
+    hex: '#487C80',
     category: 'Colour of the Season',
-    mood: 'Warm, grounding, and optimistic. Our definitive choice for vibrant living spaces this year.',
+    mood: 'Deep, dramatic, and sophisticated. Our definitive choice for accent walls and quiet studies this year.',
     isSeason: true,
   },
   {
     id: 'trend-1',
-    name: 'Midnight Teal',
-    hex: '#1A3636',
+    name: 'Terracotta Trail',
+    code: 'BO-4122',
+    brand: 'Birla Opus',
+    hex: '#B2543C',
     category: 'Trending',
-    mood: 'Deep, dramatic, and sophisticated. Perfect for accent walls and quiet studies.',
+    mood: 'Warm, grounding, and optimistic. Brings the rustic charm of baked earth into your living spaces.',
   },
   {
     id: 'trend-2',
-    name: 'Sage Whisper',
-    hex: '#9CAEA1',
+    name: 'Vintage Blue',
+    code: '7258',
+    brand: 'Asian Paints',
+    hex: '#587383',
     category: 'Trending',
-    mood: 'A calming botanical neutral that brings the serenity of the outdoors inside.',
+    mood: 'A calming botanical neutral that brings a serene, timeless elegance to any room.',
   },
   {
     id: 'trend-3',
-    name: 'Cashmere White',
-    hex: '#EAE6DF',
-    category: 'Trending',
-    mood: 'A warm, luxurious off-white that serves as the perfect canvas for any room.',
-  },
-  {
-    id: 'trend-4',
-    name: 'Dusty Rose',
-    hex: '#C49792',
+    name: 'Blush Sand',
+    code: 'BO-2015',
+    brand: 'Birla Opus',
+    hex: '#E5C4B9',
     category: 'Trending',
     mood: 'Soft, muted, and elegant. Adds a gentle warmth to bedrooms and reading nooks.',
   },
   {
-    id: 'trend-5',
-    name: 'Charcoal Slate',
-    hex: '#4A4C50',
+    id: 'trend-4',
+    name: 'Morning Glory',
+    code: '0765',
+    brand: 'Asian Paints',
+    hex: '#CFDBE3',
     category: 'Trending',
-    mood: 'Bold and architectural. A modern classic for exteriors and dramatic dining rooms.',
+    mood: 'A crisp, luxurious off-white with cool undertones that serves as the perfect canvas.',
+  },
+  {
+    id: 'trend-5',
+    name: 'Indigo Depth',
+    code: 'BO-7140',
+    brand: 'Birla Opus',
+    hex: '#2A3C5A',
+    category: 'Trending',
+    mood: 'Bold, architectural, and deeply immersive. A modern classic for feature walls and dining rooms.',
+  },
+  {
+    id: 'trend-6',
+    name: 'Mango Duet',
+    code: '7965',
+    brand: 'Asian Paints',
+    hex: '#F9B738',
+    category: 'Trending',
+    mood: 'Vibrant and cheerful, infusing spaces with the energetic glow of tropical sunshine.',
+  },
+  {
+    id: 'trend-7',
+    name: 'Emerald Crest',
+    code: 'BO-5091',
+    brand: 'Birla Opus',
+    hex: '#165B45',
+    category: 'Trending',
+    mood: 'Rich, lush, and grounding. Connects interiors with the deep tranquility of a forest canopy.',
   },
 ]
 
@@ -57,17 +87,11 @@ export function TrendingColours() {
   const [isDragging, setIsDragging] = useState(false)
   const [startX, setStartX] = useState(0)
   const [scrollLeft, setScrollLeft] = useState(0)
-  
-  // Track the exact pixel distance dragged to differentiate a click from a swipe
   const [dragDistance, setDragDistance] = useState(0) 
 
   const handlePointerDown = (e: React.PointerEvent) => {
-    // 1. Reset distance immediately on ALL devices so taps always start fresh
     setDragDistance(0) 
-    
-    // 2. Only run the custom drag logic if using a physical mouse
     if (e.pointerType !== 'mouse' || !scrollRef.current) return
-    
     setIsDragging(true)
     setStartX(e.pageX - scrollRef.current.offsetLeft)
     setScrollLeft(scrollRef.current.scrollLeft)
@@ -78,8 +102,7 @@ export function TrendingColours() {
     e.preventDefault()
     const x = e.pageX - scrollRef.current.offsetLeft
     const walk = (x - startX) * 2 
-    
-    setDragDistance(Math.abs(walk)) // Record how far the mouse has moved
+    setDragDistance(Math.abs(walk)) 
     scrollRef.current.scrollLeft = scrollLeft - walk
   }
 
@@ -90,7 +113,6 @@ export function TrendingColours() {
   }
 
   return (
-    // Reduced padding to close the gap above (pt-2 for mobile, pt-8 for desktop)
     <section className="relative overflow-hidden bg-background pb-8 pt-12 lg:pb-12 lg:pt-24">
       <div className="mx-auto w-full max-w-[1700px] px-5 sm:px-8 md:px-12 lg:px-16">
         
@@ -113,7 +135,7 @@ export function TrendingColours() {
           className="group relative flex min-h-[400px] flex-col justify-end overflow-hidden rounded-[2rem] p-6 shadow-sm transition-colors duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] sm:p-10 lg:min-h-[480px]"
           style={{ backgroundColor: activeColor.hex }}
         >
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent transition-opacity duration-500" />
           
           <div className="relative z-10 flex flex-col items-start gap-4 lg:flex-row lg:items-end lg:justify-between">
             <div className="max-w-xl text-white">
@@ -136,8 +158,8 @@ export function TrendingColours() {
               <div className="flex items-center gap-3 rounded-2xl bg-black/20 px-4 py-3 backdrop-blur-md">
                 <PaintBucket className="size-5 text-white/70" />
                 <div>
-                  <p className="text-xs text-white/70">Hex Code</p>
-                  <p className="font-mono text-sm font-medium text-white">{activeColor.hex}</p>
+                  <p className="text-[11px] font-semibold uppercase tracking-wider text-white/70">{activeColor.brand}</p>
+                  <p className="font-mono text-sm font-medium text-white">{activeColor.code} • {activeColor.hex}</p>
                 </div>
               </div>
               <button className="flex items-center justify-center rounded-2xl bg-white px-8 py-3 text-sm font-semibold text-black transition-transform hover:scale-105 active:scale-95">
@@ -155,19 +177,17 @@ export function TrendingColours() {
             onPointerUp={handlePointerUpOrLeave}
             onPointerLeave={handlePointerUpOrLeave}
             className={cn(
-    "flex snap-x snap-mandatory gap-3 overflow-x-auto pb-4 pt-2 touch-pan-x [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]",
-    isDragging ? "cursor-grabbing snap-none" : "cursor-grab"
-  )}
+              "flex snap-x snap-mandatory gap-3 overflow-x-auto pb-4 pt-2 touch-pan-x [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]",
+              isDragging ? "cursor-grabbing snap-none" : "cursor-grab"
+            )}
           >
             {TRENDING_COLOURS.map((color) => {
               const isActive = activeColor.id === color.id
               return (
                 <button
                   key={color.id}
-				  type="button" // <-- Add this
+                  type="button"
                   onClick={() => {
-                    // Only trigger the click if the mouse moved less than 5 pixels
-                    // On mobile, native tapping registers as 0 distance, making it work perfectly.
                     if (dragDistance < 5) {
                       setActiveColor(color)
                     }
@@ -188,17 +208,17 @@ export function TrendingColours() {
                   />
                   <div className="flex flex-col justify-center">
                     <p className={cn(
-                      "text-sm font-semibold transition-colors",
+                      "truncate text-sm font-semibold transition-colors",
                       isActive ? "text-foreground" : "text-foreground/80"
                     )}>
                       {color.name}
                     </p>
-                    <p className="mt-0.5 text-xs text-muted-foreground">
-                      {color.category}
+                    <p className="mt-1 font-mono text-[10px] font-semibold uppercase tracking-wider text-muted-foreground">
+                      {color.brand} · {color.code}
                     </p>
                   </div>
                   {isActive && (
-                    <span className="absolute right-4 top-1/2 -translate-y-1/2 size-2 rounded-full bg-foreground" />
+                    <span className="absolute right-4 top-1/2 size-2 -translate-y-1/2 rounded-full bg-foreground" />
                   )}
                 </button>
               )

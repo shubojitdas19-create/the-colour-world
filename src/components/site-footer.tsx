@@ -1,25 +1,32 @@
 import Link from "next/link"
-import { MapPin, Phone, Paintbrush, ArrowUpRight } from "lucide-react"
+import Image from "next/image"
+import { MapPin, Phone, ArrowUpRight } from "lucide-react"
 
 export function SiteFooter() {
   return (
-    <footer className="mt-auto bg-foreground pt-12 text-background sm:pt-16 lg:pt-20">
+    // Reduced padding (pt-10, sm:pt-12, lg:pt-14) to make the footer slightly smaller
+    <footer className="mt-auto bg-foreground pt-10 text-background sm:pt-12 lg:pt-14">
       <div className="mx-auto w-full max-w-[1700px] px-5 sm:px-8 md:px-12 lg:px-16">
         
         {/* Minimal Main Footer Grid */}
-        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
           
           {/* Brand Info */}
-          <div className="flex flex-col gap-6">
-            <Link href="/" className="flex items-center gap-2">
-              <span className="flex size-8 items-center justify-center rounded-full bg-gradient-to-tr from-saffron via-terracotta to-magenta">
-                <Paintbrush className="size-4 text-white" />
-              </span>
-              <span className="font-serif text-2xl font-medium tracking-tight">
-                The Colour World
-              </span>
+          <div className="flex flex-col gap-5">
+            {/* 
+              FIX: Wrapped the logo in a white container (bg-white/95) 
+              so the dark blue text remains perfectly visible on the dark footer! 
+            */}
+            <Link href="/" className="inline-block w-fit rounded-2xl bg-white/95 p-3 shadow-lg transition-transform hover:scale-105">
+              <Image 
+                src="/images/logo2.png" 
+                alt="The Colour World" 
+                width={300} 
+                height={90} 
+                className="h-10 w-auto object-contain sm:h-12"
+              />
             </Link>
-            <p className="text-sm leading-relaxed text-background/70">
+            <p className="mt-1 text-sm leading-relaxed text-background/70">
               Your premium destination for authorized paints, designer textures, and expert home transformation services in Purba Medinipur.
             </p>
             <div className="flex items-center gap-4">
@@ -30,7 +37,6 @@ export function SiteFooter() {
                 className="flex size-10 items-center justify-center rounded-full bg-background/5 text-background transition-colors hover:bg-[#1877F2] hover:text-white"
                 aria-label="Visit our Facebook page"
               >
-                {/* Native SVG Facebook Icon */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -65,11 +71,11 @@ export function SiteFooter() {
           <div>
             <h4 className="mb-6 font-semibold tracking-wide text-background">Support</h4>
             <ul className="flex flex-col gap-4 text-sm text-background/70">
-              <li><Link href="#" className="transition-colors hover:text-saffron">Book Consultation</Link></li>
-              <li><Link href="#" className="transition-colors hover:text-saffron">Color Catalog</Link></li>
+              <li><Link href="/consultation" className="transition-colors hover:text-saffron">Book Consultation</Link></li>
+              <li><Link href="/colours" className="transition-colors hover:text-saffron">Color Catalog</Link></li>
               <li><Link href="#" className="transition-colors hover:text-saffron">Return Policy</Link></li>
               <li><Link href="#" className="transition-colors hover:text-saffron">Contractor Program</Link></li>
-              <li><Link href="#contact" className="transition-colors hover:text-saffron">Contact Us</Link></li>
+              <li><Link href="/contact" className="transition-colors hover:text-saffron">Contact Us</Link></li>
             </ul>
           </div>
 
@@ -106,8 +112,8 @@ export function SiteFooter() {
 
         </div>
 
-        {/* Bottom Bar */}
-        <div className="mt-12 flex flex-col items-center justify-between border-t border-background/10 py-6 sm:mt-16 sm:flex-row">
+        {/* Bottom Bar - Reduced top margin */}
+        <div className="mt-10 flex flex-col items-center justify-between border-t border-background/10 py-5 sm:mt-12 sm:flex-row">
           <p className="text-center text-sm text-background/50 sm:text-left">
             © {new Date().getFullYear()} The Colour World. All rights reserved.
           </p>

@@ -8,9 +8,9 @@ import { Phone, ChevronRight } from 'lucide-react'
 
 const navLinks = [
   { label: 'Shop Paints', href: '/shop' },
-  { label: 'Colour Studio', href: '/colours' },
-  { label: 'Textures', href: '/textures' },
-  { label: 'Inspiration', href: '/inspiration' },
+  { label: 'Colour Studio', href: '/coming-soon' },
+  { label: 'Textures', href: '/coming-soon' },
+  { label: 'Inspiration', href: '/coming-soon' },
   { label: 'Visit Store', href: '/contact' },
 ]
 
@@ -31,30 +31,21 @@ export function SiteHeader() {
   }, [open])
 
   return (
-    // FIX: Bumped to z-[100] so it ALWAYS stays above hero dropdowns
     <header className="sticky top-0 z-[100] w-full border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="relative z-[100] flex h-20 w-full items-center justify-between bg-transparent px-5 md:px-10 lg:px-16">
         
-        {/* Logo Section - FIX: Restored larger logo dimensions */}
+        {/* Logo Section */}
         <Link 
           href="/" 
-          className="flex items-center gap-3 transition-opacity hover:opacity-80"
+          className="flex items-center transition-opacity hover:opacity-80"
           onClick={() => setOpen(false)}
         >
           <Image 
-            src="/images/icon.png" 
-            alt="The Colour World Icon" 
-            width={80} 
-            height={80} 
-            className="h-12 w-auto sm:h-14"
-            priority
-          />
-          <Image 
-            src="/images/name.png" 
+            src="/images/logo2.png" 
             alt="The Colour World" 
-            width={300} 
-            height={80} 
-            className="h-9 w-auto sm:h-11" 
+            width={400} 
+            height={120} 
+            className="h-14 w-auto object-contain drop-shadow-md sm:h-[4rem] lg:h-[4.5rem]"
             priority
           />
         </Link>
@@ -65,7 +56,7 @@ export function SiteHeader() {
             {navLinks.map((link) => {
               const isActive = pathname === link.href
               return (
-                <li key={link.href}>
+                <li key={link.label}>
                   <Link
                     href={link.href}
                     className={`group relative text-sm font-medium transition-colors hover:text-foreground ${
@@ -141,8 +132,7 @@ export function SiteHeader() {
         <ul className="flex flex-col">
           {navLinks.map((link, idx) => (
             <li 
-              key={link.href}
-              // FIX: Removed shorthand transition from style object to solve React Console Errors
+              key={link.label}
               className={`border-b border-border/50 transition-all duration-500 ease-out last:border-0 ${
                 open ? 'translate-y-0 opacity-100' : '-translate-y-8 opacity-0'
               }`}
@@ -160,7 +150,6 @@ export function SiteHeader() {
           ))}
         </ul>
         <div 
-          // FIX: Removed shorthand transition from style object to solve React Console Errors
           className={`mt-6 flex flex-col gap-4 transition-all duration-500 ease-out ${
             open ? 'translate-y-0 opacity-100' : '-translate-y-8 opacity-0'
           }`}

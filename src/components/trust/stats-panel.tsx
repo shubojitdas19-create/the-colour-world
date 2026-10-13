@@ -5,9 +5,9 @@ import Image from 'next/image'
 import { ArrowUpRight, Star } from 'lucide-react'
 
 const stats = [
-  { value: 15, suffix: '+', label: 'Years of colour expertise', accent: 'var(--color-terracotta)' },
-  { value: 10000, suffix: '+', label: 'Happy homes painted', accent: 'var(--color-saffron)' },
-  { value: 2000, suffix: '+', label: 'Shades tinted in-store', accent: 'var(--color-magenta)' },
+  { value: 10, suffix: '+', label: 'Years of colour expertise', accent: 'var(--color-terracotta)' },
+  { value: 500, suffix: '+', label: 'Happy homes painted', accent: 'var(--color-saffron)' },
+  { value: 5000, suffix: '+', label: 'Shades tinted in-store', accent: 'var(--color-magenta)' },
 ]
 
 const RATING = 4.9

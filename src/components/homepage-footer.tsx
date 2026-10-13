@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { MapPin, Phone, X, ArrowRight, Store, CalendarPlus, Loader2, CheckCircle2 } from 'lucide-react'
-import { submitConsultationAction } from '@/app/consultation/actions' // <-- Update this path if your actions file is elsewhere
+import { submitConsultationAction } from '@/app/consultation/actions'
 
 export function HomepageFooter() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -71,7 +71,7 @@ export function HomepageFooter() {
                 Book Consultation
               </button>
               <Link 
-                href="/products" 
+                href="/shop" 
                 className="flex items-center justify-center gap-2 rounded-full bg-white/20 px-8 py-4 text-base font-medium text-white backdrop-blur-md transition-colors hover:bg-white/30"
               >
                 <Store className="size-5" />
@@ -85,12 +85,13 @@ export function HomepageFooter() {
         <div className="mt-10 grid gap-10 border-b border-border pb-10 md:grid-cols-2 lg:grid-cols-12 lg:gap-8">
           
           <div className="flex flex-col items-start gap-6 lg:col-span-5">
+            {/* UPDATED: New Logo with enhanced visibility and responsive sizing */}
             <Image 
-              src="/images/full-logo.png" 
+              src="/images/logo2.png" 
               alt="The Colour World" 
               width={400} 
               height={120} 
-              className="h-16 w-auto object-contain sm:h-20"
+              className="h-14 w-auto object-contain drop-shadow-md sm:h-16 lg:h-20"
             />
             <div className="max-w-sm text-foreground/80">
               <p className="mb-2 font-medium text-foreground">Proprietor: Santu Sahoo</p>
@@ -188,7 +189,6 @@ export function HomepageFooter() {
               <form action={handleFormSubmit} className="flex flex-col gap-4">
                 <div className="flex flex-col gap-1.5">
                   <label htmlFor="name" className="text-sm font-medium text-foreground/90">Full Name</label>
-                  {/* Added name="name" attributes so FormData captures them */}
                   <input required type="text" id="name" name="name" className="rounded-xl border border-border bg-background px-4 py-3 text-foreground placeholder:text-muted-foreground focus:border-saffron focus:outline-none focus:ring-1 focus:ring-saffron" placeholder="Enter your name" />
                 </div>
                 
@@ -204,7 +204,6 @@ export function HomepageFooter() {
 
                 <div className="flex flex-col gap-1.5">
                   <label htmlFor="message" className="text-sm font-medium text-foreground/90">What are you looking for? (Optional)</label>
-                  {/* Mapped "need" to name="message" to match the server action */}
                   <textarea id="message" name="message" rows={2} className="resize-none rounded-xl border border-border bg-background px-4 py-3 text-foreground placeholder:text-muted-foreground focus:border-saffron focus:outline-none focus:ring-1 focus:ring-saffron" placeholder="E.g., Exterior painting, Texture work, etc." />
                 </div>
 

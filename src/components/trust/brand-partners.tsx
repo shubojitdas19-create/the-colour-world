@@ -5,19 +5,21 @@ import { Reveal } from '@/components/trust/reveal'
 const partners = [
   {
     name: 'Asian Paints',
-    logo: '/brands/asian-paints.svg',
+    logo: '/brands/asian-paints.png',
     width: 184,
     height: 42,
     note: "India's leading paint company",
     accent: '#E31E24',
+    logoClass: '', // Default sizing
   },
   {
     name: 'Birla Opus',
-    logo: '/brands/birla-opus.svg',
+    logo: '/brands/birla-opus3.png',
     width: 2804,
     height: 1201,
     note: 'From the Aditya Birla Group',
     accent: '#FEBD12',
+    logoClass: 'scale-[1.15] origin-left', // Slightly scales up only this logo
   },
 ]
 
@@ -40,7 +42,8 @@ export function BrandPartners() {
                     alt={`${partner.name} logo`}
                     width={partner.width}
                     height={partner.height}
-                    className="h-11 w-auto min-w-0 max-w-[55%] object-contain object-left sm:h-14"
+                    // Injects the custom logo class here
+                    className={`h-11 w-auto min-w-0 max-w-[55%] object-contain object-left sm:h-14 ${partner.logoClass}`}
                   />
                   <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-teal/10 px-2 py-1 text-[0.625rem] font-semibold uppercase tracking-[0.08em] text-teal sm:px-2.5 sm:tracking-[0.12em]">
                     <BadgeCheck className="size-3.5" aria-hidden="true" />

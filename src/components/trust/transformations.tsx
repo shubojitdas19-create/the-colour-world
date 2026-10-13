@@ -7,24 +7,24 @@ import { cn } from '@/lib/utils'
 const REVIEWS = [
   {
     id: 1,
-    name: "Priya Sharma",
-    location: "Kolkata, WB",
+    name: "Paplu Pradhan",
+    location: "Mukundapur, Contai, Purba-Medinipur",
     text: "The consultation was seamless. They helped us pick a Sage Whisper shade that completely opened up our living room. The finish is flawless.",
     project: "Interior Living Space",
     rating: 5,
   },
   {
     id: 2,
-    name: "Rahul Verma",
-    location: "Medinipur, West Bengal",
+    name: "Debu Debnath",
+    location: "Rani Basan, Contai, Purba-Medinipur",
     text: "We wanted a heritage look for our ancestral home's exterior. The Colour World team delivered exactly what we envisioned. Highly professional.",
     project: "Exterior Heritage",
     rating: 5,
   },
   {
     id: 3,
-    name: "Anita Desai",
-    location: "Howrah, WB",
+    name: "Dipu Nayak",
+    location: "Rani Basan, Contai, Purba-Medinipur",
     text: "The quality of the premium coatings is unmatched. Even after the monsoons, the walls look freshly painted. Best investment for our home.",
     project: "Weatherproof Exterior",
     rating: 5,
@@ -55,10 +55,10 @@ export function Transformations() {
           {/* AFTER Image */}
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: 'url("/images/now.png")' }}
+            style={{ backgroundImage: 'url("/images/now2.png")' }}
           >
             <div className="absolute bottom-6 right-6 rounded-full bg-black/50 px-4 py-1.5 text-sm font-medium text-white backdrop-blur-md">
-              After: Cashmere White
+              After: Muted Coral / Terracotta
             </div>
           </div>
 

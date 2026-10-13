@@ -39,14 +39,19 @@ export function HeroVisual() {
         </div>
       </div>
 
+      {/* UPDATE: Authentic Asian Paints colour hex code applied directly */}
       <div className="absolute -bottom-6 left-[4%] flex items-center gap-4 rounded-2xl bg-card p-3 pr-6 shadow-xl sm:left-[8%]">
-        <span className="size-14 shrink-0 rounded-xl bg-teal" aria-hidden="true" />
+        <span 
+          className="size-14 shrink-0 rounded-xl" 
+          style={{ backgroundColor: '#487C80' }} 
+          aria-hidden="true" 
+        />
         <div>
           <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-muted-foreground">
             Shade of the season
           </p>
-          <p className="font-serif text-lg font-medium leading-tight">Emerald Lagoon</p>
-          <p className="font-mono text-xs text-muted-foreground">TCW-0412 · Matt finish</p>
+          <p className="font-serif text-lg font-medium leading-tight">Teal Magic</p>
+          <p className="font-mono text-xs text-muted-foreground">7470 · Royale Matte</p>
         </div>
       </div>
 
@@ -67,7 +72,7 @@ export function HeroVisual() {
 
       <div className="absolute right-[6%] top-6 hidden items-center sm:flex gap-2 rounded-full bg-card/95 px-4 py-2 shadow-lg backdrop-blur">
         <ShieldCheck className="size-4 text-teal" aria-hidden="true" />
-        <span className="text-xs font-semibold">Up to 10-yr warranty</span>
+        <span className="text-xs font-semibold">Up to 15-yr warranty</span>
       </div>
     </div>
   )
