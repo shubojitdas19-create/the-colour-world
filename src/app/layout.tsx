@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next";
 import { Fraunces, Geist } from "next/font/google";
 import { SiteHeader } from "@/components/site-header";
 import { CartSidebar } from "@/components/cart-sidebar";
+import { WelcomeBanner } from "@/components/welcome-banner"; // Added the new banner import
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -54,6 +55,9 @@ export default function RootLayout({
 
         {/* The Cart Sidebar is now available on every page! */}
         <CartSidebar /> 
+        
+        {/* The new Welcome Banner modal */}
+        <WelcomeBanner />
       </body>
     </html>
   );

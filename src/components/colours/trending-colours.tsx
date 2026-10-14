@@ -159,7 +159,7 @@ export function TrendingColours() {
                 <PaintBucket className="size-5 text-white/70" />
                 <div>
                   <p className="text-[11px] font-semibold uppercase tracking-wider text-white/70">{activeColor.brand}</p>
-                  <p className="font-mono text-sm font-medium text-white">{activeColor.code} • {activeColor.hex}</p>
+                  <p className="font-mono text-sm font-medium text-white">{activeColor.code}</p>
                 </div>
               </div>
               <button className="flex items-center justify-center rounded-2xl bg-white px-8 py-3 text-sm font-semibold text-black transition-transform hover:scale-105 active:scale-95">

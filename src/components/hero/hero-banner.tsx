@@ -1,7 +1,8 @@
 import Link from 'next/link'
-import { ArrowUpRight, Star, Sparkles, ChevronDown } from 'lucide-react'
+import { Star, Sparkles, ChevronDown } from 'lucide-react'
 import { HeroVisual } from '@/components/hero/hero-visual'
 import { ColourMarquee } from '@/components/hero/colour-marquee'
+import { ExploreButton } from '@/components/hero/explore-button' // <-- Imported the new client button
 import { fetchStorefront } from '@/lib/api/client'
 
 const colourLetters = [
@@ -11,7 +12,7 @@ const colourLetters = [
   { char: 'o', color: 'var(--color-cobalt)' },
   { char: 'u', color: 'var(--color-magenta)' },
   { char: 'r', color: 'var(--color-terracotta)' },
-  { char: 's', color: 'var(--color-saffron)' }, // <-- Added 's'
+  { char: 's', color: 'var(--color-saffron)' },
 ]
 
 const stats = [
@@ -89,15 +90,8 @@ export async function HeroBanner() {
 
           <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
             
-            <Link
-              href="/shop"
-              className="group inline-flex items-center justify-center gap-4 rounded-full bg-zinc-950 py-2.5 pl-8 pr-2.5 text-sm font-semibold text-white shadow-[0_8px_20px_rgba(0,0,0,0.12)] ring-1 ring-zinc-900 transition-all hover:-translate-y-0.5 hover:shadow-[0_12px_25px_rgba(0,0,0,0.2)]"
-            >
-              Explore All
-              <span className="flex size-9 items-center justify-center rounded-full bg-saffron text-zinc-950 transition-transform duration-300 group-hover:rotate-45">
-                <ArrowUpRight className="size-4" aria-hidden="true" />
-              </span>
-            </Link>
+            {/* The new interactive button works perfectly here! */}
+            <ExploreButton />
 
             {categories.length > 0 && (
               <div className="group relative z-50">

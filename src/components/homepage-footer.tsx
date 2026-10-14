@@ -58,7 +58,7 @@ export function HomepageFooter() {
               Step into <span className="italic text-terracotta">our world.</span>
             </h2>
             <p className="mt-4 max-w-2xl text-lg text-white/90 sm:text-xl">
-              Visit our physical store to experience 2,000+ curated shades, or let our experts bring the consultation to your doorstep.
+              Visit our physical store to experience 5,000+ curated shades, or let our experts bring the consultation to your doorstep.
             </p>
             
             <div className="mt-8 flex w-full flex-col justify-center gap-4 sm:w-auto sm:flex-row sm:gap-6">

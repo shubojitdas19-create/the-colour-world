@@ -7,7 +7,7 @@ import { cn } from '@/lib/utils'
 const REVIEWS = [
   {
     id: 1,
-    name: "Paplu Pradhan",
+    name: "Paptu Pradhan",
     location: "Mukundapur, Contai, Purba-Medinipur",
     text: "The consultation was seamless. They helped us pick a Sage Whisper shade that completely opened up our living room. The finish is flawless.",
     project: "Interior Living Space",
