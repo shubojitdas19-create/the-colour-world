@@ -123,7 +123,7 @@ export default function ContactPage() {
                 <div>
                   <h4 className="font-serif text-xl font-medium text-foreground">Email Us</h4>
                   <a href="mailto:thecolourworldmajna@hotmail.com" className="mt-2 block text-base font-medium text-muted-foreground transition-colors hover:text-foreground">
-                    thecolourworldmajna@hotmail.com
+                    thecolourworld@hotmail.com
                   </a>
                 </div>
               </div>
@@ -155,7 +155,7 @@ export default function ContactPage() {
                 <div className="grid gap-5 sm:grid-cols-2">
                   <div className="flex flex-col gap-2">
                     <label htmlFor="name" className="text-sm font-semibold text-foreground">Your Name</label>
-                    <input name="name" required type="text" id="name" className="rounded-xl border border-border bg-background px-4 py-3.5 text-sm outline-none transition-colors focus:border-terracotta focus:ring-1 focus:ring-terracotta" placeholder="John Doe" />
+                    <input name="name" required type="text" id="name" className="rounded-xl border border-border bg-background px-4 py-3.5 text-sm outline-none transition-colors focus:border-terracotta focus:ring-1 focus:ring-terracotta" placeholder="Abhay Kumar" />
                   </div>
                   <div className="flex flex-col gap-2">
                     <label htmlFor="phone" className="text-sm font-semibold text-foreground">Phone Number</label>

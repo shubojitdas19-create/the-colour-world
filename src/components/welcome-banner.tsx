@@ -12,12 +12,12 @@ const specialities = [
     color: 'bg-terracotta/10 text-terracotta',
   },
   {
-    text: 'Free delivery over ₹3,000 billing',
+    text: 'Free delivery over ₹30,000 billing',
     icon: Truck,
     color: 'bg-teal/10 text-teal',
   },
   {
-    text: 'Computational colour mixing',
+    text: 'Computerised colour mixing',
     icon: Palette,
     color: 'bg-saffron/20 text-amber-800',
   },
