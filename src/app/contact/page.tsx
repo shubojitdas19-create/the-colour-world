@@ -194,11 +194,11 @@ export default function ContactPage() {
 
         </div>
 
-        {/* REFINED PREMIUM MAP */}
+        {/* REFINED PREMIUM MAP WITH EXACT LOCATION */}
         <div className="mt-12 lg:mt-20">
           <div className="relative h-[40vh] min-h-[350px] w-full overflow-hidden rounded-[2rem] border border-border bg-muted shadow-lg lg:min-h-[450px]">
             <iframe 
-              src="https://maps.google.com/maps?q=Majna,+Opp-Hospital+main+Gate,+Contai,+Purba+Medinipur,+West+Bengal+-+721433&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              src="https://maps.google.com/maps?q=The+Colour+World,+Contai+Road,+Majna,+Contai,+West+Bengal+721433&t=&z=15&ie=UTF8&iwloc=&output=embed" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

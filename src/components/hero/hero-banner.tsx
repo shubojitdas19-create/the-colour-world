@@ -16,7 +16,7 @@ const colourLetters = [
 
 const stats = [
   { value: '5,000+', label: 'Curated shades' },
-  { value: '10 yrs', label: 'Of colour expertise' },
+  { value: '10+ yrs', label: 'Of colour expertise' },
   { value: '500+', label: 'Happy homes' },
 ]
 
