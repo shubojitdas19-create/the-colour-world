@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Star, CheckCircle2, MessageCircle, Loader2, ArrowLeft, X } from 'lucide-react'
 import Link from 'next/link'
 
-const API_URL = process.env.NEXT_PUBLIC_ADMIN_API_URL || 'http://localhost:3000'
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000'
 const STORE_SLUG = 'the-colour-world'
 
 type Review = {
