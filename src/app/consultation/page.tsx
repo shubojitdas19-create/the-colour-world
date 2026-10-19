@@ -112,7 +112,7 @@ export default function ConsultationPage() {
               <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium text-foreground">Full Name</label>
-                  <input required type="text" id="name" name="name" className="w-full rounded-xl border border-border bg-background px-4 py-3.5 text-sm outline-none transition-colors focus:border-terracotta" placeholder="John Doe" />
+                  <input required type="text" id="name" name="name" className="w-full rounded-xl border border-border bg-background px-4 py-3.5 text-sm outline-none transition-colors focus:border-terracotta" placeholder="Rahul Roy" />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium text-foreground">Phone Number</label>

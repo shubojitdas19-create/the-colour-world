@@ -3,6 +3,7 @@
 import { useState, useRef } from 'react'
 import { Sparkles, ArrowRight, PaintBucket } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import Link from 'next/link'
 
 const TRENDING_COLOURS = [
   {
@@ -113,7 +114,7 @@ export function TrendingColours() {
   }
 
   return (
-    <section className="relative overflow-hidden bg-background pb-8 pt-12 lg:pb-12 lg:pt-24">
+    <section className="relative overflow-hidden bg-background pb-6 pt-8 lg:pb-8 lg:pt-16">
       <div className="mx-auto w-full max-w-[1700px] px-5 sm:px-8 md:px-12 lg:px-16">
         
         <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between lg:mb-16">
@@ -125,10 +126,13 @@ export function TrendingColours() {
               Explore the shades defining this season's most beautiful homes.
             </p>
           </div>
-          <button className="group flex w-fit items-center gap-2 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted">
+          <Link 
+            href="/colour-studio" 
+            className="group flex w-fit items-center gap-2 rounded-full border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+          >
             View all palettes
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-          </button>
+          </Link>
         </div>
 
         <div 

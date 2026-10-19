@@ -8,7 +8,9 @@ export async function submitConsultationAction(formData: FormData) {
     message: formData.get("message"),
   };
 
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000/api/storefront/the-colour-world/leads";
+  // Correctly append the endpoint path to the base URL
+  const baseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
+  const apiUrl = `${baseUrl}/api/storefront/the-colour-world/leads`;
 
   try {
     const response = await fetch(apiUrl, {

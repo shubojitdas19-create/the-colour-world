@@ -6,10 +6,12 @@ import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import { Phone, ChevronRight } from 'lucide-react'
 
+// ADDED: "Reviews" link inserted cleanly into the navigation array
 const navLinks = [
   { label: 'Shop Paints', href: '/shop' },
   { label: 'Colour Studio', href: '/colour-studio' },
   { label: 'Textures', href: '/textures' },
+  { label: 'Reviews', href: '/reviews' }, 
   { label: 'Inspiration', href: '/coming-soon' },
   { label: 'Visit Store', href: '/contact' },
 ]

@@ -1,8 +1,7 @@
 import Link from 'next/link'
-import { Star, Sparkles, ChevronDown } from 'lucide-react'
+import { Star, Sparkles, ChevronDown, Palette } from 'lucide-react'
 import { HeroVisual } from '@/components/hero/hero-visual'
 import { ColourMarquee } from '@/components/hero/colour-marquee'
-import { ExploreButton } from '@/components/hero/explore-button'
 import { fetchStorefront } from '@/lib/api/client'
 
 const colourLetters = [
@@ -137,7 +136,13 @@ export async function HeroBanner() {
 
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap sm:items-center">
               
-              <ExploreButton />
+              <Link
+                href="/colour-studio"
+                className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-zinc-900 px-8 py-4 text-sm font-bold text-white shadow-lg transition-all hover:bg-zinc-800 hover:-translate-y-0.5 sm:w-auto"
+              >
+                <Palette className="size-4" />
+                Explore Shades
+              </Link>
 
               {categories.length > 0 && (
                 <div className="group relative z-50">
