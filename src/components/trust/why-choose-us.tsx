@@ -53,7 +53,7 @@ export function WhyChooseUs() {
           </Reveal>
           <Reveal delay={100}>
             <Link
-              href="#contact"
+              href="/consultation"
               className="group inline-flex min-h-12 items-center gap-2 rounded-full bg-foreground px-6 text-sm font-semibold text-background transition-[transform,background-color] hover:bg-teal active:scale-[0.97]"
             >
               Book a consultation
