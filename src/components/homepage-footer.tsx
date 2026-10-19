@@ -71,11 +71,11 @@ export function HomepageFooter() {
                 Book Consultation
               </button>
               <Link 
-                href="/shop" 
+                href="/colour-studio" 
                 className="flex items-center justify-center gap-2 rounded-full bg-white/20 px-8 py-4 text-base font-medium text-white backdrop-blur-md transition-colors hover:bg-white/30"
               >
                 <Store className="size-5" />
-                Explore the Store
+                Explore the Shades
               </Link>
             </div>
           </div>
