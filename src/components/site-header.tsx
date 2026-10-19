@@ -8,8 +8,8 @@ import { Phone, ChevronRight } from 'lucide-react'
 
 const navLinks = [
   { label: 'Shop Paints', href: '/shop' },
-  { label: 'Colour Studio', href: '/coming-soon' },
-  { label: 'Textures', href: '/coming-soon' },
+  { label: 'Colour Studio', href: '/colour-studio' },
+  { label: 'Textures', href: '/textures' },
   { label: 'Inspiration', href: '/coming-soon' },
   { label: 'Visit Store', href: '/contact' },
 ]

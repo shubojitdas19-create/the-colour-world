@@ -1,0 +1,4520 @@
+[
+  {
+    "brand": "Asian Paints",
+    "name": "SWAN WING",
+    "code": "L101",
+    "hex": "#F5EFE1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GOLDFISH",
+    "code": "7973",
+    "hex": "#F57E33"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PISTA GLIMMER",
+    "code": "8403",
+    "hex": "#CECEBE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WEATHERED WHITE",
+    "code": "8442",
+    "hex": "#D2C9BB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNKISSED",
+    "code": "7833",
+    "hex": "#F9ECB9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PURPLE VERVE",
+    "code": "9101",
+    "hex": "#6A475C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "POPSICLE",
+    "code": "8025",
+    "hex": "#FED1B9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GRAND BAY",
+    "code": "8273",
+    "hex": "#9FB5BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STEEL GREY",
+    "code": "643",
+    "hex": "#A0A3A2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TOUCH OF ROUGE",
+    "code": "8128",
+    "hex": "#EBAEC7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICE CRYSTAL",
+    "code": "8444",
+    "hex": "#EFEADF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEBBLE WHITE",
+    "code": "L136",
+    "hex": "#F1E8D8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RETRO WHITE",
+    "code": "L179",
+    "hex": "#EFE8DD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CREAM PIE",
+    "code": "L152",
+    "hex": "#F6F3E8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PADDY FIELD",
+    "code": "7570",
+    "hex": "#B0E6D0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FAIRY GLITTER",
+    "code": "7953",
+    "hex": "#FEDDA9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BABY BLUSH",
+    "code": "8138",
+    "hex": "#F2CFD9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNRISE",
+    "code": "526",
+    "hex": "#E37342"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HAZEL NUT",
+    "code": "8569",
+    "hex": "#D1AF96"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TERRACOTTA-N",
+    "code": "427",
+    "hex": "#8E4B3F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "IVORY",
+    "code": "315",
+    "hex": "#EACDA7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SANDS OF TIME",
+    "code": "4202",
+    "hex": "#C8B8A6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COTTON WOOL",
+    "code": "L104",
+    "hex": "#F2EEE3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STONE PATH",
+    "code": "8255",
+    "hex": "#6F767D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MORNING GLORY",
+    "code": "765",
+    "hex": "#F1ECE2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LINGERING BREW",
+    "code": "7027",
+    "hex": "#C0938A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TRANSLUCENT GREEN",
+    "code": "7513",
+    "hex": "#82D9CF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RUSTIC POTTERY",
+    "code": "8616",
+    "hex": "#C69384"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CARBON COPY",
+    "code": "8293",
+    "hex": "#4C4844"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIME DELIGHT",
+    "code": "7744",
+    "hex": "#DFE29D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MACADAMIA",
+    "code": "5184",
+    "hex": "#F0E5D6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUGARED NUT",
+    "code": "L126",
+    "hex": "#F8F1DF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CORAL TREASURE",
+    "code": "975",
+    "hex": "#EBDCCD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SWISS COFFEE",
+    "code": "4215",
+    "hex": "#D4BA9D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "JAPANESE LILAC",
+    "code": "7111",
+    "hex": "#BB95C3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DEEP JUNGLE",
+    "code": "7557",
+    "hex": "#3E5F55"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SMOKE-N",
+    "code": "616",
+    "hex": "#AAB1B5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOOTHING SAPPHIRE",
+    "code": "7326",
+    "hex": "#2B88BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VALLEY GREEN",
+    "code": "7511",
+    "hex": "#33BDB2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Prussian Teal-N",
+    "code": "9700",
+    "hex": "#235F69"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LEMON SOUFFLE",
+    "code": "7773",
+    "hex": "#CFC831"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPORTY YELLOW",
+    "code": "X104",
+    "hex": "#FEC52E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GAUGUIN BLUE",
+    "code": "7344",
+    "hex": "#86B8D1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSE MIST",
+    "code": "8055",
+    "hex": "#EA9897"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "POLKA",
+    "code": "7869",
+    "hex": "#FEBF19"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SONNET",
+    "code": "L146",
+    "hex": "#F7F1E7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIGHT SKY",
+    "code": "7331",
+    "hex": "#C4DEE8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUMMER DEW",
+    "code": "7867",
+    "hex": "#F8F0CF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIGHT COFFEE",
+    "code": "470",
+    "hex": "#BEA694"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREY TINT",
+    "code": "8435",
+    "hex": "#D6D0C5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILK ROUTE",
+    "code": "0N13",
+    "hex": "#CCBEAD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILVER MINE",
+    "code": "8443",
+    "hex": "#DED6C9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RAFFIA",
+    "code": "7929",
+    "hex": "#FBDDA9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ALUMINIUM",
+    "code": "8337",
+    "hex": "#9FABAA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ALOE VERA",
+    "code": "7663",
+    "hex": "#ACD484"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LEMON OLE",
+    "code": "X105",
+    "hex": "#FEC200"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNNY YELLOW",
+    "code": "7861",
+    "hex": "#FECA26"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VIOLET SCREAM",
+    "code": "8166",
+    "hex": "#AF76A5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Moroccan Rose-N",
+    "code": "9994",
+    "hex": "#B45259"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPRING GREEN",
+    "code": "9308",
+    "hex": "#DBEEDE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MEADOW PATH",
+    "code": "7541",
+    "hex": "#345A52"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHALE COVE",
+    "code": "8247",
+    "hex": "#6F747B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "INKJET",
+    "code": "7327",
+    "hex": "#55A3D3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SHOCKING PINK",
+    "code": "8126",
+    "hex": "#D47094"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BRIGHT JADE",
+    "code": "7510",
+    "hex": "#00AA9B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NEW DAY",
+    "code": "7410",
+    "hex": "#9DD6E2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREY MATTER",
+    "code": "8304",
+    "hex": "#838584"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILICA DREAM",
+    "code": "8235",
+    "hex": "#D7D3D0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SESAME SEED",
+    "code": "L127",
+    "hex": "#EEE3CF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MORNING DREAM",
+    "code": "7904",
+    "hex": "#FBDA97"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MIRAGE WHITE",
+    "code": "8276",
+    "hex": "#DFE5E1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILVER TRINKET",
+    "code": "8298",
+    "hex": "#C8C6C1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DESERT DUNE",
+    "code": "8754",
+    "hex": "#C1B3AB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CRIMSON FLUSH",
+    "code": "8051",
+    "hex": "#F9E1D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CASCADE",
+    "code": "210",
+    "hex": "#CFE7DC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "JAIPUR DREAMS",
+    "code": "8047",
+    "hex": "#F3968F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AQUAMARINE",
+    "code": "2357",
+    "hex": "#5FC19B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EGGSHELL",
+    "code": "L149",
+    "hex": "#F0EADC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PURE IVORY",
+    "code": "L124",
+    "hex": "#F3EEDD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BEACH SHACK",
+    "code": "8603",
+    "hex": "#ECD5C3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VALLEY FLOWER",
+    "code": "8530",
+    "hex": "#E3CCAE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DESERT DREAMS",
+    "code": "8779",
+    "hex": "#E1D1C2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CONFETTI",
+    "code": "8300",
+    "hex": "#E2DED6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREY FLANNEL",
+    "code": "8331",
+    "hex": "#C5C5BC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "APRICOT ILLUSION",
+    "code": "7979",
+    "hex": "#FAE8CE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILVER SPREE",
+    "code": "8460",
+    "hex": "#E5DDD0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GARDEN PINK",
+    "code": "8090",
+    "hex": "#FBCFD5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TECH GREEN",
+    "code": "7775",
+    "hex": "#DDD86F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RAW JUTE",
+    "code": "L151",
+    "hex": "#F4ECDE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "THICK CREAM",
+    "code": "7860",
+    "hex": "#F4EED9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORANGE PEEL",
+    "code": "7957",
+    "hex": "#FE932B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BEIGE RAGE",
+    "code": "8770",
+    "hex": "#C6B6AA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BEIGE-N",
+    "code": "302",
+    "hex": "#C4B0A0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "POPLAR GROVE",
+    "code": "7584",
+    "hex": "#98BEA8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NATURAL TEASE",
+    "code": "7583",
+    "hex": "#77A38A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WAIKIKI",
+    "code": "7342",
+    "hex": "#4386A8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WILD PINK",
+    "code": "8087",
+    "hex": "#E891A0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VELVET NIGHT",
+    "code": "7159",
+    "hex": "#A49DCB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RAIN DROP",
+    "code": "L143",
+    "hex": "#F5F0E7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AUTUMN PUMPKIN",
+    "code": "7991",
+    "hex": "#FEA578"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CODE RED",
+    "code": "X120",
+    "hex": "#BA433A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALACE LIGHTS-N",
+    "code": "0N17",
+    "hex": "#EFD0C2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MINTY ALE",
+    "code": "8419",
+    "hex": "#D1D5BD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLUE BAY",
+    "code": "7329",
+    "hex": "#8BC5E3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "QUICKSILVER",
+    "code": "8307",
+    "hex": "#C7C7C2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIGHT BISCUIT-N",
+    "code": "318",
+    "hex": "#DDAD90"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BALI BLUE",
+    "code": "8266",
+    "hex": "#9FB2BA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WILD YELLOW",
+    "code": "7865",
+    "hex": "#FCECB3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILVER GREY",
+    "code": "615",
+    "hex": "#B8B9B4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALE ROSE",
+    "code": "5206",
+    "hex": "#F9AFA9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Pleasant Pistachio-N",
+    "code": "9833",
+    "hex": "#D8E29D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RED RED",
+    "code": "X118",
+    "hex": "#9B4841"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPRING DELIGHT",
+    "code": "8382",
+    "hex": "#728068"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SMOKE GREY",
+    "code": "6134",
+    "hex": "#708693"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHISPERING SMOKE",
+    "code": "8308",
+    "hex": "#D6D5CF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BUTTER SCOTCH",
+    "code": "7866",
+    "hex": "#F9EFC4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DASH OF PURPLE",
+    "code": "7160",
+    "hex": "#B4ADD4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TINKER BELL",
+    "code": "8064",
+    "hex": "#FAADAB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BROOK VIEW",
+    "code": "8265",
+    "hex": "#8E9DA5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YOUNG WINE",
+    "code": "8086",
+    "hex": "#DA727F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STEEL",
+    "code": "6142",
+    "hex": "#BBBEBC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BASRA PEARL-N",
+    "code": "974",
+    "hex": "#E2D6C2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WINTER MOON",
+    "code": "8258",
+    "hex": "#C7CACB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEEPING SUN",
+    "code": "7905",
+    "hex": "#FAE4AE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "OCEAN CLIFFS",
+    "code": "8347",
+    "hex": "#D9E2DA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BARLEY",
+    "code": "572",
+    "hex": "#EFC9AC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RAW COTTON",
+    "code": "8459",
+    "hex": "#DED5C6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CAPE ROYAL",
+    "code": "8341",
+    "hex": "#3C5050"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MAGNOLIA",
+    "code": "387",
+    "hex": "#F1DBBD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CHARCOAL SHADOW",
+    "code": "8286",
+    "hex": "#5E6363"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GRAND GRAPE",
+    "code": "7221",
+    "hex": "#43505F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PIXIE DUST",
+    "code": "8137",
+    "hex": "#EFBFCF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SAHARA DREAM",
+    "code": "L135",
+    "hex": "#E6DCCA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHIPPED CREAM",
+    "code": "7883",
+    "hex": "#F9EECE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VIVID GREEN",
+    "code": "7717",
+    "hex": "#86844C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BONNY PEACH",
+    "code": "8610",
+    "hex": "#E7B6A2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CREAM PUDDING",
+    "code": "L108",
+    "hex": "#EAEBE4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "UTOPIA",
+    "code": "8752",
+    "hex": "#90827D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SHEER ICE",
+    "code": "L111",
+    "hex": "#E4E8E1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CREAM SILK",
+    "code": "7955",
+    "hex": "#FBE9C7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ELECTRICITY",
+    "code": "8256",
+    "hex": "#949DA4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ANTIQUE WHITE",
+    "code": "940",
+    "hex": "#E4D1BF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEPPY LIME",
+    "code": "7743",
+    "hex": "#CFD879"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TROPICAL TAN",
+    "code": "8455",
+    "hex": "#998C7C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WISTERIA",
+    "code": "7112",
+    "hex": "#C8A8CF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ALMOND KISS",
+    "code": "8643",
+    "hex": "#E8C8BD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AZALEA",
+    "code": "8095",
+    "hex": "#EE91A8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "POTPOURRI",
+    "code": "7161",
+    "hex": "#CAC0DF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GLOWING RUST",
+    "code": "X112",
+    "hex": "#E1753A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TURQUOISE TREAT",
+    "code": "7505",
+    "hex": "#84D9D5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DRY MOSS",
+    "code": "7810",
+    "hex": "#DFD6A9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "OLD LACE",
+    "code": "950",
+    "hex": "#EFDFCB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MAPLE SYRUP",
+    "code": "8747",
+    "hex": "#D8C9C4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SNOWFLAKE",
+    "code": "8332",
+    "hex": "#D9D8CF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLUE HORIZON",
+    "code": "8272",
+    "hex": "#8DA3AE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EAGER YELLOW",
+    "code": "7906",
+    "hex": "#F8E9C1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUMMER SKY",
+    "code": "7274",
+    "hex": "#AFC8DD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HERITAGE HILLS",
+    "code": "8554",
+    "hex": "#DBC3AE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SNOW BLUSH",
+    "code": "L138",
+    "hex": "#F4E9DA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DAYLIGHT",
+    "code": "8026",
+    "hex": "#FEDDC9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORACLE",
+    "code": "720",
+    "hex": "#C2C9D1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEACH MELBA",
+    "code": "7971",
+    "hex": "#FAECD5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CANE BEIGE",
+    "code": "8563",
+    "hex": "#F2DCC4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AUTUMN VALLEY",
+    "code": "7898",
+    "hex": "#FCEDBF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TALC",
+    "code": "0N22",
+    "hex": "#E5C8B0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RIVER REED",
+    "code": "8539",
+    "hex": "#E8D3BA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOMBRE MOON",
+    "code": "7988",
+    "hex": "#F9EEDD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FOX GLOVE PINK",
+    "code": "5155",
+    "hex": "#B76670"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPRING SURPRISE",
+    "code": "7728",
+    "hex": "#C7CE96"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MARITIME GREEN",
+    "code": "7455",
+    "hex": "#53ACAF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TOUCH OF BEIGE",
+    "code": "8508",
+    "hex": "#F1E6D2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TIARA",
+    "code": "978",
+    "hex": "#CFD0CD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOFT GLANCE",
+    "code": "8484",
+    "hex": "#EEEADE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SHREDDED WHEAT",
+    "code": "7931",
+    "hex": "#F6EAD2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GOTHIC GREY",
+    "code": "8312",
+    "hex": "#808989"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "THUNDER",
+    "code": "7232",
+    "hex": "#9EA9B9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PARADISE BAY",
+    "code": "7409",
+    "hex": "#7BCBDD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BURST OF LIME",
+    "code": "7742",
+    "hex": "#BACC51"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YELLOW SCOOP",
+    "code": "7945",
+    "hex": "#FEE3A8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Electric Azure-N",
+    "code": "9665",
+    "hex": "#55BADE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "JOLLY HOLLY",
+    "code": "7653",
+    "hex": "#519E40"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COAL MINE",
+    "code": "8301",
+    "hex": "#50504D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "INK GREY",
+    "code": "8270",
+    "hex": "#546671"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AZURE SKY",
+    "code": "7407",
+    "hex": "#2AABC8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Purple Lore-N",
+    "code": "9606",
+    "hex": "#5F4467"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SWAN SONG",
+    "code": "7440",
+    "hex": "#6EC6D0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RIPE OLIVE",
+    "code": "7877",
+    "hex": "#BE9540"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOOTHING SILK",
+    "code": "9531",
+    "hex": "#E1CEB8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CRYSTAL PEAK",
+    "code": "L105",
+    "hex": "#F2EEE3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPICE",
+    "code": "477",
+    "hex": "#EAD2BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TEAL BLAST",
+    "code": "7503",
+    "hex": "#31BBB7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BURNT VIOLET",
+    "code": "X134",
+    "hex": "#614850"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MID-DAY",
+    "code": "7871",
+    "hex": "#FED774"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DEEP PINK",
+    "code": "X132",
+    "hex": "#A64668"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FRENCH PURPLE",
+    "code": "7215",
+    "hex": "#8298C9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICE CABBAGE",
+    "code": "7551",
+    "hex": "#65BDA7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MOULIN ROUGE",
+    "code": "X125",
+    "hex": "#A2495B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VICTORIAN WISP",
+    "code": "0N68",
+    "hex": "#F1E4D3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TWILIGHT HUSH",
+    "code": "944",
+    "hex": "#E9DBD1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSE PETAL",
+    "code": "0R08",
+    "hex": "#D9C4B9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CAFFEINE",
+    "code": "8653",
+    "hex": "#5B4942"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WINTER CHERRY",
+    "code": "8712",
+    "hex": "#C29FA6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHITE GOLD",
+    "code": "8292",
+    "hex": "#E3E3DC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COLD COFFEE",
+    "code": "L129",
+    "hex": "#E6D6BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YOUNG BOY BLUE",
+    "code": "7330",
+    "hex": "#A9D3E7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NATURAL LINEN",
+    "code": "L132",
+    "hex": "#F0E7D4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ALMOST IVORY",
+    "code": "L156",
+    "hex": "#F3EDE0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREEN SALAD",
+    "code": "7726",
+    "hex": "#A0AB5F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CLASSIC",
+    "code": "1243",
+    "hex": "#C8D9E1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Bavarian Chocolate-N",
+    "code": "K221",
+    "hex": "#6C4E48"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MID CREAM",
+    "code": "358",
+    "hex": "#E3C798"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LOVE SONG",
+    "code": "L144",
+    "hex": "#F4F0E5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALE PEARL",
+    "code": "7940",
+    "hex": "#F2ECDE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Suhana Mausam-N",
+    "code": "9670",
+    "hex": "#BCE4EC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AFRICAN DESERT",
+    "code": "8558",
+    "hex": "#AC7D5A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORANGE APPEAL",
+    "code": "7949",
+    "hex": "#FEA01C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNDRENCHED",
+    "code": "7914",
+    "hex": "#FCEBC0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "POOL PARTY",
+    "code": "7250",
+    "hex": "#C4D7E6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIME GROVE",
+    "code": "7729",
+    "hex": "#D6DDAD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AMAZON TRAIL",
+    "code": "7655",
+    "hex": "#95CC84"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MOODY MAROON",
+    "code": "4181",
+    "hex": "#6E4845"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VIOLET PARADISE",
+    "code": "X140",
+    "hex": "#6B4C6C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FOSSIL",
+    "code": "7985",
+    "hex": "#FCD1A7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MAGIC BLUE",
+    "code": "7441",
+    "hex": "#80D1D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TWILIGHT SKY",
+    "code": "8204",
+    "hex": "#EFE8E3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EARTHY BROWN",
+    "code": "8005",
+    "hex": "#AC644A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORANGE SILK",
+    "code": "7999",
+    "hex": "#F0A27C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MANGO SHAKE",
+    "code": "7960",
+    "hex": "#FEC882"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MID BUFF",
+    "code": "3176",
+    "hex": "#BF8843"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINK PARASOL",
+    "code": "8169",
+    "hex": "#E3BEDA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PIGEON BLUE-N",
+    "code": "122",
+    "hex": "#8ACEDA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CAPRICE",
+    "code": "7008",
+    "hex": "#CEC2D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PERFECT PEACH",
+    "code": "8000",
+    "hex": "#F8B592"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NIMBUS SHOWER",
+    "code": "8330",
+    "hex": "#B8B9AF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DUSTY TRAIL",
+    "code": "8506",
+    "hex": "#E1CBA7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOLITAIRE",
+    "code": "8500",
+    "hex": "#EEE7DA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CRYSTAL RIVER",
+    "code": "7460",
+    "hex": "#D1E8E2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HAPPY HYACINTH",
+    "code": "7110",
+    "hex": "#AA7EB2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VIOLET DELIGHT",
+    "code": "X131",
+    "hex": "#8F4758"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "OXFORD GREY",
+    "code": "8328",
+    "hex": "#878A84"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PILGRIM",
+    "code": "6129",
+    "hex": "#A0A6AB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BONEWHITE",
+    "code": "964",
+    "hex": "#EAD8BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREEK VASE",
+    "code": "7328",
+    "hex": "#6AAFD9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUMMER FERN",
+    "code": "7829",
+    "hex": "#CCAE27"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DAYBREAK",
+    "code": "942",
+    "hex": "#F0E6D2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CREAMY CRUST",
+    "code": "9514",
+    "hex": "#D1C6B5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUBTLE TINT",
+    "code": "7899",
+    "hex": "#F9EECC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALE BLUSH",
+    "code": "8132",
+    "hex": "#F4E8E7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CITADEL",
+    "code": "7406",
+    "hex": "#0096B4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BRICK CLAY",
+    "code": "8642",
+    "hex": "#E0BAAD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RHINE BLUE",
+    "code": "1319",
+    "hex": "#A5D9DF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BALLET SLIPPERS",
+    "code": "8089",
+    "hex": "#F6B9C2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CAMPHOR",
+    "code": "8260",
+    "hex": "#EDEBE3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "QUIET LAKE",
+    "code": "7572",
+    "hex": "#E4EDE1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAVENDER SECRET",
+    "code": "7163",
+    "hex": "#E1DBE5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SWEET DREAMS",
+    "code": "8564",
+    "hex": "#F3E3D1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Pastell Rosa-N",
+    "code": "9593",
+    "hex": "#CCA1C8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Dayflower Blue-N",
+    "code": "9662",
+    "hex": "#44A7CF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GARDEN MOSS",
+    "code": "7689",
+    "hex": "#B2BA9A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MORNING SKY",
+    "code": "7249",
+    "hex": "#A8C4E2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PLATINUM DISC",
+    "code": "8297",
+    "hex": "#B7B5B0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CORAL BEACH",
+    "code": "7969",
+    "hex": "#FDD6AB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TOUCH OF PAPRIKA",
+    "code": "8027",
+    "hex": "#FBE7D7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HIGH SPIRITS",
+    "code": "7363",
+    "hex": "#C7E2E7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MARIGOLD",
+    "code": "7986",
+    "hex": "#FCDAB7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FOREST HIKE",
+    "code": "7625",
+    "hex": "#B4D0B7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Pearl Grey-N",
+    "code": "K094",
+    "hex": "#B5BBBB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STEEL GLEAM",
+    "code": "8343",
+    "hex": "#819796"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CREAM CUSTARD",
+    "code": "7897",
+    "hex": "#FDEAB5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RAW STEEL",
+    "code": "8313",
+    "hex": "#9AA2A2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LOVELY LACE",
+    "code": "L131",
+    "hex": "#EEE1CB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BEACH HOUSE",
+    "code": "8481",
+    "hex": "#CBC1A9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CARAMEL CUSTARD",
+    "code": "8534",
+    "hex": "#A27B5B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BAMBOO GROVE",
+    "code": "8405",
+    "hex": "#64644F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COPPER",
+    "code": "587",
+    "hex": "#AC6451"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BRIGHT FIRE",
+    "code": "7943",
+    "hex": "#FEC967"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROYAL ROBES",
+    "code": "7158",
+    "hex": "#827AB0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREEN APPLE",
+    "code": "7710",
+    "hex": "#A5B75D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BROWN PAPER",
+    "code": "8577",
+    "hex": "#CAAC97"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ENLIGHTEN-N",
+    "code": "4148",
+    "hex": "#E0D8CB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CHARTREUSE",
+    "code": "7709",
+    "hex": "#889F3F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Moonlight River-N",
+    "code": "9684",
+    "hex": "#2B5971"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREEN WHISPER",
+    "code": "2425",
+    "hex": "#D9E5D5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MANGO MOOD",
+    "code": "X109",
+    "hex": "#FEAB1E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ANGEL CLOUD",
+    "code": "L123",
+    "hex": "#F3EEDF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WILD WEST",
+    "code": "8768",
+    "hex": "#A09085"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WARMSTONE",
+    "code": "0N02",
+    "hex": "#C6B9A6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLUE CLOVER",
+    "code": "1218",
+    "hex": "#5A81A9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WALNUT CREAM",
+    "code": "8778",
+    "hex": "#D4C2B2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PISCES",
+    "code": "8474",
+    "hex": "#D0C7BC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EARTH SONG",
+    "code": "8550",
+    "hex": "#8A6E59"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DAWN",
+    "code": "469",
+    "hex": "#D3B9A3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LILAC ELEGANCE",
+    "code": "8218",
+    "hex": "#D0C7C6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FRESH SPROUT",
+    "code": "7777",
+    "hex": "#E1DE9D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Lime Burst-N",
+    "code": "9857",
+    "hex": "#E1C432"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WILD MINT",
+    "code": "7545",
+    "hex": "#99CCBE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PRESSED LINEN",
+    "code": "L150",
+    "hex": "#F6F0E3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSE BUD",
+    "code": "8035",
+    "hex": "#FBE2D6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WOOD FENCE",
+    "code": "8504",
+    "hex": "#BEA57E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ANTIQUE BRASS",
+    "code": "8581",
+    "hex": "#805D47"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ITALIAN OLIVE",
+    "code": "7823",
+    "hex": "#D5C67C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALE SISAL",
+    "code": "L155",
+    "hex": "#F5F2E6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VINE YARD",
+    "code": "8709",
+    "hex": "#7A4F58"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SURF GREEN",
+    "code": "266",
+    "hex": "#88D4B7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUN DIAL",
+    "code": "7928",
+    "hex": "#F8D096"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BEIGE ACCENT",
+    "code": "8505",
+    "hex": "#D1BA96"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HONEY MUSTARD",
+    "code": "7880",
+    "hex": "#EBCB8E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COLD CANDY",
+    "code": "5132",
+    "hex": "#F0C3B2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SKY MIMIC",
+    "code": "7420",
+    "hex": "#E7EBE5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSE WINDOW",
+    "code": "8145",
+    "hex": "#E8C2D4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BEAUTIFUL BERRY",
+    "code": "7218",
+    "hex": "#CCD3E3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSE BLUSH",
+    "code": "5232",
+    "hex": "#EBE3D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COLD FLINT",
+    "code": "8289",
+    "hex": "#9FA5A7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SNAPPY GREEN",
+    "code": "7712",
+    "hex": "#CCD69A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALE ORCHID",
+    "code": "7231",
+    "hex": "#808DA0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CERAMIC",
+    "code": "3122",
+    "hex": "#EBCFB3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MAIDEN PINK",
+    "code": "8129",
+    "hex": "#F0BED2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Parakeet Green-N",
+    "code": "9812",
+    "hex": "#B4BB2E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORANGE VISION",
+    "code": "X110",
+    "hex": "#FB9C31"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CANDLE WICK",
+    "code": "7907",
+    "hex": "#F6EBCD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DULL BIRCH",
+    "code": "8454",
+    "hex": "#7D6E5D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VIOLET VISTA",
+    "code": "7226",
+    "hex": "#B7BFD3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WISTERIA WISH",
+    "code": "7145",
+    "hex": "#C3B7C7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORANGE ESSENCE",
+    "code": "8009",
+    "hex": "#F4C6A9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSE MEADOWS",
+    "code": "9406",
+    "hex": "#C7686A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VINTAGE WINE",
+    "code": "8695",
+    "hex": "#A48289"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICE PACK",
+    "code": "7611",
+    "hex": "#D0EAD4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOUND OF NATURE",
+    "code": "7672",
+    "hex": "#BCD1A1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SAGE SENSATION",
+    "code": "7664",
+    "hex": "#C2DD9F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PIECE OF SKY",
+    "code": "7304",
+    "hex": "#6C90A9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RED MARBLE",
+    "code": "5226",
+    "hex": "#CCA692"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ENERGY",
+    "code": "7230",
+    "hex": "#626B7D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BAKED BISCUIT",
+    "code": "8579",
+    "hex": "#E7CEB8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PRISTINE LINEN",
+    "code": "L153",
+    "hex": "#F0ECDE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BASHFUL BEIGE",
+    "code": "8002",
+    "hex": "#FCD8BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FRENCH ROSE",
+    "code": "8168",
+    "hex": "#D2A9CD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RICH DESIRE",
+    "code": "8127",
+    "hex": "#E191B2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEACH FLUTTER",
+    "code": "8001",
+    "hex": "#FDCCAE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREY BUCK",
+    "code": "8482",
+    "hex": "#D5CDB6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "OLIVE PATH",
+    "code": "7622",
+    "hex": "#6F8D6E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PETAL PINK",
+    "code": "8119",
+    "hex": "#D08E9A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VOLCANO",
+    "code": "578",
+    "hex": "#CD7B59"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOUTHERN SAND",
+    "code": "8780",
+    "hex": "#E6DBCF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GULF OF ADEN",
+    "code": "7490",
+    "hex": "#BADDD6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TAPESTRY",
+    "code": "972",
+    "hex": "#E3E5D1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAP OF HIMALAYA",
+    "code": "L186",
+    "hex": "#E8E8E2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Hint of Peach-N",
+    "code": "9909",
+    "hex": "#FCE2CB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NAUTILUS",
+    "code": "7411",
+    "hex": "#C4E3E6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPORTING GREEN",
+    "code": "7741",
+    "hex": "#ADB328"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SHY IRIS",
+    "code": "7220",
+    "hex": "#EEECE7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLUSH",
+    "code": "L139",
+    "hex": "#F7EBE0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CORAL SHELL",
+    "code": "951",
+    "hex": "#F7E4CB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNLIT SAND",
+    "code": "7896",
+    "hex": "#FDD98B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FOLIAGE BLUE",
+    "code": "7459",
+    "hex": "#C0E3DE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FOREST WHISPER",
+    "code": "7656",
+    "hex": "#B5DCA5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICE AGE",
+    "code": "8299",
+    "hex": "#D7D3CD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUMMER HARVEST",
+    "code": "7921",
+    "hex": "#FEDDA2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Menthol Ice-N",
+    "code": "9787",
+    "hex": "#CCE4AA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICE CUBE",
+    "code": "7233",
+    "hex": "#B0BAC8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FLAWLESS PEACH",
+    "code": "8011",
+    "hex": "#F8DCC5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TROPICAL SEA",
+    "code": "7416",
+    "hex": "#92B6BF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HURRICANE",
+    "code": "8369",
+    "hex": "#A2ACA3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PRAIRIE ISLAND",
+    "code": "8631",
+    "hex": "#C17C6D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ALMOND SAND",
+    "code": "8512",
+    "hex": "#BCA381"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TRUFFLE",
+    "code": "8635",
+    "hex": "#F8DCCF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TIMBER RIDGE",
+    "code": "8633",
+    "hex": "#E5A996"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Hobakjuk Yellow-N",
+    "code": "9893",
+    "hex": "#F29C32"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINK BIB",
+    "code": "8034",
+    "hex": "#FBD4C6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CANDLE LIGHT",
+    "code": "7900",
+    "hex": "#F7F0D7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MISTY ROSE",
+    "code": "8745",
+    "hex": "#BBA8A4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "OCTOBER SKY",
+    "code": "8251",
+    "hex": "#D1D0D0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CRUSADE-N",
+    "code": "684",
+    "hex": "#DAD5C7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NUT BROWN-N",
+    "code": "419",
+    "hex": "#735346"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPRING PETALS",
+    "code": "8171",
+    "hex": "#ECD8E3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TICKLED PINK",
+    "code": "7113",
+    "hex": "#E0C1DE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CREAM",
+    "code": "307",
+    "hex": "#F1E3C8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GERANIUM",
+    "code": "509",
+    "hex": "#B1554F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TRANQUIL GREEN",
+    "code": "8388",
+    "hex": "#E6E7D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ITALIAN IRIS",
+    "code": "7144",
+    "hex": "#ACA6B8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLUE CHARM",
+    "code": "7248",
+    "hex": "#94B3D8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Lilac Feather-N",
+    "code": "9630",
+    "hex": "#C6C3DC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "POLISHED BLUE",
+    "code": "X149",
+    "hex": "#007681"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FIRST FROST",
+    "code": "8316",
+    "hex": "#DADBD4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPARROW FEATHER",
+    "code": "8659",
+    "hex": "#D9C9C0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DOUBLE CREAM",
+    "code": "L134",
+    "hex": "#F0EADA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BUTTER RUM",
+    "code": "8456",
+    "hex": "#B0A494"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CHAPEL GREY",
+    "code": "8441",
+    "hex": "#B0A89D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MARBLE QUARRY",
+    "code": "8425",
+    "hex": "#ACAB9D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHITENER",
+    "code": "8476",
+    "hex": "#E9E3D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GLACIER RIDGE",
+    "code": "8428",
+    "hex": "#E9E5DA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SANDSTONE",
+    "code": "3211",
+    "hex": "#A48B77"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALE IVORY",
+    "code": "7892",
+    "hex": "#F3E8D1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUN SCREEN",
+    "code": "7868",
+    "hex": "#F7F2DA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ZINNIA BLOOM",
+    "code": "8716",
+    "hex": "#EFE3DF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BRANDY",
+    "code": "4115",
+    "hex": "#A78E85"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CUSTARD APPLE",
+    "code": "7964",
+    "hex": "#F8EED9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLADE OF GRASS",
+    "code": "7566",
+    "hex": "#36B07F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FLUSHED BROWN",
+    "code": "8611",
+    "hex": "#EFC7B5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICY PEAK",
+    "code": "L109",
+    "hex": "#E7E5DA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MYSTIC SKY",
+    "code": "8212",
+    "hex": "#EAE3DF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AUTUMN DAY",
+    "code": "8252",
+    "hex": "#DADBD9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GRANITE",
+    "code": "630",
+    "hex": "#68747B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PLUTO",
+    "code": "7301",
+    "hex": "#404F62"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MOCCASIN",
+    "code": "8763",
+    "hex": "#D9CCC0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Surajmukhi-I",
+    "code": "X219",
+    "hex": "#F9AD30"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WILD MUSHROOM",
+    "code": "8472",
+    "hex": "#A8A097"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ASH GREY",
+    "code": "603",
+    "hex": "#BAC4BF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ARMOUR-N",
+    "code": "686",
+    "hex": "#B8BABD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAKE PLACID",
+    "code": "7679",
+    "hex": "#9EB38B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINK CARNATION",
+    "code": "8080",
+    "hex": "#E5A3A5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CREAM TONE",
+    "code": "7996",
+    "hex": "#F7EEDF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AQUA HINT",
+    "code": "L114",
+    "hex": "#DFEDE6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GOLD RUSH",
+    "code": "X101",
+    "hex": "#DBB032"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSETTE",
+    "code": "8050",
+    "hex": "#FDD8D0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLUE LIGHT",
+    "code": "7531",
+    "hex": "#C1E4DB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HIP PURPLE",
+    "code": "8197",
+    "hex": "#584454"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINK LINEN",
+    "code": "8056",
+    "hex": "#F3B2AF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUN SHADOW",
+    "code": "7878",
+    "hex": "#CFA452"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FAWN",
+    "code": "0N05",
+    "hex": "#D1C5BC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DRY ACORN",
+    "code": "8584",
+    "hex": "#AF8E79"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ETHNIC BROWN",
+    "code": "8589",
+    "hex": "#A16646"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSY VIEW",
+    "code": "8172",
+    "hex": "#EEE0E3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MEMORIES",
+    "code": "8580",
+    "hex": "#EFDFCE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICE GREY",
+    "code": "8259",
+    "hex": "#E0E0DC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MILKSHAKE",
+    "code": "8012",
+    "hex": "#F9E4D1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CHINESE TEA",
+    "code": "7809",
+    "hex": "#D0C38F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EXOTIC SPICE",
+    "code": "8018",
+    "hex": "#F4CCB1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIMON",
+    "code": "7778",
+    "hex": "#EAE8BA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CAMBRIDGE",
+    "code": "8771",
+    "hex": "#DACFC4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YELLOW GLEAM",
+    "code": "7939",
+    "hex": "#F5E9D3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SEA SURF",
+    "code": "7442",
+    "hex": "#9EDCDF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINK CRUSH",
+    "code": "8033",
+    "hex": "#F9C5B5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RHINESTONE",
+    "code": "740",
+    "hex": "#BCC1BC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SENSIBILITY",
+    "code": "8267",
+    "hex": "#BFCACC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ENGLISH CASTLE",
+    "code": "8760",
+    "hex": "#968C82"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAGUNA BEACH",
+    "code": "7560",
+    "hex": "#8BB8A6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CAIRO BAZAAR",
+    "code": "8565",
+    "hex": "#86624A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CASHMERE-N",
+    "code": "3119",
+    "hex": "#E9DEC1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAVENDER HUSH",
+    "code": "8219",
+    "hex": "#DDD4D2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Amber Teak-N",
+    "code": "9923",
+    "hex": "#AF5E3F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SULTRY",
+    "code": "9383",
+    "hex": "#BEB57C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RASPBERRY CRUSH",
+    "code": "X130",
+    "hex": "#804E55"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Green Elaichi-N",
+    "code": "9780",
+    "hex": "#ABC47F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FRESH MINT",
+    "code": "7516",
+    "hex": "#D1EBE1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CLEAR SKY",
+    "code": "8275",
+    "hex": "#CDD8D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROYAL MAUVE",
+    "code": "7149",
+    "hex": "#5E506C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DESERT GLOW",
+    "code": "7910",
+    "hex": "#FEC547"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PURPLE ILLUSION",
+    "code": "7143",
+    "hex": "#898195"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HYACINTH MIST",
+    "code": "7210",
+    "hex": "#C8CEE4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEACH BLOSSOM",
+    "code": "8122",
+    "hex": "#EDC4CB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DANCING DEER",
+    "code": "8657",
+    "hex": "#C2AEA5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SALT WHITE",
+    "code": "L163",
+    "hex": "#F0EFEA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILENCE",
+    "code": "L158",
+    "hex": "#EDE7DC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MEADOW LARK",
+    "code": "8499",
+    "hex": "#E7DDCC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILVER COMET",
+    "code": "L125",
+    "hex": "#F6F0DE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SKIMMED CREAM",
+    "code": "L122",
+    "hex": "#F3EFE1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HILL AND VALE",
+    "code": "X156",
+    "hex": "#39734F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BRAZEN BREEZE",
+    "code": "7385",
+    "hex": "#A5C0C5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FIRE GLOBE",
+    "code": "7950",
+    "hex": "#FEAF48"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CASABLANCA",
+    "code": "7927",
+    "hex": "#EFBD74"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PARROT GREEN",
+    "code": "7661",
+    "hex": "#74AB37"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIGHT CHROME",
+    "code": "7963",
+    "hex": "#FBEBCE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TERRACE GARDEN",
+    "code": "7607",
+    "hex": "#77B98B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "JADE GREEN",
+    "code": "2435",
+    "hex": "#437D4C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BRAZEN GOLD",
+    "code": "7831",
+    "hex": "#F0D579"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIQUID LIGHT",
+    "code": "7915",
+    "hex": "#FAEFD3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOFT SILK",
+    "code": "L160",
+    "hex": "#ECE5D8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COLONIAL BLUE",
+    "code": "X144",
+    "hex": "#3C5370"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOUTH POLE",
+    "code": "L141",
+    "hex": "#F3E9DD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RICH CHOCOLATE",
+    "code": "8645",
+    "hex": "#6B5044"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAVENDER LACE",
+    "code": "7156",
+    "hex": "#ECE6E4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WATERFALL",
+    "code": "0G23",
+    "hex": "#D3E6D6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ANTIMONY",
+    "code": "8309",
+    "hex": "#4C4F4C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPOTLESS",
+    "code": "L169",
+    "hex": "#EEEEE8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STONE STEPS",
+    "code": "8426",
+    "hex": "#C4C0B0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MAUVE STAR",
+    "code": "8746",
+    "hex": "#C9B9B4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FRESH FUEL",
+    "code": "9516",
+    "hex": "#E7DECF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MOON BEAM",
+    "code": "949",
+    "hex": "#EFE0C7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHEAT SPRIG",
+    "code": "7891",
+    "hex": "#F0DFBE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINK BLOOM",
+    "code": "8714",
+    "hex": "#D6B9BD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FOREST MUSK",
+    "code": "7667",
+    "hex": "#EAEDD6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "AVALANCHE",
+    "code": "8412",
+    "hex": "#ECEADC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BURNISHED SUN",
+    "code": "7919",
+    "hex": "#FEC267"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STORMY SEA",
+    "code": "7303",
+    "hex": "#5B7E98"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LOUD LIME",
+    "code": "X159",
+    "hex": "#7AA834"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CRIMSON DEPTH",
+    "code": "X123",
+    "hex": "#914048"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINE-N",
+    "code": "757",
+    "hex": "#4B6B5A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FAR HORIZONS",
+    "code": "7296",
+    "hex": "#85A8C0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNNY SIDE UP",
+    "code": "7946",
+    "hex": "#FEE7BA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Crystal Reef-N",
+    "code": "9709",
+    "hex": "#6EA1A8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "IVY LEAGUE",
+    "code": "7585",
+    "hex": "#ADD2BC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MILK CHOCOLATE",
+    "code": "8537",
+    "hex": "#D1B296"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TREE OF LIFE",
+    "code": "7691",
+    "hex": "#D7DCC4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HIDDEN RAVINE",
+    "code": "8393",
+    "hex": "#A3A99C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HUSHED HUE",
+    "code": "7771",
+    "hex": "#EEEBC8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "QUARTZ ILLUSION",
+    "code": "7162",
+    "hex": "#D9D0E3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOLITUDE",
+    "code": "9228",
+    "hex": "#D1E3E3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "OCEAN BREEZE",
+    "code": "7504",
+    "hex": "#72CECB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOFT BLUE",
+    "code": "9210",
+    "hex": "#ABDAE9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WINTER SKY",
+    "code": "8314",
+    "hex": "#B1B8B4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HABITAT",
+    "code": "7720",
+    "hex": "#C4C499"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WARM GLOW",
+    "code": "7967",
+    "hex": "#EFB27C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GRAZING LAND",
+    "code": "8394",
+    "hex": "#BCC1B2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EMPHASIS",
+    "code": "7357",
+    "hex": "#265D7A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOFT GLOW",
+    "code": "952",
+    "hex": "#E9DFD2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SNOW FALL",
+    "code": "8475",
+    "hex": "#DDD4CA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "spring time",
+    "code": "9211",
+    "hex": "#D4E8E9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHITE ECHO",
+    "code": "L112",
+    "hex": "#EBEEE4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SCUBA BLUE",
+    "code": "7273",
+    "hex": "#A2BFD9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPLASH",
+    "code": "7345",
+    "hex": "#95C5DC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOFT LINEN",
+    "code": "7884",
+    "hex": "#F9F0D8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STILL AQUA",
+    "code": "7480",
+    "hex": "#84A8A8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ALLIANCE",
+    "code": "1203",
+    "hex": "#C6D7D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNNY SANDS",
+    "code": "7874",
+    "hex": "#F9E9C0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SILENT NIGHT",
+    "code": "8254",
+    "hex": "#5D646A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSY CORAL",
+    "code": "8031",
+    "hex": "#EC9D8D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DAMASK ROSE",
+    "code": "8134",
+    "hex": "#B2708E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SEAGULL POINT",
+    "code": "L113",
+    "hex": "#E8EEE4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SAND BED",
+    "code": "7980",
+    "hex": "#F7EBD7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUMMER YELLOW",
+    "code": "7863",
+    "hex": "#FEE27B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WATER JET",
+    "code": "9209",
+    "hex": "#78C6E6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAVENDER DEW",
+    "code": "941",
+    "hex": "#E9DFD9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "INNER PEACE",
+    "code": "7443",
+    "hex": "#C6E6E4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "JUNGLE CANE",
+    "code": "7793",
+    "hex": "#BEB792"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICED KIWI",
+    "code": "7569",
+    "hex": "#98DFC4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COOL WATER",
+    "code": "8407",
+    "hex": "#8A8D75"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "OLD BRICK",
+    "code": "8613",
+    "hex": "#8A5443"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MELON SORBET",
+    "code": "7993",
+    "hex": "#FED6B4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIME ACCENT",
+    "code": "7727",
+    "hex": "#B4BF7E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "COPPER MOON",
+    "code": "8013",
+    "hex": "#AC6649"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Rainforest Walk-N",
+    "code": "9765",
+    "hex": "#337E4D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MANOR BLUE-N",
+    "code": "195",
+    "hex": "#A1C5CD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Cucumber Cooler-N",
+    "code": "9779",
+    "hex": "#D5E8AA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GOLF GREENS",
+    "code": "7765",
+    "hex": "#A09E3B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALE MOSS",
+    "code": "7721",
+    "hex": "#D1D3A9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GARDEN PARTY",
+    "code": "8381",
+    "hex": "#5C644E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MAIZE STALK",
+    "code": "7903",
+    "hex": "#F9CE76"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAND'S END",
+    "code": "7610",
+    "hex": "#B5E1C5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORANGE FROST",
+    "code": "7978",
+    "hex": "#FDE4C2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ASHBERRY",
+    "code": "7366",
+    "hex": "#486E81"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BOTTLED OLIVES",
+    "code": "8502",
+    "hex": "#A6895E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "OYSTER GREY",
+    "code": "8473",
+    "hex": "#C5BCB0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TWILIGHT ZONE",
+    "code": "7325",
+    "hex": "#275C91"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WINDSOR CREAM",
+    "code": "989",
+    "hex": "#F1E0D1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MUTED SCARLET",
+    "code": "8167",
+    "hex": "#C698C0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PIPE DREAM",
+    "code": "L154",
+    "hex": "#F6F3E7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORANGE CRUSH",
+    "code": "7959",
+    "hex": "#FEB969"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GEM STONE",
+    "code": "7172",
+    "hex": "#E9E6E8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LEMON BURST",
+    "code": "7864",
+    "hex": "#FEE795"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MORNING FROST",
+    "code": "7361",
+    "hex": "#82C5DD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LILAC DASH",
+    "code": "8210",
+    "hex": "#D3C4C8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WARM SANDS",
+    "code": "8641",
+    "hex": "#D4A69A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MARTIAN SKY",
+    "code": "7952",
+    "hex": "#FECE8B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "QUIET HUSH",
+    "code": "8136",
+    "hex": "#DDAEC2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TWINKLING STAR",
+    "code": "8466",
+    "hex": "#C7BDAD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MARINE GREEN",
+    "code": "7514",
+    "hex": "#A8E4DB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PRINCESS PURPLE",
+    "code": "7193",
+    "hex": "#A3A5B9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SAND CLOCK",
+    "code": "8586",
+    "hex": "#DBBBA5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINK COMPACT",
+    "code": "8697",
+    "hex": "#D1B0B4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VOLTAGE",
+    "code": "8264",
+    "hex": "#778790"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPARKLING WATER",
+    "code": "7482",
+    "hex": "#B5D1CD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HARBOR FOG",
+    "code": "7369",
+    "hex": "#96BDCC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MUD HOUSE",
+    "code": "8656",
+    "hex": "#AC9993"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PURPLE ROBE",
+    "code": "7214",
+    "hex": "#6A7FB7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DAISY BUNCH",
+    "code": "8106",
+    "hex": "#E5BEC0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NOAH'S ARK",
+    "code": "8704",
+    "hex": "#CCA5AE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPRING SEASON",
+    "code": "8706",
+    "hex": "#E7C7CB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VITALITY",
+    "code": "7472",
+    "hex": "#83B1B5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BURNISHED GREY",
+    "code": "8327",
+    "hex": "#74766F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROSE GLOW",
+    "code": "8049",
+    "hex": "#FAC9C1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EASTER LILY",
+    "code": "8532",
+    "hex": "#EFE0CB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RUNNING STREAM",
+    "code": "7408",
+    "hex": "#57B9D1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SPIRIT WIND",
+    "code": "8372",
+    "hex": "#E8E8DE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PURITY-N",
+    "code": "766",
+    "hex": "#EFEAE6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DELICATE DOLL",
+    "code": "7203",
+    "hex": "#D5D5E0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CRISP LETTUCE",
+    "code": "7665",
+    "hex": "#D0E5B2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GLORIOUS SUNSET",
+    "code": "X111",
+    "hex": "#F38933"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEARL STAR",
+    "code": "L103",
+    "hex": "#F3EDE0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BALSAM BROWN",
+    "code": "8520",
+    "hex": "#CBA479"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Macaroon Pink-N",
+    "code": "9990",
+    "hex": "#E6AB9B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DIGITAL GREY",
+    "code": "8471",
+    "hex": "#867D72"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Lime Sublime-N",
+    "code": "9802",
+    "hex": "#D3E388"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINK MUSING",
+    "code": "8202",
+    "hex": "#D1BDC8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SMOKY MOUNTAIN",
+    "code": "8433",
+    "hex": "#A7A59C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICED SILVER",
+    "code": "8236",
+    "hex": "#E7E4DF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EARL GREY",
+    "code": "8753",
+    "hex": "#A79B95"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNBAKED CLAY",
+    "code": "8617",
+    "hex": "#D4A597"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORANGE SPARK",
+    "code": "7951",
+    "hex": "#FEBA5E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BUTTERCUP-N",
+    "code": "336",
+    "hex": "#DEBC97"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WATER'S EDGE",
+    "code": "8274",
+    "hex": "#B4C6CC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "lovely lavender",
+    "code": "9468",
+    "hex": "#DBD9D8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "APRICOT-N",
+    "code": "501",
+    "hex": "#C9A995"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLANK SLATE",
+    "code": "7386",
+    "hex": "#B5CED3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HIDDEN SPRINGS",
+    "code": "7358",
+    "hex": "#238CB0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ANTARTICA",
+    "code": "8464",
+    "hex": "#988F81"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Walnut bark-N",
+    "code": "9932",
+    "hex": "#7B594F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "KESAR MILK",
+    "code": "7962",
+    "hex": "#FBE3BD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DARK DRAMA",
+    "code": "7677",
+    "hex": "#5F7549"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HIDDEN HILLS",
+    "code": "7662",
+    "hex": "#94C261"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CRYSTAL BEACH",
+    "code": "8596",
+    "hex": "#F3E5D4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ELM GROVE",
+    "code": "7453",
+    "hex": "#196A6D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DESERT SUN",
+    "code": "7938",
+    "hex": "#F8E1BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BERRY BLUSH",
+    "code": "7217",
+    "hex": "#B8C3E2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GARLIC POD",
+    "code": "8524",
+    "hex": "#F3E5CC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Gerua-I",
+    "code": "X196",
+    "hex": "#9E5639"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "JET STREAM",
+    "code": "7300",
+    "hex": "#E2E8E5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CORSICAN SKY",
+    "code": "7305",
+    "hex": "#8FADC1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STONE AGE",
+    "code": "8288",
+    "hex": "#838A8B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ICELAND",
+    "code": "763",
+    "hex": "#EBEDE4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RAVEN SONG",
+    "code": "8253",
+    "hex": "#40403F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SOUND OF MUSIC",
+    "code": "8756",
+    "hex": "#DBD1C8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YELLOW METAL",
+    "code": "7920",
+    "hex": "#FED18C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BRICK PILE",
+    "code": "8595",
+    "hex": "#F2D4B9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MENTHOL",
+    "code": "L116",
+    "hex": "#E7EFE2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PINE NUT",
+    "code": "3196",
+    "hex": "#EBDEC7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WAKING EARTH",
+    "code": "8612",
+    "hex": "#F2DBCC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DESERT BLOOM",
+    "code": "8081",
+    "hex": "#F0B5B6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUMMER BLUSH-N",
+    "code": "945",
+    "hex": "#EADED5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Clematis Pink-N",
+    "code": "K048",
+    "hex": "#C3B3BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YELLOW TULIP",
+    "code": "7912",
+    "hex": "#FEE19D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Matcha Muffin-N",
+    "code": "9773",
+    "hex": "#97C15B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROYAL CREST",
+    "code": "8216",
+    "hex": "#ABA3A7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREEN SLEEVES-N",
+    "code": "2420",
+    "hex": "#C9D7B9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHITE BUTTER",
+    "code": "L164",
+    "hex": "#EAE7E1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MANGO",
+    "code": "7909",
+    "hex": "#FEB600"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LAKESHORE",
+    "code": "7779",
+    "hex": "#EEE9C4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HERBAL PACK",
+    "code": "8602",
+    "hex": "#DEBBA3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PURPLE HEART",
+    "code": "7206",
+    "hex": "#6977B0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Creme Anglaise-N",
+    "code": "9887",
+    "hex": "#FEDD86"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Seagull Bay-N",
+    "code": "K122",
+    "hex": "#B3B3AF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ALPINE",
+    "code": "1205",
+    "hex": "#E0E7E0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "French Bean-N",
+    "code": "9821",
+    "hex": "#869E45"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "POWDER PUFF",
+    "code": "7972",
+    "hex": "#F6F0E1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CLIMBING ROSE",
+    "code": "8096",
+    "hex": "#F7B4C3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CAMP FIRE",
+    "code": "X114",
+    "hex": "#EF6F38"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MEHENDI-N",
+    "code": "2361",
+    "hex": "#5A6D52"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Reindeer Coat-N",
+    "code": "K209",
+    "hex": "#75574A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FAIRYTALE",
+    "code": "7251",
+    "hex": "#DBE4E8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ocean Electric-N",
+    "code": "9671",
+    "hex": "#49B6CA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STUDY IN SCARLET",
+    "code": "7114",
+    "hex": "#E7D0E2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NATURAL CREAM",
+    "code": "8483",
+    "hex": "#E9E2D3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALE CHIFFON",
+    "code": "7155",
+    "hex": "#E8E1E4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Dragonfruit Pink-N",
+    "code": "K019",
+    "hex": "#C9638A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SAPPHIRE ICE",
+    "code": "7474",
+    "hex": "#B0CFCC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREY CLOUD",
+    "code": "8423",
+    "hex": "#8E8E80"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Stallion Brown-N",
+    "code": "K217",
+    "hex": "#655046"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Mariner�s Muse-N",
+    "code": "9667",
+    "hex": "#1D739D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNNY DAY",
+    "code": "7894",
+    "hex": "#F9C455"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WOODEN CHEST",
+    "code": "8774",
+    "hex": "#7E6B5E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NACHO CHEESE",
+    "code": "7970",
+    "hex": "#FCDEBB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MANGO DUET",
+    "code": "7977",
+    "hex": "#FEDBB0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FERNWOOD",
+    "code": "8402",
+    "hex": "#C1C1AF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DESERT PALM",
+    "code": "8467",
+    "hex": "#D6CCBD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VIOLET SAGA",
+    "code": "X139",
+    "hex": "#704964"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RUDDY PINK",
+    "code": "8057",
+    "hex": "#F9C5C4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YOUNG GREEN",
+    "code": "7808",
+    "hex": "#BFB278"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VIRGIN LACE",
+    "code": "L107",
+    "hex": "#EEE9E2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YELLOW IRIS",
+    "code": "7937",
+    "hex": "#F8D6A6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "STAR GAZE",
+    "code": "7364",
+    "hex": "#D9E7E6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GOLD STANDARD",
+    "code": "8517",
+    "hex": "#9C744A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NEON LIGHT",
+    "code": "7776",
+    "hex": "#E1DD84"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Cairo Blue-N",
+    "code": "9653",
+    "hex": "#26638E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MAINSTREAM",
+    "code": "7491",
+    "hex": "#DBE8E0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEACH BEACH",
+    "code": "8010",
+    "hex": "#F8D1B5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MIDNIGHT INTERLUDE",
+    "code": "X141",
+    "hex": "#5C4B6A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREEN TROPICS",
+    "code": "7486",
+    "hex": "#4B8883"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHITE CAMEO",
+    "code": "L145",
+    "hex": "#F7F0E6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ENGLISH ELMS",
+    "code": "2387",
+    "hex": "#C7DBB1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MINESHAFT",
+    "code": "8285",
+    "hex": "#484A48"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TINGE OF ROSE",
+    "code": "8084",
+    "hex": "#F5E6E1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ALMOND WHITE",
+    "code": "8692",
+    "hex": "#EAD7D3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CASPIAN SEA",
+    "code": "7294",
+    "hex": "#4C7390"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROASTED SESAME",
+    "code": "7975",
+    "hex": "#FEAF6C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HARMONY",
+    "code": "L147",
+    "hex": "#F3EADB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SAFFRON SMILE",
+    "code": "7872",
+    "hex": "#FEE495"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SWEET CORN",
+    "code": "4214",
+    "hex": "#E0CDAE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Nagaon Beach-N",
+    "code": "K161",
+    "hex": "#837F75"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CHEER UP",
+    "code": "8710",
+    "hex": "#90676C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "INTENSE PURPLE",
+    "code": "7166",
+    "hex": "#7D7CAB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NICKEL GREY",
+    "code": "6126",
+    "hex": "#C1BBAE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HERB BOUQUET",
+    "code": "8417",
+    "hex": "#AFB69C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNSET BEACH",
+    "code": "7992",
+    "hex": "#FEBE98"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FISHERMAN'S WHARF",
+    "code": "8342",
+    "hex": "#617571"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PERENNIAL GLADE",
+    "code": "7525",
+    "hex": "#266A61"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CLASSIC PURPLE",
+    "code": "7207",
+    "hex": "#8C98C9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ORCHARD PLUM",
+    "code": "8198",
+    "hex": "#866D7F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "KITCHEN GARDEN",
+    "code": "7821",
+    "hex": "#A1953E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "TWILIGHT SEA",
+    "code": "7439",
+    "hex": "#2DB1BE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SEA SHELL ROSE",
+    "code": "8711",
+    "hex": "#A8818B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CARROT PUNCH",
+    "code": "8023",
+    "hex": "#F79E81"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MUSTARD",
+    "code": "7901",
+    "hex": "#EDAB2A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Gulmarg Winters-N",
+    "code": "9656",
+    "hex": "#C3E1EA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CAMEL",
+    "code": "8650",
+    "hex": "#CCB4A8"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MILAN RED",
+    "code": "8101",
+    "hex": "#7F4C4F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BROWN TAN",
+    "code": "8535",
+    "hex": "#AF8C6B"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MUGHAL BLUE",
+    "code": "7359",
+    "hex": "#4BA1C3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "JUNGLE TRAIL",
+    "code": "7565",
+    "hex": "#0D8B5A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LITTLE CREEK",
+    "code": "7606",
+    "hex": "#60A16C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SIGNAL RED",
+    "code": "520",
+    "hex": "#B83F3E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NURSERY PINK",
+    "code": "8058",
+    "hex": "#FACDCA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DUSK CLOUD",
+    "code": "8287",
+    "hex": "#6A6F6F"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLUE DAWN",
+    "code": "7275",
+    "hex": "#C6D6E1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Red Rust-N",
+    "code": "9937",
+    "hex": "#C76944"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Peas Soup-N",
+    "code": "9819",
+    "hex": "#C0D05E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Lilac Linen-N",
+    "code": "K285",
+    "hex": "#D1C2DF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MINT LUSTRE",
+    "code": "L120",
+    "hex": "#EEEEDF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ARABIAN SAND",
+    "code": "L133",
+    "hex": "#F1E7D4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "VANILLA ICE",
+    "code": "7836",
+    "hex": "#F3EEDA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MISTY SPRING",
+    "code": "7658",
+    "hex": "#D4E8C4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "DUSKY SAFFRON",
+    "code": "7981",
+    "hex": "#D78143"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MOONLIGHT",
+    "code": "L121",
+    "hex": "#F3EFDC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "fruit pink",
+    "code": "9407",
+    "hex": "#DB878D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Sky Tint-N",
+    "code": "K100",
+    "hex": "#D5D7D7"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHITE SILK",
+    "code": "L171",
+    "hex": "#ECECE4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PAMPERED PINK",
+    "code": "8696",
+    "hex": "#BD9DA3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MISTY MEADOW",
+    "code": "7668",
+    "hex": "#EFEFDE"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CORAL ROCKS",
+    "code": "8019",
+    "hex": "#F7DCC6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHITE CANVAS",
+    "code": "L157",
+    "hex": "#EDE7DB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MOON CRATER",
+    "code": "8248",
+    "hex": "#7F858E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PLEASANT BLUE",
+    "code": "7457",
+    "hex": "#8BCFD1"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CUCUMBER SALAD",
+    "code": "7745",
+    "hex": "#E7E9B3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PALLID VIOLET",
+    "code": "7185",
+    "hex": "#BCB7C3"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ROYAL WAVE",
+    "code": "X143",
+    "hex": "#434F65"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CANDY FLOSS",
+    "code": "9426",
+    "hex": "#EFCFE4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "SUNDERBANS",
+    "code": "8519",
+    "hex": "#BC9161"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FRESH OLIVE",
+    "code": "7725",
+    "hex": "#819041"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "RETRO AVOCADO",
+    "code": "7791",
+    "hex": "#9E9367"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "QUIET REFUGE",
+    "code": "7306",
+    "hex": "#ABC6D6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Dhund-N",
+    "code": "K075",
+    "hex": "#B6B1AF"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Mango Mastani-N",
+    "code": "9919",
+    "hex": "#FEAF77"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREEN TOMATO",
+    "code": "7730",
+    "hex": "#DFE4BC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLUE GLORY",
+    "code": "7247",
+    "hex": "#739BCB"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "ABSOLUTE WHITE",
+    "code": "L161",
+    "hex": "#F3F2EC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BLISSFUL BLUE",
+    "code": "7297",
+    "hex": "#A0C0D4"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CENTRE STAGE",
+    "code": "8045",
+    "hex": "#DB5849"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "INDIAN EARTH",
+    "code": "8688",
+    "hex": "#B39797"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "EDGE OF DAWN",
+    "code": "7216",
+    "hex": "#9FAED6"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BURST OF SPRING",
+    "code": "7772",
+    "hex": "#EFECD0"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "YELLOW MARIGOLD",
+    "code": "7862",
+    "hex": "#FED64E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Pista Tinge-N",
+    "code": "9825",
+    "hex": "#E2E6AC"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "THUNDER CLOUD",
+    "code": "8261",
+    "hex": "#535456"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "PEANUT BUTTER",
+    "code": "8559",
+    "hex": "#C89E7D"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "FAWN DREAM",
+    "code": "8007",
+    "hex": "#E19A79"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIGHT BUFF",
+    "code": "362",
+    "hex": "#DBB79A"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "BURNT MALT",
+    "code": "8229",
+    "hex": "#4D4847"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "HONEY DEW",
+    "code": "7956",
+    "hex": "#F8EDD5"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "WHITE DELIGHT",
+    "code": "8436",
+    "hex": "#E9E4D9"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "GREEN PASTURES",
+    "code": "7609",
+    "hex": "#A4DBBA"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "LIGHT GREY",
+    "code": "6118",
+    "hex": "#8B958C"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "MOUNT OLYMPUS",
+    "code": "7152",
+    "hex": "#BBB1CD"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Gulabi-I",
+    "code": "X178",
+    "hex": "#CA6EA2"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "CINNAMON ROSE",
+    "code": "8672",
+    "hex": "#CB877E"
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "INK BLUE",
+    "code": "7246",
+    "hex": "#507BB2"
+  }
+]
