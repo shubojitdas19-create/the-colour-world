@@ -70,7 +70,7 @@ async function startExtraction() {
     state.progress = 0;
     uniqueProductUrls.clear();
 
-    logToDashboard("🚀 Starting FINAL Hybrid Crawler (V9)...");
+    logToDashboard("🚀 Starting FINAL Hybrid Crawler (V11)...");
 
     // PHASE 1: PUPPETEER (Harvest Links)
     logToDashboard("\n🌐 PHASE 1: Launching Browser to trigger JavaScript grids...");
@@ -99,7 +99,7 @@ async function startExtraction() {
                 const links = await page.evaluate(() => {
                     const found = new Set();
                     document.querySelectorAll('a').forEach(a => {
-                        const href = a.getAttribute('href');
+                        let href = a.getAttribute('href');
                         if (href && href.includes('.html')) {
                             if ((href.includes('/paint-products/') || 
                                  href.includes('/waterproofing-products/') || 
@@ -110,6 +110,9 @@ async function startExtraction() {
                                 !href.includes('/textures') && 
                                 !href.includes('/wallpapers') &&
                                 href.length > 35) {
+                                
+                                // Clean URL of any tracking parameters
+                                href = href.split('?')[0];
                                 found.add(href.startsWith('http') ? href : `https://www.asianpaints.com${href.startsWith('/') ? href : '/' + href}`);
                             }
                         }
@@ -153,33 +156,45 @@ async function startExtraction() {
 
             const $ = cheerio.load(html);
             
-            let name = $('h1').first().text().replace(/\s+/g, ' ').trim() || 
-                       $('h2').first().text().replace(/\s+/g, ' ').trim();
-            if (!name) {
+            // 🚨 DESTROY THE SHOPPING CART SO IT CANNOT INTERFERE 🚨
+            $('#header-minicart, .minicart-cart-header, .cart-items-wrapper, #unified-search-popup, .modal').remove();
+
+            let name = $('h1').first().text().replace(/\s+/g, ' ').trim();
+            if (!name || name.includes('{')) {
+                name = $('h2').first().text().replace(/\s+/g, ' ').trim();
+            }
+            if (!name || name.includes('{')) {
                 const urlParts = item.url.split('/');
                 name = urlParts[urlParts.length - 1].replace('.html', '').replace(/-/g, ' ').toUpperCase();
             }
 
-            let description = '';
-            $('.banner-desc-text p, .description p, .product-description p, .hero-banner-text p, .text p').each((_, el) => {
-                const text = $(el).text().replace(/\s+/g, ' ').trim();
-                if (text && text.length > 20 && !text.includes('{') && !text.includes('By proceeding') && !text.includes('Price per litre')) {
-                    description = text;
-                    return false; 
-                }
-            });
-
-            // FIX: Check for CSS background images if <img> is missing (for Exterior pages)
-            let image = $('.product-image img, .hero-image img, .product-img img, .shopForImg img').attr('src');
-            if (!image) {
-                const styleAttr = $('.product-image, .hero-image, .img-wrapper').attr('style');
-                if (styleAttr && styleAttr.includes('url(')) {
-                    image = styleAttr.split('url(')[1].split(')')[0].replace(/['"]/g, '');
-                }
+            // Extract Description strictly from Meta Tags first
+            let description = $('meta[property="og:description"]').attr('content') || $('meta[name="description"]').attr('content') || '';
+            if (!description) {
+                $('.banner-desc-text p, .description p, .product-description p, .hero-banner-text p, .text p').each((_, el) => {
+                    const text = $(el).text().replace(/\s+/g, ' ').trim();
+                    if (text && text.length > 20 && !text.includes('{') && !text.includes('By proceeding') && !text.includes('Price per litre')) {
+                        description = text;
+                        return false; 
+                    }
+                });
             }
-            if (image && !image.startsWith('http')) {
-                // Check if it's an absolute path missing the domain, or a relative path missing the protocol
-                image = image.startsWith('//') ? `https:${image}` : (image.startsWith('/') ? `https://www.asianpaints.com${image}` : image);
+
+            // Extract Image strictly from Meta Tags first (Fixes all missing images)
+            let image = $('meta[property="og:image"]').attr('content');
+            if (!image) {
+                image = $('picture img').first().attr('src') || $('picture source').first().attr('srcset');
+            }
+            if (!image) {
+                image = $('.product-image img, .hero-image img, .product-img img, .shopForImg img').attr('src');
+            }
+            
+            // Clean up srcset and relative paths
+            if (image) {
+                if (image.includes(',')) image = image.split(',')[0].split(' ')[0];
+                if (!image.startsWith('http')) {
+                    image = image.startsWith('//') ? `https:${image}` : (image.startsWith('/') ? `https://www.asianpaints.com${image}` : image);
+                }
             }
 
             const productDetails = {
@@ -188,7 +203,7 @@ async function startExtraction() {
                 category: item.category,
                 url: item.url,
                 image: image || '',
-                description: description,
+                description: description || '',
                 packSizes: [],
                 shades: [],
                 features: []
@@ -202,13 +217,9 @@ async function startExtraction() {
                 }
             });
 
-            // FIX: Broadened Price Extraction for Adhesives and Exterior
+            // Prices extraction
             $('.image-container figure, .pack-size-item, .size-container, .sku-details').each((_, el) => {
-                // Try .mrp-section first, fallback to generic .price if not inside the header-minicart
-                let mrpElement = $(el).find('.mrp-section, .price-val');
-                if (mrpElement.length === 0 && !$(el).closest('.minicart-cart-header').length) {
-                    mrpElement = $(el).find('.price');
-                }
+                let mrpElement = $(el).find('.mrp-section, .price-val, .price');
                 if (mrpElement.length === 0) return; 
                 
                 let priceText = mrpElement.text().replace(/\s+/g, ' ').trim();
@@ -254,8 +265,8 @@ async function startExtraction() {
                 });
             }
 
-            // FIX: Relaxed Validation. If it has a Name and is NOT the minicart, keep it.
-            if (productDetails.name && productDetails.name.length > 2 && productDetails.description.length > 10) {
+            // Relaxed Validation: Save if it has a real Name
+            if (productDetails.name && productDetails.name.length > 2 && !productDetails.name.includes("YOU HAVE")) {
                 state.allProducts.push(productDetails);
                 updateCategoryStat(item.category);
                 broadcast('product', productDetails);
@@ -281,7 +292,6 @@ async function startExtraction() {
 }
 
 const server = http.createServer((req, res) => {
-    // UI remains exactly the same
     if (req.url === '/') {
         res.writeHead(200, { 'Content-Type': 'text/html' });
         res.end(`
@@ -297,8 +307,8 @@ const server = http.createServer((req, res) => {
                 <div class="max-w-7xl mx-auto">
                     <header class="mb-8 flex justify-between items-end border-b border-zinc-800 pb-6">
                         <div>
-                            <h1 class="text-3xl font-serif mb-2 text-zinc-100">Hybrid Catalog Crawler (V9)</h1>
-                            <p class="text-zinc-400">Phase 1: Puppeteer Link Harvester | Phase 2: Relaxed Cheerio Deep Scraper</p>
+                            <h1 class="text-3xl font-serif mb-2 text-zinc-100">Hybrid Catalog Crawler (V11)</h1>
+                            <p class="text-zinc-400">Fixed Image & Description Engine (Extracting via Meta Tags)</p>
                         </div>
                         <button id="startBtn" class="bg-white text-black px-6 py-2.5 rounded-full font-bold hover:bg-zinc-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)]">
                             Start Full Extraction
@@ -351,7 +361,7 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.clear();
     console.log("==================================================");
-    console.log("🛒 HYBRID CRAWLER V9 READY (PORT " + PORT + ")");
+    console.log("🛒 HYBRID CRAWLER V11 READY (PORT " + PORT + ")");
     console.log("==================================================");
     console.log(`\n1️⃣  Open this link: http://localhost:${PORT}`);
 });
