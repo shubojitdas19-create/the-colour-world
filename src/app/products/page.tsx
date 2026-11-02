@@ -38,17 +38,22 @@ export default function ProductCatalogPage() {
     return ['All', ...Array.from(new Set(cats)).filter(Boolean).sort()]
   }, [])
 
-  // Filter Products (Search + Category)
+  // Filter Products (Search + Category + Real Products Only)
   const filteredProducts = useMemo(() => {
     return allProducts.filter(product => {
+      // 1. Basic Search and Category matching
       const matchesSearch = product.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
                             product.description.toLowerCase().includes(searchQuery.toLowerCase())
       const matchesCategory = selectedCategory === 'All' || product.category === selectedCategory
       
-      // Ensure we only show valid products
-      const isValid = product.name && (product.image || product.packSizes.length > 0)
+      // 2. Strict Product Validation:
+      // A "real" product must have Pack Sizes OR Features OR Shades. 
+      // If a page only has a name, image, and description, it is a generic category hub (like "Interior Wall Paints") and should be hidden.
+      const isRealProduct = product.packSizes.length > 0 || 
+                            product.features.length > 0 || 
+                            product.shades.length > 0;
 
-      return matchesSearch && matchesCategory && isValid
+      return matchesSearch && matchesCategory && isRealProduct
     })
   }, [searchQuery, selectedCategory])
 

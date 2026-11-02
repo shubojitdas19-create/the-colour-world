@@ -22,6 +22,9 @@ export function ProductClient({ product }: { product: any }) {
   const currentPrice = selectedVariant?.priceOverride ? Number(selectedVariant.priceOverride) : Number(product.basePrice)
   const comparePrice = product.discountPrice ? Number(product.discountPrice) : null
 
+  // 1. Logic to gracefully handle zero-price items
+  const isZeroPrice = currentPrice === 0;
+
   const cartProductData = {
     id: selectedVariant ? `${product.id}-${selectedVariant.id}` : product.id,
     name: selectedVariant ? `${product.name} - ${selectedVariant.title}` : product.name,
@@ -45,12 +48,11 @@ export function ProductClient({ product }: { product: any }) {
   ]
 
   return (
-    // FIX 1: Reduced top padding (pt-3 lg:pt-8) to close the gap below the header
     <div className="min-h-screen bg-background pt-3 lg:pt-8">
       
       <div className="mx-auto w-full max-w-[1700px] px-5 md:px-10 lg:px-16">
         
-        {/* Breadcrumbs - Reduced bottom margin */}
+        {/* Breadcrumbs */}
         <nav className="mb-4 flex items-center gap-2 text-[11px] font-medium text-muted-foreground sm:text-xs">
           <Link href="/shop" className="transition-colors hover:text-foreground">Shop</Link>
           <ChevronRight className="size-3" />
@@ -63,22 +65,32 @@ export function ProductClient({ product }: { product: any }) {
           
           {/* LEFT: Gallery */}
           <div className="w-full lg:sticky lg:top-32 lg:w-1/2 lg:shrink-0">
-            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border bg-muted sm:rounded-[2rem]">
-              <Image src={activeImage} alt={product.name} fill unoptimized priority className="object-cover" />
+            {/* 2. IMAGE FIX: Nested relative container prevents next/image blurriness caused by padding scaling */}
+            <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border bg-white sm:rounded-[2rem] flex items-center justify-center p-6 sm:p-14">
+              <div className="relative w-full h-full">
+                <Image 
+                  src={activeImage} 
+                  alt={product.name} 
+                  fill 
+                  unoptimized 
+                  priority 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-contain drop-shadow-2xl" 
+                />
+              </div>
             </div>
             
             {defaultMedia.length > 1 && (
-              // FIX 2: Reduced thumbnail top margin to tighten the space before the brand logo
               <div className="mt-3 flex gap-2 overflow-x-auto pb-1 [&::-webkit-scrollbar]:hidden">
                 {defaultMedia.map((m: any) => (
                   <button 
                     key={m.id} 
                     onClick={() => setActiveImage(m.url)}
-                    className={`relative size-16 shrink-0 overflow-hidden rounded-lg border-2 transition-all lg:size-20 ${
+                    className={`relative size-16 shrink-0 overflow-hidden rounded-lg border-2 bg-white transition-all lg:size-20 ${
                       activeImage === m.url ? 'border-terracotta opacity-100 ring-2 ring-terracotta/20' : 'border-transparent opacity-60 hover:opacity-100'
                     }`}
                   >
-                    <Image src={m.url} alt="Thumbnail" fill unoptimized className="object-cover" />
+                    <Image src={m.url} alt="Thumbnail" fill unoptimized className="object-contain p-2" />
                   </button>
                 ))}
               </div>
@@ -114,17 +126,16 @@ export function ProductClient({ product }: { product: any }) {
               </div>
             </div>
             
-            {/* FIX: Scaled down the massive product title for a sleeker, premium look */}
             <h1 className="mt-2.5 font-serif text-2xl font-medium leading-[1.15] tracking-tight sm:text-3xl lg:text-4xl">
               {product.name}
             </h1>
             
-            {/* Price Block */}
+            {/* 3. PRICE FIX: Handle 0 value rendering */}
             <div className="mt-3 flex items-end gap-3">
               <span className="tabular-nums text-3xl font-medium text-foreground sm:text-4xl">
-                ₹{currentPrice.toLocaleString('en-IN')}
+                {isZeroPrice ? "Price on Request" : `₹${currentPrice.toLocaleString('en-IN')}`}
               </span>
-              {comparePrice && comparePrice > currentPrice && (
+              {!isZeroPrice && comparePrice && comparePrice > currentPrice && (
                 <div className="flex flex-col gap-0.5 pb-0.5">
                   <span className="text-sm font-medium text-muted-foreground line-through sm:text-base">
                     ₹{comparePrice.toLocaleString('en-IN')}
@@ -136,8 +147,7 @@ export function ProductClient({ product }: { product: any }) {
               )}
             </div>
 
-            {/* FIX 3: Reduced the massive gap above the Variant Selector */}
-            {product.variants && product.variants.length > 0 && (
+            {product.variants && product.variants.length > 0 && product.variants[0].title !== 'Default Size' && (
               <div className="mt-5 border-t border-border pt-5">
                 <div className="flex items-center justify-between">
                   <h3 className="text-xs font-bold uppercase tracking-wider text-foreground">Select Option</h3>
@@ -150,7 +160,6 @@ export function ProductClient({ product }: { product: any }) {
                     <button
                       key={variant.id}
                       onClick={() => handleVariantChange(variant)}
-                      // Refined the padding and text size of the variant buttons
                       className={`rounded-lg border px-5 py-2.5 text-sm font-semibold transition-all active:scale-95 ${
                         selectedVariant?.id === variant.id
                           ? 'border-foreground bg-foreground text-background shadow-md'
@@ -164,17 +173,29 @@ export function ProductClient({ product }: { product: any }) {
               </div>
             )}
 
-            {/* Desktop Actions */}
+            {/* 4. BUTTON FIX: Apply direct full-width classes, swap button entirely if price is 0 */}
             <div className="mt-6 hidden flex-col gap-3 sm:flex-row lg:flex">
-              <div className="flex w-28 items-center justify-between rounded-full border border-border bg-card px-2">
-                <select className="h-full w-full appearance-none bg-transparent py-3 pl-4 text-sm font-semibold outline-none focus:ring-0">
+              <div className="flex w-32 items-center justify-between rounded-full border border-border bg-card px-2">
+                <select className="h-full w-full appearance-none bg-transparent py-3 pl-5 text-sm font-semibold outline-none focus:ring-0">
                   {[1,2,3,4,5,10].map(qty => (
                     <option key={qty} value={qty}>Qty: {qty}</option>
                   ))}
                 </select>
-                <ChevronDown className="pointer-events-none -ml-6 mr-3 size-4 text-muted-foreground" />
+                <ChevronDown className="pointer-events-none -ml-6 mr-4 size-4 text-muted-foreground" />
               </div>
-              <AddToCartButton product={cartProductData} />
+              
+              <div className="flex-1">
+                {isZeroPrice ? (
+                  <button disabled className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-8 text-sm font-bold text-background shadow-md opacity-50 cursor-not-allowed">
+                    Contact to Order
+                  </button>
+                ) : (
+                  <AddToCartButton 
+                    product={cartProductData} 
+                    className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-8 text-sm font-bold text-background shadow-md transition-transform hover:bg-foreground/90 active:scale-95" 
+                  />
+                )}
+              </div>
             </div>
 
             {/* Accordions */}
@@ -208,7 +229,6 @@ export function ProductClient({ product }: { product: any }) {
                 </div>
               </details>
 
-              {/* RESTORED MISSING FEATURE: Shipping & Support */}
               <details className="group border-y border-border py-5">
                 <summary className="flex cursor-pointer items-center justify-between font-serif text-lg font-medium text-foreground outline-none marker:content-none [&::-webkit-details-marker]:hidden sm:text-xl">
                   Shipping & Support
@@ -297,15 +317,21 @@ export function ProductClient({ product }: { product: any }) {
         <div className="flex flex-col pl-2">
           <span className="text-[10px] font-medium text-muted-foreground">Total Price</span>
           <span className="tabular-nums text-lg font-bold leading-none text-foreground">
-            ₹{currentPrice.toLocaleString('en-IN')}
+            {isZeroPrice ? "On Request" : `₹${currentPrice.toLocaleString('en-IN')}`}
           </span>
         </div>
         <div className="w-1/2">
-          <AddToCartButton 
-            product={cartProductData} 
-            isMobile={true} 
-            className="flex h-11 w-full items-center justify-center gap-2 rounded-full bg-foreground px-4 text-sm font-bold text-background shadow-md transition-transform active:scale-95" 
-          />
+          {isZeroPrice ? (
+            <button disabled className="flex h-11 w-full items-center justify-center gap-2 rounded-full bg-foreground px-4 text-sm font-bold text-background opacity-50 cursor-not-allowed">
+              Contact to Order
+            </button>
+          ) : (
+            <AddToCartButton 
+              product={cartProductData} 
+              isMobile={true} 
+              className="flex h-11 w-full items-center justify-center gap-2 rounded-full bg-foreground px-4 text-sm font-bold text-background shadow-md transition-transform active:scale-95" 
+            />
+          )}
         </div>
       </div>
       

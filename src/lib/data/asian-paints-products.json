@@ -1,6 +1,28 @@
 [
   {
     "brand": "Asian Paints",
+    "name": "Asian Paints Apcolite Premium Emulsion Paints",
+    "category": "Interior",
+    "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/apcolite.html",
+    "image": "https://www.asianpaints.com/paint-products/interior-wall-paints/media_15c4f974dedd10a7f213634f08c4ce428c4cfb4cb.png?width=1200&format=pjpg&optimize=medium",
+    "description": "Elevate your interiors with Asian Paints Apcolite Premium Emulsion Paints. With our premium apcolite premium emulsion paints turn your interior walls into a canvas of vibrant colours.",
+    "packSizes": [],
+    "shades": [],
+    "features": []
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Asian Paints Tractor Emulsion Paints",
+    "category": "Interior",
+    "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/tractor.html",
+    "image": "https://www.asianpaints.com/paint-products/interior-wall-paints/media_111c762c64022ae005f0409c42aad20cb2fdd75be.avif?width=1200&format=pjpg&optimize=medium",
+    "description": "Redefine Interior Walls With Asian Paints Tractor Emulsion Paint. Choose Tractor Emulsion Paint That Offers Both Style & Durability. Achieve A Smooth & Elegant Finish On Your Interior Walls With Asian Paints.",
+    "packSizes": [],
+    "shades": [],
+    "features": []
+  },
+  {
+    "brand": "Asian Paints",
     "name": "Interior Wall Paints",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints.html",
@@ -103,7 +125,7 @@
     "name": "Nilaya Arc Lime Paint by Asian Paints",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/nilaya-arc.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "image": "https://www.asianpaints.com/paint-products/interior-wall-paints/media_14dda6b8b9ed6318ca8e152db7f8c30a631ca78d8.png?width=1200&format=pjpg&optimize=medium",
     "description": "Discover Nilaya Arc from Asian Paints. Premium wall paint for stunning interior and exterior finishes. Learn more.",
     "packSizes": [],
     "shades": [],
@@ -114,30 +136,8 @@
     "name": "Asian Paints Royale Luxury Emulsion Paint",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/royale.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "image": "https://www.asianpaints.com/paint-products/interior-wall-paints/media_1a91bac9b6099aa4b9638c4659071be32ab33b3af.jpg?width=1200&format=pjpg&optimize=medium",
     "description": "Discover Royale from Asian Paints. Premium wall paint for stunning interior and exterior finishes. Learn more.",
-    "packSizes": [],
-    "shades": [],
-    "features": []
-  },
-  {
-    "brand": "Asian Paints",
-    "name": "Asian Paints Apcolite Premium Emulsion Paints",
-    "category": "Interior",
-    "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/apcolite.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
-    "description": "Elevate your interiors with Asian Paints Apcolite Premium Emulsion Paints. With our premium apcolite premium emulsion paints turn your interior walls into a canvas of vibrant colours.\n",
-    "packSizes": [],
-    "shades": [],
-    "features": []
-  },
-  {
-    "brand": "Asian Paints",
-    "name": "Asian Paints Tractor Emulsion Paints",
-    "category": "Interior",
-    "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/tractor.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
-    "description": "Redefine Interior Walls With Asian Paints Tractor Emulsion Paint. Choose Tractor Emulsion Paint That Offers Both Style & Durability. Achieve A Smooth & Elegant Finish On Your Interior Walls With Asian Paints.\n",
     "packSizes": [],
     "shades": [],
     "features": []
@@ -158,7 +158,7 @@
     "name": "Nilaya Arc Matt - Luxury Interior Emulsion",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/nilaya-arc-matt.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Nilaya-Arc-Matt-new.png",
+    "image": "https://www.asianpaintsarabia.com/content/dam/asian_paints/products/packshots/Nilaya-Arc-Matt-new.png",
     "description": " Discover Nilaya Arc Matt, a sustainable lime-based paint offering an exquisite artisanal matt finish. Perfect for heritage-inspired interiors by Asian Paints.",
     "packSizes": [],
     "shades": [],
@@ -268,72 +268,11 @@
     "name": "Royale Glitz - Sparkle Interior Wall Paint",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/royale-glitz.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/royale-glitz-new-packshot.png",
+    "image": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/media_11620383ca06563124ac9e478ea9b5a6e526f9fa7.png?width=1200&format=pjpg&optimize=medium",
     "description": "Indulge in luxury with Royale Glitz featuring ultra sheen finish, Teflon™ protection, and stain repellency. Available in 20L, 10L, 4L, and 1L packs. Price starts at ₹935. Warranty: 8 years.",
-    "packSizes": [
-      {
-        "volume": "20 L",
-        "price": "MRP ₹20200.00",
-        "sku": "1A290968320"
-      },
-      {
-        "volume": "10 L",
-        "price": "MRP ₹10200.00",
-        "sku": "1A290968310"
-      },
-      {
-        "volume": "4 L",
-        "price": "MRP ₹4100.00",
-        "sku": "1A290968240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹1050.00",
-        "sku": "1A290968210"
-      }
-    ],
-    "shades": [
-      {
-        "name": "ice crystal",
-        "code": "8444"
-      },
-      {
-        "name": "enlighten-n",
-        "code": "4148"
-      },
-      {
-        "name": "cream pie",
-        "code": "L152"
-      },
-      {
-        "name": "blue light",
-        "code": "7531"
-      },
-      {
-        "name": "sonnet",
-        "code": "L146"
-      },
-      {
-        "name": "sugared nut",
-        "code": "L126"
-      },
-      {
-        "name": "dreamy night",
-        "code": "L159"
-      },
-      {
-        "name": "twinkling star",
-        "code": "8466"
-      }
-    ],
-    "features": [
-      "Perfect Crème Finish for luxurious look with 8 year of performance warranty",
-      "Luxury with Teflon™ which makes the wall stain repellent",
-      "Royale Designer Palette : 35 exclusive colours by Sabyasachi in Royale",
-      "Unmatched Stain Resistance",
-      "Teflon Surface Protector",
-      "8 Years Warranty"
-    ]
+    "packSizes": [],
+    "shades": [],
+    "features": []
   },
   {
     "brand": "Asian Paints",
@@ -391,7 +330,7 @@
     "name": "Royale Glitz Ultra Matt",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/royale-glitz-utra-matt.html",
-    "image": "https://www.asianpaintsnepal.com/content/dam/asian_paints/products/packshots/royale-glitz-ultra-matt-new-packshot.png",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/royale-glitz-ultra-matt-new-packshot.png",
     "description": "Get Royale Glitz Ultra Matt for an elegant ultra-matt finish, stain repellency, and Teflon™ protection. Available in 20L, 10L, 4L, and 1L packs. Price starts at ₹948. Warranty: 8 years.",
     "packSizes": [
       {
@@ -462,74 +401,11 @@
     "name": "Royale Shyne Luxury Emulsion - Soft Sheen Finish",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/royale-shyne-luxury-emulsion.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/interior-walls-royale-shyne-luxury-emulsion-asian-paints.png",
+    "image": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/media_1bfb750aa73aac39bea8e5c711bb58a84e1f9ba49.avif?width=1200&format=pjpg&optimize=medium",
     "description": "Discover Royale Shyne Luxury Emulsion for a luxurious high sheen and excellent washability. Available in 20L, 10L, 4L, and 1L packs. Prices start at ₹879. Warranty: 8 years.",
-    "packSizes": [
-      {
-        "volume": "20 L",
-        "price": "MRP ₹16570.00",
-        "sku": "00290908320"
-      },
-      {
-        "volume": "10 L",
-        "price": "MRP ₹8440.00",
-        "sku": "00290908310"
-      },
-      {
-        "volume": "4 L",
-        "price": "MRP ₹3455.00",
-        "sku": "00290908240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹879.00",
-        "sku": "00290908210"
-      }
-    ],
-    "shades": [
-      {
-        "name": "ice crystal",
-        "code": "8444"
-      },
-      {
-        "name": "enlighten-n",
-        "code": "4148"
-      },
-      {
-        "name": "cream pie",
-        "code": "L152"
-      },
-      {
-        "name": "blue light",
-        "code": "7531"
-      },
-      {
-        "name": "sonnet",
-        "code": "L146"
-      },
-      {
-        "name": "sugared nut",
-        "code": "L126"
-      },
-      {
-        "name": "dreamy night",
-        "code": "L159"
-      },
-      {
-        "name": "twinkling star",
-        "code": "8466"
-      }
-    ],
-    "features": [
-      "Luxurious high sheen makes the room look brighter",
-      "Teflon Surface Protector maintains and protects walls from tough stains",
-      "Highly durable paint that lasts for 7-8 years without touch-up",
-      "Water Beading Technology",
-      "Luxury with Teflon™",
-      "8 Years Warranty",
-      "Unmatched Stain Resistance",
-      "Teflon Surface Protector"
-    ]
+    "packSizes": [],
+    "shades": [],
+    "features": []
   },
   {
     "brand": "Asian Paints",
@@ -750,79 +626,11 @@
     "name": "Royale Luxury Emulsion - Premium Interior Paint",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/royale-luxury-emulsion.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/interior-walls-royale-luxury-emulsion-asian-paints.png",
+    "image": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/media_1d317cca9f7dc597c7a40a9ef53eec6029e0f18c5.avif?width=1200&format=pjpg&optimize=medium",
     "description": "Explore Royale Luxury Emulsion with Teflon surface protection, best-in-class durability, & a soft sheen finish. Available in 20L, 10L, 4L, 1L, 0.5L packs. Price starts at ₹219. Warranty: 8 years.",
-    "packSizes": [
-      {
-        "volume": "20 L",
-        "price": "MRP ₹15210.00",
-        "sku": "00300967320"
-      },
-      {
-        "volume": "10 L",
-        "price": "MRP ₹7750.00",
-        "sku": "00300967310"
-      },
-      {
-        "volume": "4 L",
-        "price": "MRP ₹3170.00",
-        "sku": "00300967240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹810.00",
-        "sku": "00300967210"
-      },
-      {
-        "volume": "0.5 L",
-        "price": "MRP ₹219.00",
-        "sku": "00300967120"
-      }
-    ],
-    "shades": [
-      {
-        "name": "ice crystal",
-        "code": "8444"
-      },
-      {
-        "name": "enlighten-n",
-        "code": "4148"
-      },
-      {
-        "name": "cream pie",
-        "code": "L152"
-      },
-      {
-        "name": "blue light",
-        "code": "7531"
-      },
-      {
-        "name": "sonnet",
-        "code": "L146"
-      },
-      {
-        "name": "sugared nut",
-        "code": "L126"
-      },
-      {
-        "name": "dreamy night",
-        "code": "L159"
-      },
-      {
-        "name": "twinkling star",
-        "code": "8466"
-      }
-    ],
-    "features": [
-      "Teflon Surface Technology creates a protective layer making it easy for walls to be cleaned",
-      "Highly durable paint that fortifies your wall against tough household stains",
-      "Perfect finish that imparts a soft smooth sheen finish",
-      "Water Beading Technology",
-      "Luxury with Teflon™",
-      "8 Years Warranty",
-      "Unmatched Stain Resistance",
-      "Teflon Surface Protector"
-    ]
+    "packSizes": [],
+    "shades": [],
+    "features": []
   },
   {
     "brand": "Asian Paints",
@@ -1508,76 +1316,11 @@
     "name": "Tractor Emulsion",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/tractor-emulsion.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/interior-walls-tractor-emulsion-asian-paints.png",
+    "image": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/media_12d2ee12654ffb674ec513a84dc7b830af3537c86.avif?width=1200&format=pjpg&optimize=medium",
     "description": "Experience Tractor Emulsion with superior washability, no shade fading, and a smooth finish. Available in 20L, 10L, 4L, 1L packs priced ₹4180–₹258. Comes with a 4-year performance warranty.",
-    "packSizes": [
-      {
-        "volume": "20 L",
-        "price": "MRP ₹4180.00",
-        "sku": "00570908320"
-      },
-      {
-        "volume": "10 L",
-        "price": "MRP ₹2230.00",
-        "sku": "00570908310"
-      },
-      {
-        "volume": "4 L",
-        "price": "MRP ₹953.00",
-        "sku": "00570908240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹258.00",
-        "sku": "00570908210"
-      }
-    ],
-    "shades": [
-      {
-        "name": "baby blush",
-        "code": "8138"
-      },
-      {
-        "name": "orange spark",
-        "code": "7951"
-      },
-      {
-        "name": "dash of purple",
-        "code": "7160"
-      },
-      {
-        "name": "lemon souffle",
-        "code": "7773"
-      },
-      {
-        "name": "rosy coral",
-        "code": "8031"
-      },
-      {
-        "name": "sugared nut",
-        "code": "L126"
-      },
-      {
-        "name": "intense purple",
-        "code": "7166"
-      },
-      {
-        "name": "butter scotch",
-        "code": "7866"
-      }
-    ],
-    "features": [
-      "Affordable Branded Distemper",
-      "Water Based Distemper",
-      "Water Resistance",
-      "Higher Coverage",
-      "Anti Fade",
-      "4 Years warranty",
-      "1.5X Coverage than Distemper",
-      "Smooth Finish",
-      "2 Years Warranty",
-      "Sheen Finish"
-    ]
+    "packSizes": [],
+    "shades": [],
+    "features": []
   },
   {
     "brand": "Asian Paints",
@@ -1718,7 +1461,7 @@
     "name": "Tractor Sparc",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/tractor-sparc.html",
-    "image": "https://www.asianpaintsnepal.com/content/dam/asian_paints/products/packshots/interior-walls-tractor-sparc-asian-paints.png",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/interior-walls-tractor-sparc-asian-paints.png",
     "description": "Tractor Sparc delivers 1.5x coverage than distemper, smooth finish, and improved whiteness. Available in 20L, 10L, 4L, 1L packs priced ₹3243–₹196 with a 2-year warranty.",
     "packSizes": [
       {
@@ -1922,7 +1665,7 @@
     "name": "Tractor Aqualock",
     "category": "Interior",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/tractor-aqualock.html",
-    "image": "https://www.asianpaintsarabia.com/content/dam/asian_paints/products/packshots/interior-walls-tractor-aqualock-asian-paints.png",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/interior-walls-tractor-aqualock-asian-paints.png",
     "description": "Tractor Aqualock offers a branded distemper with a smoother finish than regular options. Available in 20L, 10L, 5L, 2L, 1L packs priced ₹2120–₹136.",
     "packSizes": [
       {
@@ -2123,10 +1866,10 @@
   },
   {
     "brand": "Asian Paints",
-    "name": "Exterior Texture Range",
+    "name": "Modern Exterior Wall Texture Designs & Inspirations | Asian Paints",
     "category": "Interior",
     "url": "https://www.asianpaints.com/products/paints-and-textures/exterior-texture-range.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "image": "https://www.asianpaints.com/texture-paints/media_1a1dee397a983d8434118c9e72c4c4f66a654ffd9.jpg?width=1200&format=pjpg&optimize=medium",
     "description": "Discover modern exterior texture paint designs, finishes, and inspirations to transform your outdoor walls. Create a stunning home exterior with Asian Paints.",
     "packSizes": [],
     "shades": [],
@@ -2280,8 +2023,8 @@
     "name": "Ultima",
     "category": "Exterior",
     "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/ultima.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
-    "description": "Give your home a lasting impression with Ultima Exterior Emulsion Paint from Asian Paints, a fusion of style, durability, and advanced protection\n\n",
+    "image": "https://www.asianpaints.com/paint-products/exterior-wall-paints/media_18299d4a5ba1b6f328431e52a91619f351073eedc.webp?width=1200&format=pjpg&optimize=medium",
+    "description": "Give your home a lasting impression with Ultima Exterior Emulsion Paint from Asian Paints, a fusion of style, durability, and advanced protection",
     "packSizes": [],
     "shades": [],
     "features": []
@@ -2291,8 +2034,8 @@
     "name": "Apex",
     "category": "Exterior",
     "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/apex.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
-    "description": "Trust Apex Exterior Emulsion Paint by Asian Paints to safeguard your home's exterior, offering a perfect balance of performance and visual appeal.\n",
+    "image": "https://www.asianpaints.com/paint-products/exterior-wall-paints/media_15bdca216e1ea963d2adbcb41861de7c381ece8c1.webp?width=1200&format=pjpg&optimize=medium",
+    "description": "Trust Apex Exterior Emulsion Paint by Asian Paints to safeguard your home&#39;s exterior, offering a perfect balance of performance and visual appeal.",
     "packSizes": [],
     "shades": [],
     "features": []
@@ -2302,55 +2045,2308 @@
     "name": "Ace",
     "category": "Exterior",
     "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/ace.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
-    "description": "Experience the reliability of Ace Exterior Emulsion Paint by Asian Paints, engineered to withstand the toughest outdoor conditions with ease.\n\n",
+    "image": "https://www.asianpaints.com/paint-products/exterior-wall-paints/media_15793ec857774b4dba9c7536d5012c16b6656bcc2.webp?width=1200&format=pjpg&optimize=medium",
+    "description": "Experience the reliability of Ace Exterior Emulsion Paint by Asian Paints, engineered to withstand the toughest outdoor conditions with ease.",
     "packSizes": [],
     "shades": [],
     "features": []
   },
   {
     "brand": "Asian Paints",
-    "name": "Asian Paints Beautiful Home Painting Service",
+    "name": "Ultima Protek Duralife",
     "category": "Exterior",
-    "url": "https://www.asianpaints.com/content/ap/en/home/products/adhesives.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
-    "description": "Select high-quality adhesive products for effective sealing, fastening, and fixing. Explore our extensive range for various surfaces at Adhesives by Asian Paints.",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ultima-protek-duralife.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/textures/others/duralife_topcoat_single-layer.png",
+    "description": "Shield your walls with Apex Ultima Protek Duralife by Asian Paints. WALLS of S.T.E.E.L with a 15-year waterproofing & anti-algal warranty. Available in 20L, 4L, & 1L packs, starting at ₹1159.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "A first of its kind 15-year performance warranty, which includes a 15-year waterproofing and a 15-year anti-algal warranty",
+      "Flexible inner layer protects your home from cracks while the tough outer layer gives protection against harsh weather conditions",
+      "Experience an exterior emulsion paint that offers you unlimited possibilities and makes your home invincible to any attacks",
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima Protek Exterior Paint: Advanced Weatherproof Solution",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima-protek.html",
+    "image": "https://www.asianpaints.com/paint-products/exterior-wall-paints/media_1b2cc4d3df6ce74de6ca7f7cd96171b2d91dfd57d.avif?width=1200&format=pjpg&optimize=medium",
+    "description": "Protect your home with Apex Ultima Protek by Asian Paints. Powered by Graphene with a 12-year durability warranty. Available in 20L, 10L, 4L, and 1L packs, starting at ₹836.",
     "packSizes": [],
     "shades": [],
     "features": []
   },
   {
     "brand": "Asian Paints",
-    "name": "Interior Wood Finish",
+    "name": "Apex Ultima Protek Advanced",
     "category": "Exterior",
-    "url": "https://www.asianpaints.com/content/ap/en/home/products/wood-and-metals/wood-paints.html",
-    "image": "https://www.asianpaints.com/products/media_1a72928ace97e58adc6d5334f1173a24b181be62f.avif?width=1200&format=pjpg&optimize=medium",
-    "description": "Enhance your home interior wood with Asian Paints’ premium finishes. Our advanced wood coating range offers beauty, durability, and smooth protection for every surface.",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima-protek-advanced.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Ultima-Protek-advanced-Packshot-updated.png",
+    "description": "Protect your home with Apex Ultima Protek Advanced by Asian Paints. Powered by Graphene with a 12-year ultra-durability warranty, made for all weather conditions. Available in 20L, 10L, 4L, and 1L packs, starting at ₹844.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Twin Power Technology gives a 10% higher coverage and better hiding",
+      "Graphene, the wonder material gives unmatched toughness and durability to Ultima Protek Advanced",
+      "Twelve years of performance warranty ensuring long-lasting protection for your home",
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima Stretch - Crack-Bridging Exterior Paint",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ultima-stretch.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/ultima-stretch-packshot-asian-paints.png",
+    "description": "Explore Apex Ultima Stretch with PU Serum for superior crack bridging, dust-proof UV protection, & an 8-year warranty. Available in 20L, 10L, 4L, & 1L packs. Price range: ₹13,210 to ₹713.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹14900.00",
+        "sku": "67890912320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹7600.00",
+        "sku": "67890912310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹3200.00",
+        "sku": "67890912240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹810.00",
+        "sku": "67890912210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Exterior paint developed with a unique stretchable film technology, which allows it to cover hairline cracks.",
+      "8-year performance warranty ensures that the beauty of your house is retained for a long time.",
+      "Ultimate Sheen powered by PU Serum, gives your home a luxurious and unmatched finish.",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima - Premium Exterior Wall Paint",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-ultima-asian-paints.png",
+    "description": "Discover Apex Ultima with Colour Stay Pro for long-lasting colors and PU Serum protection. 8-year warranty. Sizes: 20L, 10L, 4L, and 1L. Price range: ₹12,710 to ₹700.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Comes with a comprehensive 8 year performance warranty, and its elegant finish ensures timeless beauty",
+      "Ultimate Sheen powered by PU Serum, gives your home a luxurious and unmatched finish",
+      "Dirt Pick-Up Resistance (DPUR) property and high-performance UV protection maintains the initial beauty of your walls",
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima Metallics",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima-metallics.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/apex-ultima-metallics.png",
+    "description": "Discover Apex Ultima Metallics that is water-based metallic paint suitable for application on both masonry and metal surfaces, delivering a high-performance luxury metallic finish.",
+    "packSizes": [
+      {
+        "volume": "4 L",
+        "price": "MRP ₹6456.00",
+        "sku": "6B24M045240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹1697.00",
+        "sku": "6B24M045210"
+      },
+      {
+        "volume": "0.5 L",
+        "price": "MRP ₹880.00",
+        "sku": "6B24M045150"
+      },
+      {
+        "volume": "0.2 L",
+        "price": "MRP ₹374.00",
+        "sku": "6B24M045120"
+      },
+      {
+        "volume": "0.1 L",
+        "price": "MRP ₹188.00",
+        "sku": "6B24M045110"
+      }
+    ],
+    "shades": [],
+    "features": [
+      "Formulated for use on both masonry and metal surfaces ensuring compatibility across varied substrates",
+      "Available in direct Gold and Silver shades alongwith 40+ tintable options",
+      "Multiple pack sizes including small packs are available."
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Dust Proof Ultraa",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-dustproof-ultraa.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/apex-dust-proof-ultraa-digital-pack.png",
+    "description": "Explore Asian Paints Apex Dust Proof Ultraa that delivers 10% more coverage with a flawless, ultra-smooth finish",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion",
+      "Dust Proof with Twin Power and Silicon Boost",
+      "Advanced Anti-Algal",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Shyne Advanced Dust Proof",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-shyne-dustproof-advanced.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/apex-shyne-dust-proof-advance-pack.png",
+    "description": "Get superior coverage of Asian Paints Apex Shyne Advanced Dust Proof Paint. This paint features Silicon Boost & Dust Proof Technology, resisting dust & algae for lasting wall protection. ",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Here's why Apex Shyne Dust Proof Advanced is perfect for your home.",
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Shyne Paint",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-shyne.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-shyne-dust-proof-packshot-asian-paints.png",
+    "description": "Enhance your walls with Apex Shyne Dust Proof, featuring anti-algal properties, high sheen, and dust-proof technology. Available in 20L, 10L, 4L, and 1L. Price range: ₹8,710 to ₹509.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹9400.00",
+        "sku": "56730959320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹4850.00",
+        "sku": "56730959310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹2100.00",
+        "sku": "56730959240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹540.00",
+        "sku": "56730959210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Advanced",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-advanced.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-advanced-dust-proof-packshot-asian-paints.png",
+    "description": "Apex Advanced Dust Proof delivers anti-algal properties, high washability, and a 6-year warranty. Pack sizes: 20L, 10L, 4L, and 1L. Price range: ₹8,600 to ₹500.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹9400.00",
+        "sku": "00240959320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹4850.00",
+        "sku": "00240959310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹2100.00",
+        "sku": "00240959240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹540.00",
+        "sku": "00240959210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "6-years Warranty*",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Dust Proof Emulsion",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-dustproof-emulsion.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-dust-proof-emulsion-packshot-asian-paints.png",
+    "description": "Choose Apex Dust Proof Emulsion for high washability and dust-proof technology. Backed by a 6-year warranty. Available in 20L, 10L, 4L, and 1L packs. Price range: ₹8,510 to ₹494.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹9100.00",
+        "sku": "00120959320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹4700.00",
+        "sku": "00120959310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹2000.00",
+        "sku": "00120959240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹520.00",
+        "sku": "00120959210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "6-years Warranty*",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Asian Paints Ace Ultraa | Ultra-Durable Exterior Emulsion for Long-Lasting Wall Protection",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-ultraa.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Ace-Ultraa.png",
+    "description": "Get timeless finish for homes at a reasonable price with extra coverage. Opt for this wall paint and experience beauty that reflects on your home's exteriors.",
+    "packSizes": [],
+    "shades": [],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "High Sheen Finish",
+      "Water Resistant Technology",
+      "Anti-Fade Technology",
+      "1900+ available shades"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Asian Paints Ace Sparc Shyne | Sparkling Sheen Exterior Paint for Durable Wall Finish",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-sparc-shyne.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Ace-Sparc-Shyne.png",
+    "description": "Discover Ace Sparc Shyne from Asian Paints. Premium wall paint for stunning interior and exterior finishes. Learn more.",
+    "packSizes": [],
+    "shades": [],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "Anti-Fade Technology",
+      "1900+ available shades",
+      "Wide shade range",
+      "Water Resistant Technology",
+      "2 years Warranty*"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Asian Paints Ace Shyne Advanced | High-Gloss Weather-Resistant Exterior Wall Paint",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-shyne-advanced.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Ace-Shyne-Advance.png",
+    "description": "Discover Ace Shyne Advanced from Asian Paints. Premium wall paint for stunning interior and exterior finishes. Learn more.",
+    "packSizes": [],
+    "shades": [],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "Anti-Fade Technology",
+      "1900+ available shades",
+      "Wide shade range",
+      "Water Resistant Technology",
+      "2 years Warranty*"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Power Plus",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-power-plus.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/ace-powerplus-banner-desktop.png",
+    "description": "Ace Power+ starts at ₹370, featuring advanced anti-fade technology, a weather guard, & a stylish matt finish. Comes with a 4-year warranty in 20L, 10L, 4L, & 1L packs. Protect your home in style!",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹6347.00",
+        "sku": "1B28OA03320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹3337.00",
+        "sku": "1B28OA03310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1419.00",
+        "sku": "1B28OA03240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹370.00",
+        "sku": "1B28OA03210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Shyne",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-shyne.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-ace-shyne-asian-paints.png",
+    "description": "Discover Ace Shyne exterior paint starting at ₹325, offering a high sheen finish, water resistance, & a 4-year performance warranty. Available in 20L, 10L, 4L, & 1L packs. Elevate your walls today!",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹5510.00",
+        "sku": "57590908320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹2960.00",
+        "sku": "57590908310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1234.00",
+        "sku": "57590908240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹325.00",
+        "sku": "57590908210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "Anti-Fade Technology",
+      "1900+ available shades",
+      "Wide shade range",
+      "Water Resistant Technology",
+      "2 years Warranty*"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Advanced",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-advanced.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-ace-advanced-asian-paints.png",
+    "description": "Experience Ace Advanced for a premium finish, high coverage, and a 4-year warranty. Available in 20L, 10L, 4L, and 1L packs. Price range: ₹5,100 to ₹306.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹5100.00",
+        "sku": "00520908320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹2730.00",
+        "sku": "00520908310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1170.00",
+        "sku": "00520908240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹306.00",
+        "sku": "00520908210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "High Sheen Finish",
+      "Water Resistant Technology",
+      "4 years Warranty*",
+      "Anti-Fade Technology",
+      "1900+ available shades",
+      "Wide shade range",
+      "2 years Warranty*"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Exterior Emulsion",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-exterior-emulsion.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-ace-exterior-emulsion-asian-paints.png",
+    "description": "Protect your home with Ace Exterior Emulsion, starting at ₹301. Enjoy 1600+ shades, water resistance, & a 4-year performance warranty. Pack sizes: 20L, 10L, 4L, 1L. Upgrade your exterior walls today!",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹5030.00",
+        "sku": "00510908320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹2690.00",
+        "sku": "00510908310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1133.00",
+        "sku": "00510908240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹310.00",
+        "sku": "00510908210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "High Sheen Finish",
+      "Water Resistant Technology",
+      "Wide shade range",
+      "2 years Warranty*"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Sparc Ultra",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-sparc-ultra.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/ace-sparc-ultra-without-ultraa-coverage-logo.png",
+    "description": "Ace Sparc Ultra offers vibrant shade options, starting at ₹263. Enjoy water resistance and a 2-year warranty. Available in 20L, 10L, 4L, and 1L packs. Value for your money, redefined!",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹3550.00",
+        "sku": "67882022320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹2000.00",
+        "sku": "67882022310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹860.00",
+        "sku": "67882022240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹230.00",
+        "sku": "67882022210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "High Sheen Finish",
+      "Water Resistant Technology",
+      "Anti-Fade Technology",
+      "1900+ available shades"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Sparc",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-sparc.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/ace-sparc-updated.png",
+    "description": "Ace Sparc starts at ₹253 and offers value for money with vibrant shades and a 2-year warranty. Available in 20L, 10L, 4L, and 1L packs. Enhance your home’s exterior today!",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹3450.00",
+        "sku": "67162022320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹1900.00",
+        "sku": "67162022310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹830.00",
+        "sku": "67162022240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹220.00",
+        "sku": "67162022210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "High Sheen Finish",
+      "Water Resistant Technology",
+      "Anti-Fade Technology",
+      "1900+ available shades"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Sparc Colours",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-sparc-colours.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/ace-sparc-colours-updated.png",
+    "description": "Ace Sparc Colours delivers value for money with a wide shade range and a 2-year warranty on shade fidelity. Pack sizes: 4L, 1L. Price range: ₹1,269 to ₹334.",
+    "packSizes": [
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1300.00",
+        "sku": "67980427240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹330.00",
+        "sku": "67980427210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "High Sheen Finish",
+      "Water Resistant Technology",
+      "Anti-Fade Technology",
+      "1900+ available shades"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "NeoBharat Latex Exterior Paint",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/neobharat-latex-exterior-paint.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-neobharat.png",
+    "description": "Get NeoBharat Latex Exterior Paint, starting at ₹300. Enjoy 3X durability, weather resistance, and 1000+ shades. Pack sizes include 20L, 10L, 5L, and 2L. Perfect for long-lasting beauty!",
+    "packSizes": [
+      {
+        "volume": "20 kg",
+        "price": "MRP ₹2500.00",
+        "sku": "6A83B222320"
+      },
+      {
+        "volume": "10 kg",
+        "price": "MRP ₹1300.00",
+        "sku": "6A83B222310"
+      },
+      {
+        "volume": "5 kg",
+        "price": "MRP ₹675.00",
+        "sku": "6A83B222250"
+      },
+      {
+        "volume": "2 kg",
+        "price": "MRP ₹300.00",
+        "sku": "6A83B222220"
+      }
+    ],
+    "shades": [],
+    "features": []
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Tile Guard Clear Matt",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-tile-guard-clear-matt.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-tile-guard.png",
+    "description": "Apex Tile Guard Clear Matt ensures superior adhesion and water repellence. Comes with a 5-year warranty. Available in 4L and 1L packs. Price range: ₹2,513 to ₹664.",
+    "packSizes": [
+      {
+        "volume": "4 L",
+        "price": "MRP ₹2550.00",
+        "sku": "5495B110240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹660.00",
+        "sku": "5495B110210"
+      }
+    ],
+    "shades": [],
+    "features": []
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Floor Guard",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-floor-guard.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-floor-guard-asian-paints.png",
+    "description": "Revamp your floors with Apex Floor Guard offering 50+ shades, super adhesion, and a 2-year warranty. Available in 4L and 1L packs. Price range: ₹2,767 to ₹725.",
+    "packSizes": [],
+    "shades": [],
+    "features": [
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Tile Guard",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-tile-guard.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-tile-guard-new-asian-paints.png",
+    "description": "Protect your tiles with Apex Tile Guard featuring strong water repellence, superior adhesion, and a 5-year warranty. Sizes: 18L, 9L, 3.6L, 0.9L. Price range: ₹8,330 to ₹442.",
+    "packSizes": [
+      {
+        "volume": "18 L",
+        "price": "MRP ₹8500.00",
+        "sku": "1007O754329"
+      },
+      {
+        "volume": "9 L",
+        "price": "MRP ₹4250.00",
+        "sku": "1007O754313"
+      },
+      {
+        "volume": "3.6 L",
+        "price": "MRP ₹1800.00",
+        "sku": "1007O754243"
+      },
+      {
+        "volume": "0.9 L",
+        "price": "MRP ₹450.00",
+        "sku": "1007O754214"
+      }
+    ],
+    "shades": [],
+    "features": [
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima Protek – Premium Waterproof Exterior Protection for Your Walls",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima-protek-suprema.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Protek-Packshot.png",
+    "description": "Experience unmatched wall protection with Apex Ultima Protek. This advanced coating ensures strong waterproofing, weather resistance, and a fresh look for years.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Protek Suprema offers superior waterproofing with 5x elongation, 2x crack bridging, and anti-carbonation protection.",
+      "Asian Paints Apex Ultima Protek Suprema’s graphene-powered lamination guard protects paint from water and dust, keeping colours vibrant longer.",
+      "Asian Paints Apex Ultima Protek Suprema uses a nanoactive microbial shield with dual biocides to protect walls from algae and bacteria."
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ultima Protek Suprema – Premium Exterior Emulsion with Lasting Wall Durability",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima-stretch-suprema.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Stretch-Packshot.png",
+    "description": "Discover Ultima Protek Suprema, the exterior emulsion crafted for premium protection. With superior durability and weather resistance, keep your walls safe and stylish.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Asian Paints Apex Ultima Stretch Suprema features PU Serum technology with a smooth, dust-repelling surface and continuous biocide protection for algae-free, lustrous walls.",
+      "Asian Paints Apex Ultima Stretch Suprema offers 2.3x superior elongation and advanced crack bridging ability, powered by PU Serum for long-lasting exterior protection."
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima Stretch Suprema – Flexible Exterior Emulsion for Strong Walls",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima-suprema.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Ultima-Packshot.png",
+    "description": "Ensure long-lasting flexibility with Apex Ultima Stretch Suprema. This innovative exterior emulsion offers durability, stretchability, and enhanced wall protection.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Apex Ultima Suprema repels dust and moisture with DPUR and Moisture-Free Technology, keeping walls smooth and clean.",
+      "Asian Paints Apex Ultima Suprema offers 90% higher biocide content with Algae-Shield Pro and Moisture-Free Technology, ensuring algae-free, weatherproof walls.",
+      "Asian Paints Apex Ultima Suprema offers lasting colour brilliance with superior UV protection and Moisture-Free Technology, keeping walls vibrant and dust-free."
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Suprema – Advanced Exterior Emulsion with Long-Lasting Wall Protection",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-suprema.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Apex-Packshot.png",
+    "description": "Protect your home with Apex Suprema, the exterior emulsion crafted for strength and resilience. Enjoy superior wall protection with a finish that lasts in every season.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Asian Paints Apex Suprema delivers 30% higher resistance to algae with continuous biocide protection, outperforming cement paint in algal chamber tests for cleaner, longer-lasting exteriors.",
+      "Asian Paints Apex Suprema features Dustproof Technology and a smoother paint film that repels airborne dirt, keeping walls fresh and clean longer than cement paint."
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima Suprema Anti-Carbonation Coating – Advanced Wall Protection",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/apex-ultima-suprema-anti-carbonation-coating.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/ultima-suprema-anticarbonation.png",
+    "description": "Shield your walls with Apex Ultima Suprema Anti-Carbonation Coating. Designed for durability, it prevents carbonation damage and keeps exterior walls protected for years.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Asian Paints Apex Ultima Suprema Anti-Carbonation Coating resists CO₂ diffusion to prevent corrosion, offering 116 m air layer equivalence, dust resistance, and anti-algal protection for long-lasting structural durability."
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Suprema – High-Performance Exterior Emulsion for Lasting Wall Protection",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/ace-suprema.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Ace-Packshot.png",
+    "description": "Explore Ace Suprema, the exterior emulsion designed for long-lasting durability and smooth coverage. Give your walls lasting beauty and protection against weather conditions.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Asian Paints Ace Suprema resists algae, fading, and weathering—unlike cement paint—ensuring cleaner, longer-lasting exteriors.",
+      "Asian Paints Ace Suprema offers superior resistance to dust, UV rays, and weathering—unlike cement paint—ensuring vibrant, long-lasting exteriors."
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima - Premium Exterior Wall Paint",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/apex-ultima.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-ultima-asian-paints.png",
+    "description": "Discover Apex Ultima with Colour Stay Pro for long-lasting colors and PU Serum protection. 8-year warranty. Sizes: 20L, 10L, 4L, and 1L. Price range: ₹12,710 to ₹700.",
+    "packSizes": [],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Comes with a comprehensive 8 year performance warranty, and its elegant finish ensures timeless beauty",
+      "Ultimate Sheen powered by PU Serum, gives your home a luxurious and unmatched finish",
+      "Dirt Pick-Up Resistance (DPUR) property and high-performance UV protection maintains the initial beauty of your walls",
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apex Ultima Protek Exterior Paint: Advanced Weatherproof Solution",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/apex-ultima-protek.html",
+    "image": "https://www.asianpaints.com/paint-products/exterior-wall-paints/media_1b2cc4d3df6ce74de6ca7f7cd96171b2d91dfd57d.avif?width=1200&format=pjpg&optimize=medium",
+    "description": "Protect your home with Apex Ultima Protek by Asian Paints. Powered by Graphene with a 12-year durability warranty. Available in 20L, 10L, 4L, and 1L packs, starting at ₹836.",
     "packSizes": [],
     "shades": [],
     "features": []
   },
   {
     "brand": "Asian Paints",
-    "name": "Enamel Paints for Metal & Wood Surfaces",
+    "name": "Apex Shyne Paint",
     "category": "Exterior",
-    "url": "https://www.asianpaints.com/content/ap/en/home/products/wood-and-metals/metal-enamels.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
-    "description": "Explore Asian Paints enamel paints for metal and wood surfaces. Premium glossy finishes for long-lasting beauty. Browse the range.",
-    "packSizes": [],
-    "shades": [],
-    "features": []
+    "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/apex-shyne.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-shyne-dust-proof-packshot-asian-paints.png",
+    "description": "Enhance your walls with Apex Shyne Dust Proof, featuring anti-algal properties, high sheen, and dust-proof technology. Available in 20L, 10L, 4L, and 1L. Price range: ₹8,710 to ₹509.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹9400.00",
+        "sku": "56730959320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹4850.00",
+        "sku": "56730959310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹2100.00",
+        "sku": "56730959240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹540.00",
+        "sku": "56730959210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Nano Block",
+      "Dust Proof Technology",
+      "6-years Warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion"
+    ]
   },
   {
     "brand": "Asian Paints",
-    "name": "Home Waterproofing Solutions",
+    "name": "Apex Advanced",
     "category": "Exterior",
-    "url": "https://www.asianpaints.com/content/ap/en/home/products/waterproofing-solutions.html",
-    "image": "https://www.asianpaints.com/media_1967145bdd320526e92c1ac8bf5d659d63f19e64e.webp?width=1200&format=pjpg&optimize=medium",
-    "description": "Find expert waterproofing solutions for interiors, exteriors, bathrooms, terraces, and more with Asian Paints. Discover products designed for Indian conditions today.",
-    "packSizes": [],
-    "shades": [],
-    "features": []
+    "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/apex-advanced.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-apex-advanced-dust-proof-packshot-asian-paints.png",
+    "description": "Apex Advanced Dust Proof delivers anti-algal properties, high washability, and a 6-year warranty. Pack sizes: 20L, 10L, 4L, and 1L. Price range: ₹8,600 to ₹500.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹9400.00",
+        "sku": "00240959320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹4850.00",
+        "sku": "00240959310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹2100.00",
+        "sku": "00240959240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹540.00",
+        "sku": "00240959210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "Home Lamination powered by Graphene",
+      "Elastomeric Armour",
+      "12 years Warranty*",
+      "50+ Shades",
+      "Super Adhesion",
+      "Resists Vehicular & Foot Traffic",
+      "2 years Warranty*",
+      "WALLS of S.T.E.E.L",
+      "Advanced PUD Formula",
+      "15 years warranty*",
+      "Powered by PU Serum",
+      "Colour Stay Pro",
+      "8 years Warranty*",
+      "Strong Water Repellance",
+      "Long lasting",
+      "Superior Adhesion",
+      "Nano block",
+      "Anti-algal Properties",
+      "High Sheen",
+      "6-years Warranty*",
+      "Silicon Boost",
+      "10% higher coverage"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Advanced",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/ace-advanced.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-ace-advanced-asian-paints.png",
+    "description": "Experience Ace Advanced for a premium finish, high coverage, and a 4-year warranty. Available in 20L, 10L, 4L, and 1L packs. Price range: ₹5,100 to ₹306.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹5100.00",
+        "sku": "00520908320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹2730.00",
+        "sku": "00520908310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1170.00",
+        "sku": "00520908240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹306.00",
+        "sku": "00520908210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "High Sheen Finish",
+      "Water Resistant Technology",
+      "4 years Warranty*",
+      "Anti-Fade Technology",
+      "1900+ available shades",
+      "Wide shade range",
+      "2 years Warranty*"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Ace Exterior Emulsion",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/content/ap/en/home/paint-products/exterior-wall-paints/ace-exterior-emulsion.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-ace-exterior-emulsion-asian-paints.png",
+    "description": "Protect your home with Ace Exterior Emulsion, starting at ₹301. Enjoy 1600+ shades, water resistance, & a 4-year performance warranty. Pack sizes: 20L, 10L, 4L, 1L. Upgrade your exterior walls today!",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹5030.00",
+        "sku": "00510908320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹2690.00",
+        "sku": "00510908310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1133.00",
+        "sku": "00510908240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹310.00",
+        "sku": "00510908210"
+      }
+    ],
+    "shades": [
+      {
+        "name": "sugared nut",
+        "code": "L126"
+      },
+      {
+        "name": "cream pie",
+        "code": "L152"
+      },
+      {
+        "name": "pure ivory",
+        "code": "L124"
+      },
+      {
+        "name": "pebble white",
+        "code": "L136"
+      },
+      {
+        "name": "sonnet",
+        "code": "L146"
+      },
+      {
+        "name": "candle light",
+        "code": "7900"
+      },
+      {
+        "name": "milky way",
+        "code": "L102"
+      },
+      {
+        "name": "cane beige",
+        "code": "8563"
+      },
+      {
+        "name": "apricot illusion",
+        "code": "7979"
+      },
+      {
+        "name": "victorian wisp",
+        "code": "0N68"
+      }
+    ],
+    "features": [
+      "10% High Coverage",
+      "Silicon Boost",
+      "4 years Warranty*",
+      "High Sheen Finish",
+      "Water Resistant Technology",
+      "Wide shade range",
+      "2 years Warranty*"
+    ]
   },
   {
     "brand": "Asian Paints",
@@ -2368,8 +4364,30 @@
     "name": "Wallpaper & Wall Covering Ideas for Every Style",
     "category": "Exterior",
     "url": "https://www.asianpaints.com/products/wall-coverings.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "image": "https://www.asianpaints.com/media_1919f70ef75ea9c11d4c055b1b283f62754eab93b.avif?width=1200&format=pjpg&optimize=medium",
     "description": "Bring your walls to life with our collection of wall coverings, showcasing modern wallpaper designs and premium options by Asian Paints, ideal for enhancing your home decor.",
+    "packSizes": [],
+    "shades": [],
+    "features": []
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Interior Wood Finish",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/products/wood-and-metals/wood-paints.html",
+    "image": "https://www.asianpaints.com/products/media_1a72928ace97e58adc6d5334f1173a24b181be62f.avif?width=1200&format=pjpg&optimize=medium",
+    "description": "Enhance your home interior wood with Asian Paints’ premium finishes. Our advanced wood coating range offers beauty, durability, and smooth protection for every surface.",
+    "packSizes": [],
+    "shades": [],
+    "features": []
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Enamel Paints for Metal & Wood Surfaces",
+    "category": "Exterior",
+    "url": "https://www.asianpaints.com/products/wood-and-metals/metal-enamels.html",
+    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "description": "Explore Asian Paints enamel paints for metal and wood surfaces. Premium glossy finishes for long-lasting beauty. Browse the range.",
     "packSizes": [],
     "shades": [],
     "features": []
@@ -2379,7 +4397,7 @@
     "name": "SmartCare Damp Proof Xtreme",
     "category": "Waterproofing",
     "url": "https://www.asianpaints.com/waterproofing-products/waterproofing-smartcare-damp-proof-xtreme-1b71.html",
-    "image": "https://www.asianpaintsarabia.com/content/dam/asian_paints/products/packshots/SC-dampproof-xtreme-new.png",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/SC-dampproof-xtreme-new.png",
     "description": "SmartCare Damp Proof Xtreme heavy‑duty damp proofing in 1L from ₹550 offers anti-efflorescence & surface temperature reduction. Covers up to a 12‑year warranty. Order now!",
     "packSizes": [
       {
@@ -2707,7 +4725,7 @@
     "name": "SmartCare Epoxy TriBlock",
     "category": "Waterproofing",
     "url": "https://www.asianpaints.com/waterproofing-products/smartcare-epoxy-triblock.html",
-    "image": "https://www.scibpaints.com/content/dam/asian_paints/products/packshots/smartcare-epoxy-triblock-asian-paints.png",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/smartcare-epoxy-triblock-asian-paints.png",
     "description": "SmartCare Epoxy Triblock epoxy waterproof coating available in 1L to 5L packs from ₹682. Covers up to 2-year warranty. Seal cracks now for lasting results!",
     "packSizes": [
       {
@@ -2898,7 +4916,7 @@
     "name": "Asian Paints Marvelloplast Super 500 | Superior Waterproof Plaster for Walls",
     "category": "Waterproofing",
     "url": "https://www.asianpaints.com/waterproofing-products/marvelloplast-super-500-1a16.html",
-    "image": "https://www.asianpaintsarabia.com/content/dam/asian_paints/products/packshots/marvelloplast-asian-paints.png",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/marvelloplast-asian-paints.png",
     "description": "Get Marvelloplast S500 by Asian Paints, priced at ₹548. A 30L pack, with excellent adhesion, self-curing, and a smooth finish. Perfect for flawless results.",
     "packSizes": [
       {
@@ -3524,7 +5542,7 @@
     "name": "Tile Grout - Cement Based",
     "category": "Waterproofing",
     "url": "https://www.asianpaints.com/waterproofing-products/tile-grout-cement-based.html",
-    "image": "https://www.asianpaintsarabia.com/content/dam/asian_paints/products/packshots/smartcare-tile-grout-cement-based-asian-paints.png",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/smartcare-tile-grout-cement-based-asian-paints.png",
     "description": "Get strong joint filling with Tile Grout Cement-Based featuring water resistance and easy application. Available in 1L. Starts at ₹112. Ideal for wet & dry areas.",
     "packSizes": [
       {
@@ -3787,89 +5805,11 @@
     "name": "Wood Finish Products",
     "category": "Wood Finishes",
     "url": "https://www.asianpaints.com/content/ap/en/home/products/wood-finish/wood-listing.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "image": "https://www.asianpaints.com/products/wood-finish/media_11cf90822a0933f76518f9e9564e008661497bf5a.avif?width=1200&format=pjpg&optimize=medium",
     "description": "Explore the full range of Asian Paints wood finishes. Choose the ideal paints for wood clear or coloured for interior and exterior woodwork paint and long-lasting surface protection.",
     "packSizes": [],
     "shades": [],
-    "features": [
-      "Made Especially for Wood",
-      "Good Sealing",
-      "Topcoat Adherance",
-      "High customisation",
-      "Smooth finish",
-      "450+ shades",
-      "1600+ shades",
-      "3 Patterns",
-      "Mirror like Finish",
-      "Excellent Hardness",
-      "Durability",
-      "Universal undercoat",
-      "Polyester Compatible",
-      "Prevents damage from oil",
-      "4 shades",
-      "Mutiple Patterns",
-      "High Film strength",
-      "Water like clarity",
-      "High Gloss",
-      "Solvent based",
-      "Excellent long-lasting durability",
-      "Non-yellowing",
-      "8 shades",
-      "Superior Stain Resistance",
-      "Superior Water Resistance",
-      "Superior Scratch Resistance",
-      "10+ shades",
-      "Anti Corrosion",
-      "All Weather resistant",
-      "for Exteriors & Interiors",
-      "Superior Durability",
-      "Fungal Resistance",
-      "High Cross Linking Density",
-      "3500 + Shades",
-      "Anti - yellwoing",
-      "Anti - scratch",
-      "Stain Resistance",
-      "High durability",
-      "Quick Drying",
-      "Weather resistance",
-      "Light fastness",
-      "UV protection",
-      "650+ Shades",
-      "Resists Cracking",
-      "Superior Resistance",
-      "Exterior Durability",
-      "Low Smell",
-      "Health safe",
-      "Child safe",
-      "Water based PU",
-      "Good hardness",
-      "Virtually odourless",
-      "Easy application",
-      "Low VOC Odour",
-      "Quick dying",
-      "Solvent finish",
-      "High Durability",
-      "Stain resistance",
-      "For all kinds of wood",
-      "Can be used in exterior",
-      "Transparent shades",
-      "Uniform finish",
-      "Better durability",
-      "Quick Drying Time",
-      "German Technology",
-      "Easy Application",
-      "Durable",
-      "Low VOC & Odour",
-      "Good Hardness",
-      "Value for Money",
-      "Non Yellowing",
-      "Reliable",
-      "Smooth Finish",
-      "Interior & Exterior",
-      "Good Gloss",
-      "Anti Termite Solution",
-      "Herbal Product"
-    ]
+    "features": []
   },
   {
     "brand": "Asian Paints",
@@ -3975,89 +5915,257 @@
     "name": "Wood Finish Products",
     "category": "Wood Finishes",
     "url": "https://www.asianpaints.com/products/wood-finish/wood-listing.html",
-    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "image": "https://www.asianpaints.com/products/wood-finish/media_11cf90822a0933f76518f9e9564e008661497bf5a.avif?width=1200&format=pjpg&optimize=medium",
     "description": "Explore the full range of Asian Paints wood finishes. Choose the ideal paints for wood clear or coloured for interior and exterior woodwork paint and long-lasting surface protection.",
     "packSizes": [],
     "shades": [],
+    "features": []
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Compare Products",
+    "category": "Metal Paints",
+    "url": "https://www.asianpaints.com/content/ap/en/home/products/compare-products.html",
+    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "description": "Compare Products - Compare Asian Paints' Products to Make Informed Choices. Get the Best for Your Space!\n",
+    "packSizes": [],
+    "shades": [],
+    "features": []
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apcolite Premium Gloss Enamel",
+    "category": "Metal Paints",
+    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/apcolite-premium-gloss-enamel.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/metals-apcolite-premium-gloss-enamel-asian-paints.png",
+    "description": "Discover Apcolite Premium Gloss Enamel for a stunning, durable gloss finish. Enhance your surfaces with this premium gloss enamel paint, by Asian Paints.\n\n",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹7370.00",
+        "sku": "00010119320"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1590.00",
+        "sku": "00010119240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹412.00",
+        "sku": "00010119210"
+      },
+      {
+        "volume": "0.5 L",
+        "price": "MRP ₹216.00",
+        "sku": "00010119150"
+      }
+    ],
+    "shades": [],
     "features": [
-      "Made Especially for Wood",
-      "Good Sealing",
-      "Topcoat Adherance",
-      "High customisation",
-      "Smooth finish",
-      "450+ shades",
-      "1600+ shades",
-      "3 Patterns",
-      "Mirror like Finish",
-      "Excellent Hardness",
-      "Durability",
-      "Universal undercoat",
-      "Polyester Compatible",
-      "Prevents damage from oil",
-      "4 shades",
-      "Mutiple Patterns",
-      "High Film strength",
-      "Water like clarity",
-      "High Gloss",
-      "Solvent based",
-      "Excellent long-lasting durability",
+      "Soft Sheen Finish",
+      "Anti Fungal Shield",
+      "2 Years Warranty",
+      "Enamel",
+      "High gloss",
       "Non-yellowing",
-      "8 shades",
-      "Superior Stain Resistance",
-      "Superior Water Resistance",
-      "Superior Scratch Resistance",
-      "10+ shades",
-      "Anti Corrosion",
-      "All Weather resistant",
-      "for Exteriors & Interiors",
-      "Superior Durability",
-      "Fungal Resistance",
-      "High Cross Linking Density",
-      "3500 + Shades",
-      "Anti - yellwoing",
-      "Anti - scratch",
-      "Stain Resistance",
-      "High durability",
+      "Stain guard",
+      "No Primer Required",
       "Quick Drying",
-      "Weather resistance",
-      "Light fastness",
-      "UV protection",
-      "650+ Shades",
-      "Resists Cracking",
-      "Superior Resistance",
-      "Exterior Durability",
-      "Low Smell",
-      "Health safe",
-      "Child safe",
-      "Water based PU",
-      "Good hardness",
-      "Virtually odourless",
-      "Easy application",
-      "Low VOC Odour",
-      "Quick dying",
-      "Solvent finish",
-      "High Durability",
-      "Stain resistance",
-      "For all kinds of wood",
-      "Can be used in exterior",
-      "Transparent shades",
-      "Uniform finish",
-      "Better durability",
-      "Quick Drying Time",
-      "German Technology",
-      "Easy Application",
-      "Durable",
-      "Low VOC & Odour",
-      "Good Hardness",
-      "Value for Money",
-      "Non Yellowing",
-      "Reliable",
-      "Smooth Finish",
-      "Interior & Exterior",
-      "Good Gloss",
-      "Anti Termite Solution",
-      "Herbal Product"
+      "4 Years Warranty",
+      "Rust Protection",
+      "Water & Mild Chemical Resistance",
+      "5 Years Warranty",
+      "Glossy Finish",
+      "Affordable",
+      "Durable"
     ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apcolite Premium Satin Enamel - Soft Sheen Finish",
+    "category": "Metal Paints",
+    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/apcolite-premium-satin-enamel.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/metals-apcolite-premium-satin-enamel-asian-paints.png",
+    "description": "Buy Apcolite Satin PU Enamel from Asian Paints. Premium enamel paint with long-lasting glossy finish for metal and wood surfaces. Learn more.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹9050.00",
+        "sku": "00640908320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹4660.00",
+        "sku": "00640908310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1920.00",
+        "sku": "00640908240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹497.00",
+        "sku": "00640908210"
+      },
+      {
+        "volume": "0.5 L",
+        "price": "MRP ₹260.00",
+        "sku": "00640908150"
+      }
+    ],
+    "shades": [],
+    "features": [
+      "Enamel",
+      "High gloss",
+      "Non-yellowing",
+      "Stain guard",
+      "No Primer Required",
+      "Quick Drying",
+      "4 Years Warranty",
+      "Rust Protection",
+      "Water & Mild Chemical Resistance",
+      "5 Years Warranty",
+      "Glossy Finish",
+      "Affordable",
+      "Durable"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apcolite Rustshield PU Enamel",
+    "category": "Metal Paints",
+    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/apcolite-rustshield-pu-enamel.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Apcolite_RustShield-packshot.png",
+    "description": "Discover Apcolite Rustshield Pu Enamel from Asian Paints. Premium enamel paint with long-lasting glossy finish for metal and wood surfaces. Learn more.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹8264.00",
+        "sku": "56580119320"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1770.00",
+        "sku": "56580119240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹457.00",
+        "sku": "56580119210"
+      },
+      {
+        "volume": "0.5 L",
+        "price": "MRP ₹252.00",
+        "sku": "56580119150"
+      }
+    ],
+    "shades": [],
+    "features": [
+      "Soft Sheen Finish",
+      "Anti Fungal Shield",
+      "2 Years Warranty",
+      "Enamel",
+      "High gloss",
+      "Non-yellowing",
+      "Stain guard",
+      "Rust Protection",
+      "Water & Mild Chemical Resistance",
+      "5 Years Warranty",
+      "Glossy Finish",
+      "Affordable",
+      "Durable"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Tractor Enamel Paint - Glossy Finish",
+    "category": "Metal Paints",
+    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/tractor-enamel.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/metals-tractor-enamel-asian-paints.png",
+    "description": "Buy Tractor Enamel from Asian Paints. Premium enamel paint with long-lasting glossy finish for metal and wood surfaces. Learn more.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹8264.00",
+        "sku": "56580119320"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1770.00",
+        "sku": "56580119240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹457.00",
+        "sku": "56580119210"
+      },
+      {
+        "volume": "0.5 L",
+        "price": "MRP ₹252.00",
+        "sku": "56580119150"
+      }
+    ],
+    "shades": [],
+    "features": [
+      "Soft Sheen Finish",
+      "Anti Fungal Shield",
+      "2 Years Warranty",
+      "Enamel",
+      "High gloss",
+      "Non-yellowing",
+      "Stain guard",
+      "Rust Protection",
+      "Water & Mild Chemical Resistance",
+      "5 Years Warranty"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apcolite Advanced PU Enamel - Soft Sheen Finish - Asian Paints",
+    "category": "Metal Paints",
+    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/apcolite-advanced-pu-enamel.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Apcolite-advanced-PU-Enamel.png",
+    "description": "Excellent finish and long lasting gloss for your doors and windows which makes them look timeless. With its non yellowing property, shades look vibrant for a long time.",
+    "packSizes": [
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1740.00",
+        "sku": "00500119240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹446.00",
+        "sku": "00500119210"
+      }
+    ],
+    "shades": [],
+    "features": [
+      "Soft Sheen Finish",
+      "Anti Fungal Shield",
+      "2 Years Warranty",
+      "No Primer Required",
+      "Quick Drying",
+      "4 Years Warranty",
+      "Rust Protection",
+      "Water & Mild Chemical Resistance",
+      "5 Years Warranty",
+      "Glossy Finish",
+      "Affordable",
+      "Durable"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Wall Undercoats, Putty & Primer Paint Solutions",
+    "category": "Metal Paints",
+    "url": "https://www.asianpaints.com/content/ap/en/home/products/undercoats.html",
+    "image": "https://www.asianpaints.com/products/media_1790c7c91cd944dba4a3c3c203b27589996ae787a.avif?width=1200&format=pjpg&optimize=medium",
+    "description": "Prepare your walls right with premium putty and primer paint. These undercoats improve adhesion, smoothness, and durability for flawless finishes by Asian Paints.",
+    "packSizes": [],
+    "shades": [],
+    "features": []
   },
   {
     "brand": "Asian Paints",
@@ -4090,13 +6198,13 @@
     ],
     "shades": [],
     "features": [
+      "Soft Sheen Finish",
+      "Anti Fungal Shield",
+      "2 Years Warranty",
       "Enamel",
       "High gloss",
       "Non-yellowing",
       "Stain guard",
-      "Soft Sheen Finish",
-      "Anti Fungal Shield",
-      "2 Years Warranty",
       "Rust Protection",
       "Water & Mild Chemical Resistance",
       "5 Years Warranty",
@@ -4126,12 +6234,63 @@
     ],
     "shades": [],
     "features": [
-      "No Primer Required",
-      "Quick Drying",
-      "4 Years Warranty",
       "Soft Sheen Finish",
       "Anti Fungal Shield",
       "2 Years Warranty",
+      "No Primer Required",
+      "Quick Drying",
+      "4 Years Warranty",
+      "Rust Protection",
+      "Water & Mild Chemical Resistance",
+      "5 Years Warranty",
+      "Glossy Finish",
+      "Affordable",
+      "Durable"
+    ]
+  },
+  {
+    "brand": "Asian Paints",
+    "name": "Apcolite Premium Satin Enamel - Soft Sheen Finish",
+    "category": "Metal Paints",
+    "url": "https://www.asianpaints.com/enamel-paints/apcolite-premium-satin-enamel.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/metals-apcolite-premium-satin-enamel-asian-paints.png",
+    "description": "Buy Apcolite Satin PU Enamel from Asian Paints. Premium enamel paint with long-lasting glossy finish for metal and wood surfaces. Learn more.",
+    "packSizes": [
+      {
+        "volume": "20 L",
+        "price": "MRP ₹9050.00",
+        "sku": "00640908320"
+      },
+      {
+        "volume": "10 L",
+        "price": "MRP ₹4660.00",
+        "sku": "00640908310"
+      },
+      {
+        "volume": "4 L",
+        "price": "MRP ₹1920.00",
+        "sku": "00640908240"
+      },
+      {
+        "volume": "1 L",
+        "price": "MRP ₹497.00",
+        "sku": "00640908210"
+      },
+      {
+        "volume": "0.5 L",
+        "price": "MRP ₹260.00",
+        "sku": "00640908150"
+      }
+    ],
+    "shades": [],
+    "features": [
+      "Enamel",
+      "High gloss",
+      "Non-yellowing",
+      "Stain guard",
+      "No Primer Required",
+      "Quick Drying",
+      "4 Years Warranty",
       "Rust Protection",
       "Water & Mild Chemical Resistance",
       "5 Years Warranty",
@@ -4167,6 +6326,9 @@
     ],
     "shades": [],
     "features": [
+      "Soft Sheen Finish",
+      "Anti Fungal Shield",
+      "2 Years Warranty",
       "Enamel",
       "High gloss",
       "Non-yellowing",
@@ -4174,9 +6336,6 @@
       "No Primer Required",
       "Quick Drying",
       "4 Years Warranty",
-      "Soft Sheen Finish",
-      "Anti Fungal Shield",
-      "2 Years Warranty",
       "Rust Protection",
       "Water & Mild Chemical Resistance",
       "5 Years Warranty",
@@ -4259,238 +6418,90 @@
   },
   {
     "brand": "Asian Paints",
-    "name": "Apcolite Premium Gloss Enamel",
-    "category": "Metal Paints",
-    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/apcolite-premium-gloss-enamel.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/metals-apcolite-premium-gloss-enamel-asian-paints.png",
-    "description": "Discover Apcolite Premium Gloss Enamel for a stunning, durable gloss finish. Enhance your surfaces with this premium gloss enamel paint, by Asian Paints.\n\n",
+    "name": "Trucare Exterior Wall Putty",
+    "category": "Undercoats",
+    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/trucare-wall-putty.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-trucare-wall-putty-asian-paints.png",
+    "description": "Asian Paints Tractor Emulsion Paint offers a smooth matt finish of plastic paint to your walls & is a smart way to upgrade from distemper. Explore Interior Wall Shades at Asian Paints.",
     "packSizes": [
       {
+        "volume": "40 L",
+        "price": "MRP ₹1336.00",
+        "sku": "00790908340"
+      },
+      {
+        "volume": "30 L",
+        "price": "MRP ₹987.00",
+        "sku": "00790908330"
+      },
+      {
         "volume": "20 L",
-        "price": "MRP ₹7370.00",
-        "sku": "00010119320"
+        "price": "MRP ₹800.00",
+        "sku": "00790908320"
       },
       {
-        "volume": "4 L",
-        "price": "MRP ₹1590.00",
-        "sku": "00010119240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹412.00",
-        "sku": "00010119210"
-      },
-      {
-        "volume": "0.5 L",
-        "price": "MRP ₹216.00",
-        "sku": "00010119150"
+        "volume": "5 L",
+        "price": "MRP ₹240.00",
+        "sku": "00790908250"
       }
     ],
     "shades": [],
     "features": [
-      "Enamel",
-      "High gloss",
-      "Non-yellowing",
-      "Stain guard",
-      "No Primer Required",
-      "Quick Drying",
-      "4 Years Warranty",
-      "Soft Sheen Finish",
-      "Anti Fungal Shield",
-      "2 Years Warranty",
-      "Rust Protection",
-      "Water & Mild Chemical Resistance",
-      "5 Years Warranty",
-      "Glossy Finish",
-      "Affordable",
-      "Durable"
+      "Opacity and whiteness",
+      "Better topcoat adhesio",
+      "Resists peeling",
+      "Excellent levelling",
+      "Abrasion Resistance",
+      "Built-up thickness upto 10 mm",
+      "Applicable on multiple surfaces",
+      "Excellent sealing property",
+      "Higher top coat coverage"
     ]
   },
   {
     "brand": "Asian Paints",
-    "name": "Apcolite Premium Satin Enamel - Soft Sheen Finish",
-    "category": "Metal Paints",
-    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/apcolite-premium-satin-enamel.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/metals-apcolite-premium-satin-enamel-asian-paints.png",
-    "description": "Buy Apcolite Premium Satin Enamel from Asian Paints. Premium enamel paint with long-lasting glossy finish for metal and wood surfaces. Learn more.",
+    "name": "Trucare Interior Wall Primer - Solvent Thinnable",
+    "category": "Undercoats",
+    "url": "https://www.asianpaints.com/products/undercoats/trucare-interior-wall-primer-solvent-thinnable.html",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/0359_undercoats.png",
+    "description": "Discover Trucare Interior Wall Primer Solvent Thinnable from Asian Paints. Explore premium products and inspiration for your home decor needs.",
     "packSizes": [
       {
         "volume": "20 L",
-        "price": "MRP ₹9050.00",
-        "sku": "00640908320"
+        "price": "MRP ₹5280.00",
+        "sku": "03590908320"
       },
       {
         "volume": "10 L",
-        "price": "MRP ₹4660.00",
-        "sku": "00640908310"
+        "price": "MRP ₹2770.00",
+        "sku": "03590908310"
       },
       {
         "volume": "4 L",
-        "price": "MRP ₹1920.00",
-        "sku": "00640908240"
+        "price": "MRP ₹1158.00",
+        "sku": "03590908240"
       },
       {
         "volume": "1 L",
-        "price": "MRP ₹497.00",
-        "sku": "00640908210"
-      },
-      {
-        "volume": "0.5 L",
-        "price": "MRP ₹260.00",
-        "sku": "00640908150"
+        "price": "MRP ₹309.00",
+        "sku": "03590908210"
       }
     ],
     "shades": [],
     "features": [
-      "Enamel",
-      "High gloss",
-      "Non-yellowing",
-      "Stain guard",
-      "No Primer Required",
-      "Quick Drying",
-      "4 Years Warranty",
-      "Rust Protection",
-      "Water & Mild Chemical Resistance",
-      "5 Years Warranty",
-      "Glossy Finish",
-      "Affordable",
-      "Durable"
+      "SUPERIOR WHITENESS",
+      "ALKALI RESISTANCE",
+      "MOISTURE RESISTANCE",
+      "OPACITY AND WHITENESS",
+      "ALKALI RESISTANT",
+      "GOOD SEALING PROPERTIES",
+      "Special acrylic binders",
+      "Adhesion",
+      "Whiteness and smoothness",
+      "No primer required",
+      "Cost effective",
+      "Time saving system"
     ]
-  },
-  {
-    "brand": "Asian Paints",
-    "name": "Apcolite Rustshield PU Enamel",
-    "category": "Metal Paints",
-    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/apcolite-rustshield-pu-enamel.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Apcolite_RustShield-packshot.png",
-    "description": "Discover Apcolite Rustshield Pu Enamel from Asian Paints. Premium enamel paint with long-lasting glossy finish for metal and wood surfaces. Learn more.",
-    "packSizes": [
-      {
-        "volume": "20 L",
-        "price": "MRP ₹8264.00",
-        "sku": "56580119320"
-      },
-      {
-        "volume": "4 L",
-        "price": "MRP ₹1770.00",
-        "sku": "56580119240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹457.00",
-        "sku": "56580119210"
-      },
-      {
-        "volume": "0.5 L",
-        "price": "MRP ₹252.00",
-        "sku": "56580119150"
-      }
-    ],
-    "shades": [],
-    "features": [
-      "Enamel",
-      "High gloss",
-      "Non-yellowing",
-      "Stain guard",
-      "Soft Sheen Finish",
-      "Anti Fungal Shield",
-      "2 Years Warranty",
-      "Rust Protection",
-      "Water & Mild Chemical Resistance",
-      "5 Years Warranty",
-      "Glossy Finish",
-      "Affordable",
-      "Durable"
-    ]
-  },
-  {
-    "brand": "Asian Paints",
-    "name": "Tractor Enamel Paint - Glossy Finish",
-    "category": "Metal Paints",
-    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/tractor-enamel.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/metals-tractor-enamel-asian-paints.png",
-    "description": "Buy Tractor Enamel from Asian Paints. Premium enamel paint with long-lasting glossy finish for metal and wood surfaces. Learn more.",
-    "packSizes": [
-      {
-        "volume": "20 L",
-        "price": "MRP ₹8264.00",
-        "sku": "56580119320"
-      },
-      {
-        "volume": "4 L",
-        "price": "MRP ₹1770.00",
-        "sku": "56580119240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹457.00",
-        "sku": "56580119210"
-      },
-      {
-        "volume": "0.5 L",
-        "price": "MRP ₹252.00",
-        "sku": "56580119150"
-      }
-    ],
-    "shades": [],
-    "features": [
-      "Enamel",
-      "High gloss",
-      "Non-yellowing",
-      "Stain guard",
-      "Soft Sheen Finish",
-      "Anti Fungal Shield",
-      "2 Years Warranty",
-      "Rust Protection",
-      "Water & Mild Chemical Resistance",
-      "5 Years Warranty"
-    ]
-  },
-  {
-    "brand": "Asian Paints",
-    "name": "Apcolite Advanced PU Enamel - Soft Sheen Finish - Asian Paints",
-    "category": "Metal Paints",
-    "url": "https://www.asianpaints.com/content/ap/en/home/enamel-paints/apcolite-advanced-pu-enamel.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Apcolite-advanced-PU-Enamel.png",
-    "description": "Excellent finish and long lasting gloss for your doors and windows which makes them look timeless. With its non yellowing property, shades look vibrant for a long time.",
-    "packSizes": [
-      {
-        "volume": "4 L",
-        "price": "MRP ₹1740.00",
-        "sku": "00500119240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹446.00",
-        "sku": "00500119210"
-      }
-    ],
-    "shades": [],
-    "features": [
-      "No Primer Required",
-      "Quick Drying",
-      "4 Years Warranty",
-      "Soft Sheen Finish",
-      "Anti Fungal Shield",
-      "2 Years Warranty",
-      "Rust Protection",
-      "Water & Mild Chemical Resistance",
-      "5 Years Warranty",
-      "Glossy Finish",
-      "Affordable",
-      "Durable"
-    ]
-  },
-  {
-    "brand": "Asian Paints",
-    "name": "Wall Undercoats, Putty & Primer Paint Solutions",
-    "category": "Metal Paints",
-    "url": "https://www.asianpaints.com/content/ap/en/home/products/undercoats.html",
-    "image": "https://www.asianpaints.com/products/media_1790c7c91cd944dba4a3c3c203b27589996ae787a.avif?width=1200&format=pjpg&optimize=medium",
-    "description": "Prepare your walls right with premium putty and primer paint. These undercoats improve adhesion, smoothness, and durability for flawless finishes by Asian Paints.",
-    "packSizes": [],
-    "shades": [],
-    "features": []
   },
   {
     "brand": "Asian Paints",
@@ -4582,7 +6593,7 @@
     "name": "Trucare Interior Wall Primer Solvent Thinnable 0359",
     "category": "Undercoats",
     "url": "https://www.asianpaints.com/paint-products/interior-wall-paints/plain-finishes/Trucare-interior-wall-primer-solvent-thinnable-0359.html",
-    "image": "https://www.asianpaintsarabia.com/content/dam/asian_paints/products/packshots/0359_undercoats.png",
+    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/0359_undercoats.png",
     "description": "Discover Trucare Interior Wall Primer Solvent Thinnable 0359 from Asian Paints. Premium wall paint for stunning interior and exterior finishes. Learn more.",
     "packSizes": [
       {
@@ -5029,48 +7040,6 @@
   },
   {
     "brand": "Asian Paints",
-    "name": "Trucare Exterior Wall Putty",
-    "category": "Undercoats",
-    "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/trucare-wall-putty.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/exterior-walls-trucare-wall-putty-asian-paints.png",
-    "description": "Asian Paints Tractor Emulsion Paint offers a smooth matt finish of plastic paint to your walls & is a smart way to upgrade from distemper. Explore Interior Wall Shades at Asian Paints.",
-    "packSizes": [
-      {
-        "volume": "40 L",
-        "price": "MRP ₹1336.00",
-        "sku": "00790908340"
-      },
-      {
-        "volume": "30 L",
-        "price": "MRP ₹987.00",
-        "sku": "00790908330"
-      },
-      {
-        "volume": "20 L",
-        "price": "MRP ₹800.00",
-        "sku": "00790908320"
-      },
-      {
-        "volume": "5 L",
-        "price": "MRP ₹240.00",
-        "sku": "00790908250"
-      }
-    ],
-    "shades": [],
-    "features": [
-      "Opacity and whiteness",
-      "Better topcoat adhesio",
-      "Resists peeling",
-      "Excellent levelling",
-      "Abrasion Resistance",
-      "Built-up thickness upto 10 mm",
-      "Applicable on multiple surfaces",
-      "Excellent sealing property",
-      "Higher top coat coverage"
-    ]
-  },
-  {
-    "brand": "Asian Paints",
     "name": "Trucare Filling Putty",
     "category": "Undercoats",
     "url": "https://www.asianpaints.com/paint-products/exterior-wall-paints/trucare-filling-putty.html",
@@ -5142,7 +7111,7 @@
     "name": "Damp Secure Primer",
     "category": "Undercoats",
     "url": "https://www.asianpaints.com/products/undercoats/damp-secure.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/Damp-secure.png",
+    "image": "https://www.asianpaintsarabia.com/content/dam/asian_paints/products/packshots/Damp-secure.png",
     "description": "Discover Damp Secure Primer by Asain Paints and get best-in-class waterproofing finish",
     "packSizes": [
       {
@@ -5223,48 +7192,14 @@
   },
   {
     "brand": "Asian Paints",
-    "name": "Trucare Interior Wall Primer - Solvent Thinnable",
-    "category": "Undercoats",
-    "url": "https://www.asianpaints.com/products/undercoats/trucare-interior-wall-primer-solvent-thinnable.html",
-    "image": "https://www.asianpaints.com/content/dam/asian_paints/products/packshots/0359_undercoats.png",
-    "description": "Discover Trucare Interior Wall Primer Solvent Thinnable from Asian Paints. Explore premium products and inspiration for your home decor needs.",
-    "packSizes": [
-      {
-        "volume": "20 L",
-        "price": "MRP ₹5280.00",
-        "sku": "03590908320"
-      },
-      {
-        "volume": "10 L",
-        "price": "MRP ₹2770.00",
-        "sku": "03590908310"
-      },
-      {
-        "volume": "4 L",
-        "price": "MRP ₹1158.00",
-        "sku": "03590908240"
-      },
-      {
-        "volume": "1 L",
-        "price": "MRP ₹309.00",
-        "sku": "03590908210"
-      }
-    ],
+    "name": "Asian Paints Beautiful Home Painting Service",
+    "category": "Adhesives",
+    "url": "https://www.asianpaints.com/content/ap/en/home/products/adhesives.html",
+    "image": "https://static.asianpaints.com/content/dam/asian_paints/b2b/b2b-desk-icon.png",
+    "description": "Select high-quality adhesive products for effective sealing, fastening, and fixing. Explore our extensive range for various surfaces at Adhesives by Asian Paints.",
+    "packSizes": [],
     "shades": [],
-    "features": [
-      "SUPERIOR WHITENESS",
-      "ALKALI RESISTANCE",
-      "MOISTURE RESISTANCE",
-      "OPACITY AND WHITENESS",
-      "ALKALI RESISTANT",
-      "GOOD SEALING PROPERTIES",
-      "Special acrylic binders",
-      "Adhesion",
-      "Whiteness and smoothness",
-      "No primer required",
-      "Cost effective",
-      "Time saving system"
-    ]
+    "features": []
   },
   {
     "brand": "Asian Paints",

@@ -43,6 +43,20 @@ const CATEGORY_HUBS = [
     { name: 'Adhesives', url: 'https://www.asianpaints.com/products/adhesives.html' }
 ];
 
+function isValidProductLink(href) {
+    if (!href || !href.includes('.html')) return false;
+    if (!(href.includes('/paint-products/') || 
+          href.includes('/waterproofing-products/') || 
+          href.includes('/enamel-paints/') || 
+          href.includes('/products/'))) return false;
+    if (href.endsWith('all-products.html') || 
+        href.endsWith('plain-finishes.html') || 
+        href.includes('/textures') || 
+        href.includes('/wallpapers')) return false;
+    if (href.length <= 35) return false;
+    return true;
+}
+
 async function autoScroll(page) {
     await page.evaluate(async () => {
         await new Promise((resolve) => {
@@ -70,26 +84,43 @@ async function startExtraction() {
     state.progress = 0;
     uniqueProductUrls.clear();
 
-    logToDashboard("🚀 Starting FINAL Hybrid Crawler (V11)...");
+    logToDashboard("🚀 Starting DUAL-PASS Hybrid Crawler (V12)...");
 
-    // PHASE 1: PUPPETEER (Harvest Links)
-    logToDashboard("\n🌐 PHASE 1: Launching Browser to trigger JavaScript grids...");
     const browser = await puppeteer.launch({ headless: "new" });
     const page = await browser.newPage();
     const productQueue = [];
 
     try {
         for (const hub of CATEGORY_HUBS) {
-            logToDashboard(`🔍 Scrolling ${hub.name} Hub...`);
+            logToDashboard(`\n🔍 Scanning ${hub.name} Hub...`);
+            let foundInHub = 0;
+
+            // PASS A: Raw HTML Extraction (Catches Exterior paints before JS hides them)
+            try {
+                const { data: rawHtml } = await axios.get(hub.url, { headers: { 'User-Agent': 'Mozilla/5.0' }, validateStatus: () => true });
+                const $ = cheerio.load(rawHtml);
+                $('a').each((_, el) => {
+                    let href = $(el).attr('href');
+                    if (isValidProductLink(href)) {
+                        href = href.split('?')[0];
+                        let fullUrl = href.startsWith('http') ? href : `https://www.asianpaints.com${href.startsWith('/') ? href : '/' + href}`;
+                        if (!uniqueProductUrls.has(fullUrl)) {
+                            uniqueProductUrls.add(fullUrl);
+                            productQueue.push({ url: fullUrl, category: hub.name });
+                            foundInHub++;
+                        }
+                    }
+                });
+            } catch (e) { }
+
+            // PASS B: Puppeteer Extraction (Catches hidden Interior tabs)
             try {
                 await page.goto(hub.url, { waitUntil: 'networkidle2', timeout: 60000 });
                 
                 await page.evaluate(() => {
                     const tabs = Array.from(document.querySelectorAll('a, button, li, .nav-link'));
                     for (let tab of tabs) {
-                        if (tab.innerText && tab.innerText.trim().toUpperCase() === 'ALL') {
-                            tab.click();
-                        }
+                        if (tab.innerText && tab.innerText.trim().toUpperCase() === 'ALL') tab.click();
                     }
                 });
                 
@@ -100,49 +131,35 @@ async function startExtraction() {
                     const found = new Set();
                     document.querySelectorAll('a').forEach(a => {
                         let href = a.getAttribute('href');
-                        if (href && href.includes('.html')) {
-                            if ((href.includes('/paint-products/') || 
-                                 href.includes('/waterproofing-products/') || 
-                                 href.includes('/enamel-paints/') || 
-                                 href.includes('/products/')) &&
-                                !href.endsWith('all-products.html') && 
-                                !href.endsWith('plain-finishes.html') && 
-                                !href.includes('/textures') && 
-                                !href.includes('/wallpapers') &&
-                                href.length > 35) {
-                                
-                                // Clean URL of any tracking parameters
-                                href = href.split('?')[0];
-                                found.add(href.startsWith('http') ? href : `https://www.asianpaints.com${href.startsWith('/') ? href : '/' + href}`);
-                            }
-                        }
+                        if (href) found.add(href);
                     });
                     return Array.from(found);
                 });
 
-                let foundInHub = 0;
-                for (const link of links) {
-                    if (!uniqueProductUrls.has(link)) {
-                        uniqueProductUrls.add(link);
-                        productQueue.push({ url: link, category: hub.name });
-                        foundInHub++;
+                for (let href of links) {
+                    if (isValidProductLink(href)) {
+                        href = href.split('?')[0];
+                        let fullUrl = href.startsWith('http') ? href : `https://www.asianpaints.com${href.startsWith('/') ? href : '/' + href}`;
+                        if (!uniqueProductUrls.has(fullUrl)) {
+                            uniqueProductUrls.add(fullUrl);
+                            productQueue.push({ url: fullUrl, category: hub.name });
+                            foundInHub++;
+                        }
                     }
                 }
-                
-                logToDashboard(`✅ Harvested ${foundInHub} links from ${hub.name}.`);
-                state.categoryStats[hub.name] = 0; 
-                broadcast('stats', state.categoryStats);
-                
             } catch (err) {
-                logToDashboard(`⚠️ Failed to scan ${hub.name}: ${err.message}`);
+                logToDashboard(`⚠️ Failed Puppeteer scan for ${hub.name}: ${err.message}`);
             }
+            
+            logToDashboard(`✅ Harvested ${foundInHub} total links from ${hub.name}.`);
+            state.categoryStats[hub.name] = 0; 
+            broadcast('stats', state.categoryStats);
         }
     } finally {
         await browser.close(); 
         logToDashboard(`\n🎯 PHASE 1 Complete. Found ${productQueue.length} total products.`);
     }
 
-    // PHASE 2: CHEERIO (Deep Extraction)
     logToDashboard("\n⚡ PHASE 2: Unleashing Cheerio for instant deep-scraping...");
     
     for (let i = 0; i < productQueue.length; i++) {
@@ -156,19 +173,14 @@ async function startExtraction() {
 
             const $ = cheerio.load(html);
             
-            // 🚨 DESTROY THE SHOPPING CART SO IT CANNOT INTERFERE 🚨
             $('#header-minicart, .minicart-cart-header, .cart-items-wrapper, #unified-search-popup, .modal').remove();
 
-            let name = $('h1').first().text().replace(/\s+/g, ' ').trim();
-            if (!name || name.includes('{')) {
-                name = $('h2').first().text().replace(/\s+/g, ' ').trim();
-            }
+            let name = $('h1').first().text().replace(/\s+/g, ' ').trim() || $('h2').first().text().replace(/\s+/g, ' ').trim();
             if (!name || name.includes('{')) {
                 const urlParts = item.url.split('/');
                 name = urlParts[urlParts.length - 1].replace('.html', '').replace(/-/g, ' ').toUpperCase();
             }
 
-            // Extract Description strictly from Meta Tags first
             let description = $('meta[property="og:description"]').attr('content') || $('meta[name="description"]').attr('content') || '';
             if (!description) {
                 $('.banner-desc-text p, .description p, .product-description p, .hero-banner-text p, .text p').each((_, el) => {
@@ -180,16 +192,14 @@ async function startExtraction() {
                 });
             }
 
-            // Extract Image strictly from Meta Tags first (Fixes all missing images)
-            let image = $('meta[property="og:image"]').attr('content');
-            if (!image) {
-                image = $('picture img').first().attr('src') || $('picture source').first().attr('srcset');
-            }
-            if (!image) {
-                image = $('.product-image img, .hero-image img, .product-img img, .shopForImg img').attr('src');
-            }
+            let image = $('meta[property="og:image"]').attr('content') || $('picture img').first().attr('src') || $('picture source').first().attr('srcset') || $('.product-image img, .hero-image img, .product-img img, .shopForImg img').attr('src');
             
-            // Clean up srcset and relative paths
+            if (!image) {
+                const styleAttr = $('.product-image, .hero-image, .img-wrapper').attr('style');
+                if (styleAttr && styleAttr.includes('url(')) {
+                    image = styleAttr.split('url(')[1].split(')')[0].replace(/['"]/g, '');
+                }
+            }
             if (image) {
                 if (image.includes(',')) image = image.split(',')[0].split(' ')[0];
                 if (!image.startsWith('http')) {
@@ -209,7 +219,6 @@ async function startExtraction() {
                 features: []
             };
 
-            // Features extraction
             $('.sttabContainer .tabItem p, .feature-list li, .benefits-list li, .key-features li, .prodInfo li').each((_, el) => {
                 const featureText = $(el).text().replace(/\s+/g, ' ').trim();
                 if (featureText && !featureText.includes('{') && featureText.length > 5) {
@@ -217,9 +226,9 @@ async function startExtraction() {
                 }
             });
 
-            // Prices extraction
             $('.image-container figure, .pack-size-item, .size-container, .sku-details').each((_, el) => {
                 let mrpElement = $(el).find('.mrp-section, .price-val, .price');
+                if (mrpElement.length === 0 && !$(el).closest('.minicart-cart-header').length) mrpElement = $(el).find('.price');
                 if (mrpElement.length === 0) return; 
                 
                 let priceText = mrpElement.text().replace(/\s+/g, ' ').trim();
@@ -237,7 +246,6 @@ async function startExtraction() {
                 }
             });
 
-            // The Shades Vault
             const rawShadesJSON = $('#skuDetails').attr('data-attr-skulistdet');
             if (rawShadesJSON) {
                 try {
@@ -265,7 +273,6 @@ async function startExtraction() {
                 });
             }
 
-            // Relaxed Validation: Save if it has a real Name
             if (productDetails.name && productDetails.name.length > 2 && !productDetails.name.includes("YOU HAVE")) {
                 state.allProducts.push(productDetails);
                 updateCategoryStat(item.category);
@@ -277,9 +284,7 @@ async function startExtraction() {
 
             await new Promise(r => setTimeout(r, 50)); 
 
-        } catch (err) {
-            // Ignore missing pages silently
-        }
+        } catch (err) {}
     }
 
     state.progress = 100;
@@ -307,8 +312,8 @@ const server = http.createServer((req, res) => {
                 <div class="max-w-7xl mx-auto">
                     <header class="mb-8 flex justify-between items-end border-b border-zinc-800 pb-6">
                         <div>
-                            <h1 class="text-3xl font-serif mb-2 text-zinc-100">Hybrid Catalog Crawler (V11)</h1>
-                            <p class="text-zinc-400">Fixed Image & Description Engine (Extracting via Meta Tags)</p>
+                            <h1 class="text-3xl font-serif mb-2 text-zinc-100">Hybrid Catalog Crawler (V12)</h1>
+                            <p class="text-zinc-400">Phase 1: Dual-Pass Harvester | Phase 2: Relaxed Cheerio Deep Scraper</p>
                         </div>
                         <button id="startBtn" class="bg-white text-black px-6 py-2.5 rounded-full font-bold hover:bg-zinc-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)]">
                             Start Full Extraction
@@ -361,7 +366,7 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.clear();
     console.log("==================================================");
-    console.log("🛒 HYBRID CRAWLER V11 READY (PORT " + PORT + ")");
+    console.log("🛒 HYBRID CRAWLER V12 READY (PORT " + PORT + ")");
     console.log("==================================================");
     console.log(`\n1️⃣  Open this link: http://localhost:${PORT}`);
 });

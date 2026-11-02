@@ -27,7 +27,7 @@ const categories: Category[] = [
   {
     title: 'Designer Textures',
     description: 'Hand-crafted wall textures that add depth and character.',
-    href: '/shop/designer-textures', // Updated to match DB slug
+    href: '/textures', // Updated to match DB slug
     image: '/images/category-textures.png',
     alt: 'Close-up of a saffron coloured textured wall finish',
     tag: 'Artisan',
