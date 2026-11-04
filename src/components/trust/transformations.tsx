@@ -15,10 +15,11 @@ type Review = {
   rating: number
   isVerified: boolean
   createdAt: string
-  project?: string // Used for the original mock data badges
+  project?: string 
 }
 
-// Initial Mock Reviews with Date stamps for sorting
+// UPDATED: Replaced dynamic Date.now() with fixed historical timestamps 
+// This allows new live Google and Database reviews to organically sort to the top.
 const MOCK_REVIEWS: Review[] = [
   {
     id: "mock-1",
@@ -28,7 +29,7 @@ const MOCK_REVIEWS: Review[] = [
     project: "Interior Living Space",
     rating: 5,
     isVerified: true,
-    createdAt: new Date(Date.now() - 86400000).toISOString(), // 1 day ago
+    createdAt: "2024-01-15T10:30:00.000Z", // Static past date
   },
   {
     id: "mock-2",
@@ -38,7 +39,7 @@ const MOCK_REVIEWS: Review[] = [
     project: "Exterior Heritage",
     rating: 5,
     isVerified: true,
-    createdAt: new Date(Date.now() - 172800000).toISOString(), // 2 days ago
+    createdAt: "2023-11-20T14:15:00.000Z", // Static past date
   },
   {
     id: "mock-3",
@@ -48,7 +49,7 @@ const MOCK_REVIEWS: Review[] = [
     project: "Weatherproof Exterior",
     rating: 5,
     isVerified: true,
-    createdAt: new Date(Date.now() - 259200000).toISOString(), // 3 days ago
+    createdAt: "2023-09-05T09:45:00.000Z", // Static past date
   },
 ]
 
@@ -59,7 +60,6 @@ export function Transformations() {
   useEffect(() => {
     const fetchLiveReviews = async () => {
       try {
-        // Force Next.js to fetch fresh data every time by disabling the cache
         const res = await fetch(`${API_URL}/api/storefront/${STORE_SLUG}/reviews`, {
           cache: 'no-store'
         })
@@ -67,18 +67,14 @@ export function Transformations() {
 
         const json = await res.json()
         if (json.success && json.data) {
-          // 1. Combine live database reviews with the mock reviews
           const combined = [...json.data, ...MOCK_REVIEWS]
           
-          // 2. Filter for 4 and 5 star ratings only
           const highRated = combined.filter(r => Number(r.rating) >= 4)
           
-          // 3. Sort by newest first
           const sorted = highRated.sort((a, b) => 
             new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
           )
           
-          // 4. Take only the top 3 to perfectly fit the grid layout
           setDisplayReviews(sorted.slice(0, 3))
         }
       } catch (error) {
@@ -90,7 +86,6 @@ export function Transformations() {
   }, [])
 
   return (
-    // FIX: Reduced pb-10 to pb-4 and lg:pb-16 to lg:pb-6 to tighten space below the button
     <section className="relative overflow-hidden bg-muted/30 pt-8 pb-4 lg:pt-12 lg:pb-6">
       
       <div className="mx-auto max-w-[1600px] px-4 sm:px-6 xl:px-12">
@@ -107,7 +102,6 @@ export function Transformations() {
 
         <div className="relative mx-auto aspect-square w-full max-w-7xl overflow-hidden rounded-[2rem] bg-card shadow-2xl md:aspect-[16/9]">
           
-          {/* AFTER Image */}
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ backgroundImage: 'url("/images/now2.png")' }}
@@ -117,7 +111,6 @@ export function Transformations() {
             </div>
           </div>
 
-          {/* BEFORE Image */}
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{ 
@@ -150,7 +143,6 @@ export function Transformations() {
           />
         </div>
 
-        {/* Dynamic Reviews Grid */}
         <div className="mt-12 grid gap-6 sm:mt-16 md:grid-cols-3">
           {displayReviews.map((review) => (
             <div 
@@ -179,7 +171,6 @@ export function Transformations() {
                     Verified
                   </div>
                 </div>
-                {/* Only display the project badge if it exists (for mock data) */}
                 {review.project && (
                   <div className="mt-3 inline-flex rounded-lg bg-muted px-2.5 py-1 text-xs font-medium text-muted-foreground">
                     {review.project}
@@ -190,7 +181,6 @@ export function Transformations() {
           ))}
         </div>
 
-        {/* CALL TO ACTION BUTTON */}
         <div className="mt-12 flex justify-center sm:mt-12">
           <Link 
             href="/reviews" 
