@@ -18,7 +18,7 @@ type Review = {
   createdAt: string
 }
 
-// Initial Mock Reviews
+// UPDATED: Fixed historical dates so live reviews will sort to the top
 const MOCK_REVIEWS: Review[] = [
   {
     id: "mock-1",
@@ -28,7 +28,7 @@ const MOCK_REVIEWS: Review[] = [
     text: "The consultation was seamless. They helped us pick a Sage Whisper shade that completely opened up our living room. The finish is flawless.",
     adminReply: null,
     isVerified: true,
-    createdAt: new Date().toISOString(),
+    createdAt: "2024-01-15T10:30:00.000Z", // Static past date
   },
   {
     id: "mock-2",
@@ -38,7 +38,7 @@ const MOCK_REVIEWS: Review[] = [
     text: "We wanted a heritage look for our ancestral home's exterior. The Colour World team delivered exactly what we envisioned. Highly professional.",
     adminReply: null,
     isVerified: true,
-    createdAt: new Date(Date.now() - 86400000).toISOString(), 
+    createdAt: "2023-11-20T14:15:00.000Z", // Static past date
   },
   {
     id: "mock-3",
@@ -48,7 +48,7 @@ const MOCK_REVIEWS: Review[] = [
     text: "The quality of the premium coatings is unmatched. Even after the monsoons, the walls look freshly painted. Best investment for our home.",
     adminReply: "Thank you so much Dipu! We're glad the weatherproof coatings are holding up perfectly.",
     isVerified: true,
-    createdAt: new Date(Date.now() - 172800000).toISOString(),
+    createdAt: "2023-09-05T09:45:00.000Z", // Static past date
   }
 ]
 
@@ -63,7 +63,6 @@ export default function ReviewsPage() {
 
   useEffect(() => {
     fetchReviews()
-    // Prevent scrolling when modal is open
     if (showModal) {
       document.body.style.overflow = 'hidden'
     } else {
@@ -73,7 +72,6 @@ export default function ReviewsPage() {
 
   const fetchReviews = async () => {
     try {
-      // 1. Add cache: 'no-store' to force fresh data from the database
       const res = await fetch(`${API_URL}/api/storefront/${STORE_SLUG}/reviews`, {
         cache: 'no-store'
       })
@@ -81,10 +79,8 @@ export default function ReviewsPage() {
       
       const json = await res.json()
       if (json.success && json.data.length > 0) {
-        // 2. Combine database reviews with mock reviews
         const combined = [...json.data, ...MOCK_REVIEWS]
         
-        // 3. Sort the combined list so the newest reviews are always first
         const sorted = combined.sort((a, b) => 
           new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
         )
@@ -158,7 +154,6 @@ export default function ReviewsPage() {
             <h1 className="font-serif text-3xl font-medium tracking-tight sm:text-4xl lg:text-5xl">
               Customer <span className="italic text-terracotta">Feedback</span>
             </h1>
-            {/* Desktop CTA Button */}
             <button 
               onClick={() => setShowModal(true)}
               className="hidden rounded-full bg-foreground px-6 py-3 text-sm font-bold text-background transition-transform hover:scale-105 active:scale-95 sm:block"
@@ -170,7 +165,6 @@ export default function ReviewsPage() {
 
         <div className="grid gap-8 lg:grid-cols-12 lg:gap-16">
           
-          {/* LEFT COLUMN: Compact Stats */}
           <div className="lg:col-span-4">
             <div className="sticky top-24 rounded-[2rem] border border-border bg-card p-6 shadow-sm sm:p-8">
               <h2 className="text-lg font-bold text-foreground">Overall Rating</h2>
@@ -203,7 +197,6 @@ export default function ReviewsPage() {
                 })}
               </div>
 
-              {/* Mobile CTA Button */}
               <button 
                 onClick={() => setShowModal(true)}
                 className="mt-8 w-full rounded-full bg-foreground py-3.5 text-sm font-bold text-background transition-transform active:scale-95 sm:hidden"
@@ -213,7 +206,6 @@ export default function ReviewsPage() {
             </div>
           </div>
 
-          {/* RIGHT COLUMN: Reviews Feed */}
           <div className="lg:col-span-8">
             <div className="flex flex-col gap-5 sm:gap-6">
               {isLoading ? (
@@ -266,12 +258,23 @@ export default function ReviewsPage() {
                   </div>
                 ))
               )}
+
+              {/* NEW: Google Maps Link Button */}
+              <div className="mt-4 sm:mt-6">
+                <a 
+                  href="https://maps.app.goo.gl/sSu9Uxq36iS12zmh9" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex w-full items-center justify-center gap-2 rounded-full border-2 border-zinc-200 bg-transparent py-4 text-sm font-bold text-zinc-900 transition-colors hover:bg-zinc-50 active:scale-[0.98]"
+                >
+                  Read all reviews on Google Maps
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Write Review Modal */}
       {showModal && (
         <div className="fixed inset-0 z-[100] flex items-end justify-center bg-black/60 p-4 backdrop-blur-sm sm:items-center sm:p-6">
           <div className="relative max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-[2rem] bg-card p-6 shadow-2xl sm:p-10 animate-in slide-in-from-bottom-4 sm:zoom-in-95">
