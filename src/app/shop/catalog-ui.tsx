@@ -41,12 +41,6 @@ export function CatalogUI({ initialProducts }: { initialProducts: any[] }) {
     setActiveBrand(prev => prev === brandName ? 'All' : brandName)
   }
 
-  // Format price helper to handle 0 values globally
-  const formatPrice = (price: number) => {
-    if (price === 0) return "Price on Request";
-    return `₹${price.toLocaleString('en-IN')}`;
-  }
-
   return (
     <div className="mx-auto w-full max-w-[1700px] px-5 pb-20 pt-4 md:px-10 lg:px-16 lg:pt-6">
       <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:gap-12 xl:gap-16">
@@ -230,8 +224,6 @@ export function CatalogUI({ initialProducts }: { initialProducts: any[] }) {
               {filteredAndSortedProducts.map((product) => {
                 const mainImage = product.media?.[0]?.url || "/images/paint-pour.png"
                 const price = Number(product.basePrice)
-                const isZeroPrice = price === 0
-                const comparePrice = product.discountPrice ? Number(product.discountPrice) : null
 
                 const handleAddToCart = (e: React.MouseEvent) => {
                   e.preventDefault(); 
@@ -239,7 +231,7 @@ export function CatalogUI({ initialProducts }: { initialProducts: any[] }) {
                   addItem({
                     productId: product.id,
                     name: product.name,
-                    price: price,
+                    price: price, // Passed silently for backend consistency
                     image: mainImage,
                     quantity: 1,
                     categoryName: product.category?.name || "Premium Paint",
@@ -252,7 +244,6 @@ export function CatalogUI({ initialProducts }: { initialProducts: any[] }) {
                     href={`/shop/${product.category?.slug || 'uncategorized'}/${product.slug}`} 
                     className="group flex flex-col"
                   >
-                    {/* IMAGE FIX: Changed padding (p-2 sm:p-5) and mobile ratio (pb-[100%]) for larger rendering */}
                     <div className="relative w-full overflow-hidden rounded-[1.25rem] border border-border bg-white pb-[100%] sm:pb-[125%] sm:rounded-[2rem]">
                       <Image
                         src={mainImage}
@@ -262,33 +253,15 @@ export function CatalogUI({ initialProducts }: { initialProducts: any[] }) {
                         className="absolute inset-0 object-contain p-2 sm:p-5 drop-shadow-xl transition-transform duration-700 ease-out group-hover:scale-105"
                         sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
                       />
-                      
-                      {!isZeroPrice && comparePrice && comparePrice > price && (
-                        <div className="absolute left-3 top-3 sm:left-5 sm:top-5">
-                          <span className="inline-flex items-center rounded-full bg-red-500 px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow-sm sm:px-3 sm:py-1.5 sm:text-xs">
-                            Sale
-                          </span>
-                        </div>
-                      )}
 
                       <div className="absolute inset-x-0 bottom-0 hidden translate-y-full items-center justify-center bg-gradient-to-t from-black/80 to-transparent p-6 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 lg:flex">
                         <button 
                           type="button"
-                          onClick={(e) => {
-                            if (!isZeroPrice) {
-                              handleAddToCart(e);
-                            }
-                          }}
+                          onClick={handleAddToCart}
                           className="flex w-full items-center justify-center gap-2 rounded-full bg-background py-3.5 text-sm font-semibold text-foreground transition-transform hover:scale-[1.02] active:scale-95"
                         >
-                          {isZeroPrice ? (
-                            "View Details"
-                          ) : (
-                            <>
-                              <ShoppingBag className="size-4" />
-                              Quick Add
-                            </>
-                          )}
+                          <ShoppingBag className="size-4" />
+                          Quick Add
                         </button>
                       </div>
                     </div>
@@ -304,26 +277,19 @@ export function CatalogUI({ initialProducts }: { initialProducts: any[] }) {
                       
                       <div className="mt-1 flex items-end justify-between sm:mt-2">
                         <div className="flex flex-col gap-0 sm:gap-0.5">
-                          {!isZeroPrice && comparePrice && comparePrice > price && (
-                            <span className="text-[10px] font-medium text-muted-foreground line-through sm:text-sm">
-                              ₹{comparePrice.toLocaleString('en-IN')}
-                            </span>
-                          )}
-                          <span className="text-sm font-semibold text-foreground sm:text-lg">
-                            {formatPrice(price)}
+                          <span className="text-xs font-semibold text-foreground sm:text-base">
+                            Price on Request
                           </span>
                         </div>
                         
-                        {!isZeroPrice && (
-                          <button 
-                            type="button"
-                            onClick={handleAddToCart}
-                            className="flex size-8 shrink-0 items-center justify-center rounded-full bg-foreground text-background transition-transform active:scale-95 sm:size-10 lg:hidden"
-                            aria-label="Add to cart"
-                          >
-                            <ShoppingBag className="size-3.5 sm:size-4" />
-                          </button>
-                        )}
+                        <button 
+                          type="button"
+                          onClick={handleAddToCart}
+                          className="flex size-8 shrink-0 items-center justify-center rounded-full bg-foreground text-background transition-transform active:scale-95 sm:size-10 lg:hidden"
+                          aria-label="Add to cart"
+                        >
+                          <ShoppingBag className="size-3.5 sm:size-4" />
+                        </button>
                       </div>
                     </div>
                   </Link>

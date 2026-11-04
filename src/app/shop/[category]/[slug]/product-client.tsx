@@ -19,16 +19,13 @@ export function ProductClient({ product }: { product: any }) {
     }
   }
 
+  // Calculated silently for backend payload only
   const currentPrice = selectedVariant?.priceOverride ? Number(selectedVariant.priceOverride) : Number(product.basePrice)
-  const comparePrice = product.discountPrice ? Number(product.discountPrice) : null
-
-  // 1. Logic to gracefully handle zero-price items
-  const isZeroPrice = currentPrice === 0;
 
   const cartProductData = {
     id: selectedVariant ? `${product.id}-${selectedVariant.id}` : product.id,
     name: selectedVariant ? `${product.name} - ${selectedVariant.title}` : product.name,
-    basePrice: currentPrice,
+    basePrice: currentPrice, // Kept for backend compatibility
     categoryName: product.category?.name || "Premium Paint",
     image: activeImage,
   }
@@ -65,7 +62,6 @@ export function ProductClient({ product }: { product: any }) {
           
           {/* LEFT: Gallery */}
           <div className="w-full lg:sticky lg:top-32 lg:w-1/2 lg:shrink-0">
-            {/* 2. IMAGE FIX: Nested relative container prevents next/image blurriness caused by padding scaling */}
             <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl border border-border bg-white sm:rounded-[2rem] flex items-center justify-center p-6 sm:p-14">
               <div className="relative w-full h-full">
                 <Image 
@@ -130,21 +126,11 @@ export function ProductClient({ product }: { product: any }) {
               {product.name}
             </h1>
             
-            {/* 3. PRICE FIX: Handle 0 value rendering */}
+            {/* INQUIRY STATUS INSTEAD OF PRICE */}
             <div className="mt-3 flex items-end gap-3">
-              <span className="tabular-nums text-3xl font-medium text-foreground sm:text-4xl">
-                {isZeroPrice ? "Price on Request" : `₹${currentPrice.toLocaleString('en-IN')}`}
+              <span className="text-xl font-medium text-terracotta sm:text-2xl">
+                Price on Request
               </span>
-              {!isZeroPrice && comparePrice && comparePrice > currentPrice && (
-                <div className="flex flex-col gap-0.5 pb-0.5">
-                  <span className="text-sm font-medium text-muted-foreground line-through sm:text-base">
-                    ₹{comparePrice.toLocaleString('en-IN')}
-                  </span>
-                  <span className="inline-flex rounded-full bg-red-500/10 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-red-500 sm:text-xs">
-                    Save ₹{(comparePrice - currentPrice).toLocaleString('en-IN')}
-                  </span>
-                </div>
-              )}
             </div>
 
             {product.variants && product.variants.length > 0 && product.variants[0].title !== 'Default Size' && (
@@ -173,7 +159,7 @@ export function ProductClient({ product }: { product: any }) {
               </div>
             )}
 
-            {/* 4. BUTTON FIX: Apply direct full-width classes, swap button entirely if price is 0 */}
+            {/* ADD TO QUOTE BUTTON */}
             <div className="mt-6 hidden flex-col gap-3 sm:flex-row lg:flex">
               <div className="flex w-32 items-center justify-between rounded-full border border-border bg-card px-2">
                 <select className="h-full w-full appearance-none bg-transparent py-3 pl-5 text-sm font-semibold outline-none focus:ring-0">
@@ -185,16 +171,10 @@ export function ProductClient({ product }: { product: any }) {
               </div>
               
               <div className="flex-1">
-                {isZeroPrice ? (
-                  <button disabled className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-8 text-sm font-bold text-background shadow-md opacity-50 cursor-not-allowed">
-                    Contact to Order
-                  </button>
-                ) : (
-                  <AddToCartButton 
-                    product={cartProductData} 
-                    className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-8 text-sm font-bold text-background shadow-md transition-transform hover:bg-foreground/90 active:scale-95" 
-                  />
-                )}
+                <AddToCartButton 
+                  product={cartProductData} 
+                  className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-8 text-sm font-bold text-background shadow-md transition-transform hover:bg-foreground/90 active:scale-95" 
+                />
               </div>
             </div>
 
@@ -315,23 +295,17 @@ export function ProductClient({ product }: { product: any }) {
       {/* MOBILE STICKY BOTTOM BAR */}
       <div className="fixed inset-x-0 bottom-0 z-50 flex items-center justify-between gap-3 border-t border-border bg-background/95 p-3 pb-safe shadow-[0_-10px_40px_rgba(0,0,0,0.08)] backdrop-blur-xl lg:hidden">
         <div className="flex flex-col pl-2">
-          <span className="text-[10px] font-medium text-muted-foreground">Total Price</span>
+          <span className="text-[10px] font-medium text-muted-foreground">Quote Status</span>
           <span className="tabular-nums text-lg font-bold leading-none text-foreground">
-            {isZeroPrice ? "On Request" : `₹${currentPrice.toLocaleString('en-IN')}`}
+            On Request
           </span>
         </div>
         <div className="w-1/2">
-          {isZeroPrice ? (
-            <button disabled className="flex h-11 w-full items-center justify-center gap-2 rounded-full bg-foreground px-4 text-sm font-bold text-background opacity-50 cursor-not-allowed">
-              Contact to Order
-            </button>
-          ) : (
-            <AddToCartButton 
-              product={cartProductData} 
-              isMobile={true} 
-              className="flex h-11 w-full items-center justify-center gap-2 rounded-full bg-foreground px-4 text-sm font-bold text-background shadow-md transition-transform active:scale-95" 
-            />
-          )}
+          <AddToCartButton 
+            product={cartProductData} 
+            isMobile={true} 
+            className="flex h-11 w-full items-center justify-center gap-2 rounded-full bg-foreground px-4 text-sm font-bold text-background shadow-md transition-transform active:scale-95" 
+          />
         </div>
       </div>
       
