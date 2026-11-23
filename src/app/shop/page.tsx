@@ -4,8 +4,8 @@ import { CatalogUI } from "./catalog-ui";
 export const dynamic = 'force-dynamic';
 
 export default async function ShopPage() {
-  // 1. Your original API logic remains exactly as is
-  const products = await fetchStorefront("products") || [];
+  // Fetch all products across all categories and brands
+  const products = await fetchStorefront("products?limit=1000") || [];
 
   return (
     <div className="min-h-screen bg-background">

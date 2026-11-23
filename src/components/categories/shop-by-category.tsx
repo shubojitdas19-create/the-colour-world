@@ -27,7 +27,7 @@ const categories: Category[] = [
   {
     title: 'Designer Textures',
     description: 'Hand-crafted wall textures that add depth and character.',
-    href: '/textures', // Updated to match DB slug
+    href: '/shop/designer-textures',
     image: '/images/category-textures.png',
     alt: 'Close-up of a saffron coloured textured wall finish',
     tag: 'Artisan',
@@ -37,22 +37,32 @@ const categories: Category[] = [
   {
     title: 'Wood & Metal Enamels',
     description: 'High-gloss, durable enamels for doors, grills, furniture and trims.',
-    href: '/shop/wood-metal-enamels', // Updated to match DB slug
+    href: '/shop/wood-metal-enamels',
     image: '/images/category-wood.png',
     alt: 'Glossy cobalt blue lacquered wooden door with a brass handle',
     tag: 'High gloss',
     accent: 'var(--color-cobalt)',
-    className: 'lg:col-span-3',
+    className: 'lg:col-span-2',
   },
   {
     title: 'Waterproofing',
     description: 'Advanced coatings that seal out damp, leaks and seepage for good.',
-    href: '/shop/waterproofing', // Matches DB slug
+    href: '/shop/waterproofing',
     image: '/images/category-waterproofing.png',
     alt: 'Water droplets beading on a freshly coated pink wall',
     tag: 'Protection',
     accent: 'var(--color-magenta)',
-    className: 'lg:col-span-3',
+    className: 'lg:col-span-2',
+  },
+  {
+    title: 'Putty & Undercoats',
+    description: 'Smooth wall putties and high-adhesion primers for flawless paint longevity.',
+    href: '/shop/putty-plaster-coat',
+    image: '/images/paint-pour.png',
+    alt: 'Smooth paint base and undercoat preparation',
+    tag: 'Base Prep',
+    accent: 'var(--color-terracotta)',
+    className: 'lg:col-span-2',
   },
 ]
 

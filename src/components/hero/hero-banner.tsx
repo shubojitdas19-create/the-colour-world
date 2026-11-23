@@ -24,7 +24,7 @@ export async function HeroBanner() {
   let categories: { name: string, slug: string }[] = []
 
   try {
-    const products = await fetchStorefront("products") || []
+    const products = await fetchStorefront("products?limit=1000") || []
     
     const categoryMap = new Map()
     products.forEach((p: any) => {

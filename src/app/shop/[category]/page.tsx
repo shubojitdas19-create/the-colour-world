@@ -7,7 +7,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
   const { category } = await params;
   
   // Fetch products specific to this category
-  const products = await fetchStorefront(`products?category=${category}`) || [];
+  const products = await fetchStorefront(`products?category=${category}&limit=1000`) || [];
 
   // Format the URL slug (e.g., "interior-emulsions") into a clean title
   const cleanTitle = category.replace(/-/g, ' ');

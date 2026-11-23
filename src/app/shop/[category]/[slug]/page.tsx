@@ -7,9 +7,9 @@ export const dynamic = 'force-dynamic';
 export default async function ProductDetailsPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params
   
-  // Fetch products and find the matched slug
-  const products = await fetchStorefront("products") || []
-  const product = products.find((p: any) => p.slug === slug)
+  // Fetch specific product by slug directly from API
+  const data = await fetchStorefront(`products?slug=${encodeURIComponent(slug)}`)
+  const product = Array.isArray(data) ? data[0] : data
 
   if (!product) notFound()
 
